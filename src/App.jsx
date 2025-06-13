@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import SharedLayout from "./layouts/SharedLayout";
 
 import css from "./App.module.css";
+import News from "./components/News/News";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<SharedLayout />}>
-            <Route index element={<h1>Моя церква</h1>} />
+            <Route index element={<News/>} />
             <Route path="/shedule" element={<h1>Розклад Богослужіннь</h1>} />
             <Route path="/clergy" element={<h1>Клір собору</h1>} />
             <Route path="*" element={<h1>Element not found</h1>} />

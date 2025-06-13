@@ -61,3 +61,17 @@ netlify deploy --prod
 - GitHub потрібен тільки якщо хочеш вести історію коду або автодеплой.
 - У Netlify можна змінити ім'я сайту чи підключити власний домен через панель керування.
 
+
+git add .
+git commit -m "Commit"
+
+netlify login
+npm run build
+netlify deploy --prod
+
+
+
+git add .
+git commit -m "Update content"
+npm run build
+netlify deploy --prod
