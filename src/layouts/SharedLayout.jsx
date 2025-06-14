@@ -3,7 +3,7 @@ import css from "./SharedLayout.module.css";
 
 const SharedLayout = () => {
   return (
-    <div>
+    <div className={css.nav}>
       <ul className={css.navList}>
         <li className={css.navItem}>
           <NavLink to="/" className={css.navLink}>
@@ -21,8 +21,8 @@ const SharedLayout = () => {
           </NavLink>
         </li>
       </ul>
-      <main>
-        <Outlet />
+      <main  className={css.main}>
+        <Outlet/>
       </main>
     </div>
   );
