@@ -1,9 +1,9 @@
-
+/* 
 .myImg{
     
     margin: 0 auto;
-}
+} */
 
-.news{
-   margin-left: 100px; 
+.news {
+  color: var(--color-secondary);
 }
