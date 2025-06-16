@@ -92,7 +92,31 @@ div {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  max-width: 1200px; 
   width: 100%;
   box-sizing: border-box;
+  max-width: 100%; /* за замовчуванням */
+}
+
+@media (min-width: 480px) {
+  .container {
+    max-width: 440px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
 }
