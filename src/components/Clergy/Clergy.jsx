@@ -1,7 +1,7 @@
 const Clergy = () => {
   return (
     <div className="container">
-      <h1>Духовенство</h1>;
+      <h1>Настоятєль храму - протиієрєй Отець Олєксандр</h1>;
     </div>
   );
 };
