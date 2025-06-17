@@ -10,7 +10,7 @@ const Schedule = () => {
           <thead>
             <tr>
               <th>Дата</th>
-              <th>День</th>
+              {/* <th>День</th> */}
               <th>Подія</th>
               <th>Час</th>
               <th>Богослужіння</th>
@@ -23,7 +23,7 @@ const Schedule = () => {
                   {i === 0 && (
                     <>
                       <td rowSpan={item.services.length}>{item.date}</td>
-                      <td rowSpan={item.services.length}>{item.day}</td>
+                      {/* <td rowSpan={item.services.length}>{item.day}</td> */}
                       <td rowSpan={item.services.length}>{item.title}</td>
                     </>
                   )}
