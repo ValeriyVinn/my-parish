@@ -49,7 +49,7 @@ export default function Gallery() {
   ];
 
   return (
-    <div className={css.gallery}>
+    <div className={`${css.gallery} container`}>
       {images.map((src, idx) => (
         <img key={idx} src={src} alt={`Фото ${idx + 1}`} loading="lazy" />
       ))}

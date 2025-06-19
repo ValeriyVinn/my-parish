@@ -48,7 +48,7 @@ const SharedLayout = () => {
               className={css.navLink}
               onClick={() => setIsOpen(false)}
             >
-              Клір Собору
+              Духовенство
             </NavLink>
           </li>
         </ul>
