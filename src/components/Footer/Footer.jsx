@@ -20,7 +20,7 @@ export default function Footer() {
     <footer className={css.footer}>
       <p>м.Вінниця, Хмельницьке шосе, 145</p>
       <button onClick={() => setShowMap(true)} className={css.mapButton}>
-        Показати на мапі
+        На мапі
       </button>
 
       {showMap && (
