@@ -6,6 +6,7 @@ import Shedule from "./components/Shedule/Shedule";
 import Gallery from "./components/Gallery/Gallery";
 import Clergy from "./components/Clergy/Clergy";
 import BreakpointHelper from "./components/BreakpointHelper/BreakpointHelper";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
           </Route>
         </Routes>
       </div>
-      <BreakpointHelper />
+      {/* <BreakpointHelper /> */}
+      <Footer/>
     </div>
   );
 }
