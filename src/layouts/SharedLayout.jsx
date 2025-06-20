@@ -9,7 +9,10 @@ const SharedLayout = () => {
 
   return (
     <>
-      <button onClick={toggleMenu} className={css.burger}>
+      {/* <button onClick={toggleMenu} className={css.burger}>
+        ☰
+      </button> */}
+      <button className={`${css.burger}`} onClick={toggleMenu}>
         ☰
       </button>
 
