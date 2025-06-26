@@ -5,8 +5,9 @@ import News from "./components/News/News";
 import Shedule from "./components/Shedule/Shedule";
 import Gallery from "./components/Gallery/Gallery";
 import Clergy from "./components/Clergy/Clergy";
-import BreakpointHelper from "./components/BreakpointHelper/BreakpointHelper";
+// import BreakpointHelper from "./components/BreakpointHelper/BreakpointHelper";
 import Footer from "./components/Footer/Footer";
+import Calendar from "./components/Calendar/Calendar";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<SharedLayout />}>
             <Route index element={<News />} />
             <Route path="/shedule" element={<Shedule />} />
+            <Route path="/сalendar" element={<Calendar />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/clergy" element={<Clergy />} />
             <Route path="*" element={<h1>Element not found</h1>} />
@@ -24,7 +26,7 @@ function App() {
         </Routes>
       </div>
       {/* <BreakpointHelper /> */}
-      <Footer/>
+      <Footer />
     </div>
   );
 }

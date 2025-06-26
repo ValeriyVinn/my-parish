@@ -75,3 +75,8 @@ git add .
 git commit -m "Update content"
 npm run build
 netlify deploy --prod
+
+## Стандартний коміт + деплой через Vercel CLI
+git add .
+git commit -m "Updated component"
+vercel --prod

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import css from "./Footer.module.css";
 import Modal from "../Modal/Modal";
 

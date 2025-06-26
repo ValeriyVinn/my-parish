@@ -38,6 +38,15 @@ const SharedLayout = () => {
           </li>
           <li className={css.navItem}>
             <NavLink
+              to="сalendar"
+              className={css.navLink}
+              onClick={() => setIsOpen(false)}
+            >
+              Церковний календар
+            </NavLink>
+          </li>
+          <li className={css.navItem}>
+            <NavLink
               to="gallery"
               className={css.navLink}
               onClick={() => setIsOpen(false)}

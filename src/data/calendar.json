@@ -1,0 +1,646 @@
+[
+  {
+    "month": "червень",
+    "date": "1",
+    "day": "Нд",
+    "title": "святого мученика Юстина і тих, що з ним",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "2",
+    "day": "Пн",
+    "title": "святого Никифора",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "3",
+    "day": "Вт",
+    "title": "святого мученика Лукиліяна і тих, що з ним",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "4",
+    "day": "Ср",
+    "title": "святого Митрофана, патріарха Константинопольського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "5",
+    "day": "Чт",
+    "title": "священномученика Доротея, єпископа Тирського; святого мученика Косми, пресвітера Вірменського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "6",
+    "day": "Пт",
+    "title": "преподобного Віссаріона; преподобного Іларіона Нового, ігумена Далматської обителі",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "7",
+    "day": "Сб",
+    "title": "священномученика Феодота, єпископа Анкирського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "8",
+    "day": "Нд",
+    "title": "Свята Трійця (Зіслання Святого Духа, П'ятидесятниця, Зелені свята); перенесення мощів великомученика Феодора Тирона",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "9",
+    "day": "Пн",
+    "title": "святого Кирила, архієпископа Олександрійського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "10",
+    "day": "Вт",
+    "title": "священномученика Тимофія, єпископа Пруського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "11",
+    "day": "Ср",
+    "title": "святих апостолів Вартоломея й Варнави",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "12",
+    "day": "Чт",
+    "title": "преподобного Онуфрія Великого; преподобного Петра Атонського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "13",
+    "day": "Пт",
+    "title": "святої мучениці Акилини; святого Трифилія, єпископа Левкусії Кипрської; преподобного Антонія Падуанського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "14",
+    "day": "Сб",
+    "title": "пророка Єлисея; святого Мефодія, патріарха Константинопольського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "15",
+    "day": "Нд",
+    "title": "пророка Амоса; преподобного Єроніма, пресвітера Стридонського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "16",
+    "day": "Пн",
+    "title": "неділя Святих Отців I Вселенського Собору; чудотворця Тихона Аматунтського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "17",
+    "day": "Вт",
+    "title": "мучеників Мануїла, Савела та Ісмаїла; преподобного Іпатія, ігумена Руфеніанського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "18",
+    "day": "Ср",
+    "title": "мученика Леонтія",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "19",
+    "day": "Чт",
+    "title": "апостола Юди, брата Господнього по плоті",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "20",
+    "day": "Пт",
+    "title": "священномученика Мефодія, єпископа Патарського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "21",
+    "day": "Сб",
+    "title": "псвятого мученика Юліана Тарсійського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "22",
+    "day": "Нд",
+    "title": "субота заупокійна; священномученика Євсевія, єпископа Самосатського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "23",
+    "day": "Пн",
+    "title": "святої мучениці Агрипіни",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "24",
+    "day": "Вт",
+    "title": "Різдво чесного і славного пророка Івана Хрестителя",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "25",
+    "day": "Ср",
+    "title": "святої преподобномучениці Февронії",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "26",
+    "day": "Чт",
+    "title": "Давида Солунського; преподобного Івана, єпископа Готського; святителя Діонісія, архієпископа Суздальського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "27",
+    "day": "Пт",
+    "title": "блаженного священномученика єпископа Миколая Чарнецького та інших; блаженного священномученика Омеляна Ковча; преподобного Самсона странноприємця",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "28",
+    "day": "Сб",
+    "title": "перенесення мощів святих безсрібників Кира та Івана",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "29",
+    "day": "Нд",
+    "title": "святих верховних апостолів Петра і Павла",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "червень",
+    "date": "30",
+    "day": "Пн",
+    "title": "Собор святих славних і всехвальних дванадцяти апостолів; блаженного священномученика Василія Величковського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "1",
+    "day": "Вт",
+    "title": "чудотворців і безсеребреників Косми і Дам’яна",
+    "article": "Святі брати, родом з Риму, цілковито посвятили себе на службу Господу Богу, обидва жили задля добра ближніх. Косма і Дам’ян були лікарями, вони допомагали всім і всюди, а у винагороду за свій труд бажали лишень одного, щоб хворий увірував у Христа Спасителя. Бог наділив їх даром зцілювати хворих покладанням рук, при цьому брати навчали, що це Божа благодать повертає хворому здоров’я, а вони є лишень посередниками цієї благодаті. Віддячити зцілений повинен був глибокою вірою і сповненням Божих заповідей. І так вони ходили від міста до міста, не минали й сіл, а що не брали грошей, то стали їх всі називати безсрібниками."
+  },
+  {
+    "month": "липень",
+    "date": "2",
+    "day": "Ср",
+    "title": "покладання ризи Пресвятій Богородиці у Влахерні",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "3",
+    "day": "Чт",
+    "title": "мученика Якинта; Анатолія, патріарха Царгородського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "4",
+    "day": "Пт",
+    "title": "Пресвятої Євхаристії (На неділю); Андрія, архієпископа Критського; преподобної Марти",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "5",
+    "day": "Сб",
+    "title": "преподобного Атанасія Атонського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "6",
+    "day": "Нд",
+    "title": "преподобного Сисоя Великого",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "7",
+    "day": "Пн",
+    "title": "Матері Божої Неустанної помочі; преподобних Томи й Акакія",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "8",
+    "day": "Вт",
+    "title": "великомученика Прокопія",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "9",
+    "day": "Ср",
+    "title": "священномученика Панкратія, єпископа Тавроменійського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "10",
+    "day": "Чт",
+    "title": "преподобного Антонія Печерського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "11",
+    "day": "Пт",
+    "title": "рівноапостольної Ольги, княгині Київської; священномучениці Євфимії",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "12",
+    "day": "Сб",
+    "title": "Христа-чоловіколюбця; мучеників Прокла та Іларія; преподобного Михайла Малеїна",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "13",
+    "day": "Нд",
+    "title": "Сострадання Пресвятої Богородиці; преподобного Стефана Савваїта; Собор святого архангела Гавриїла",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "14",
+    "day": "Пн",
+    "title": "Отців шести соборів; апостола Акили",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "15",
+    "day": "Вт",
+    "title": "рівноапостольного великого князя Володимира",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "16",
+    "day": "Ср",
+    "title": "святого священномученика Атеногена та його учнів",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "17",
+    "day": "Чт",
+    "title": "великомучениці Марини",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "18",
+    "day": "Пт",
+    "title": "мучеників Якинта й Еміліяна",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "19",
+    "day": "Сб",
+    "title": "преподобної Макрини, сестри Василія Великого; пророка Дія",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "20",
+    "day": "Нд",
+    "title": "славного пророка Іллі",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "21",
+    "day": "Пн",
+    "title": "преподобних Симеона й Івана; пророка Єзекиїла",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "22",
+    "day": "Вт",
+    "title": "рівноапостольної Марії Магдалини",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "23",
+    "day": "Ср",
+    "title": "мучеників Трохима, Теофіла та інших",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "24",
+    "day": "Чт",
+    "title": "мучеників Бориса і Гліба; великомучениці Христини",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "25",
+    "day": "Пт",
+    "title": "Успіння святої Анни, матері Пресвятої Богородиці",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "26",
+    "day": "Сб",
+    "title": "мученика Єрмолая; святої преподобної мучениці Параскеви",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "27",
+    "day": "Нд",
+    "title": "великомученика Пантелеймона; Климента",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "28",
+    "day": "Пн",
+    "title": "апостолів Прохора, Никанора, Тимона і Пармена",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "29",
+    "day": "Вт",
+    "title": "мученика Калиніка",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "30",
+    "day": "Ср",
+    "title": "святих апостолів Сили, Силуана, Андроніка та інших",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "липень",
+    "date": "31",
+    "day": "Чт",
+    "title": "праведного Євдокима",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "1",
+    "day": "Пт",
+    "title": "Перенесення Чесного Хреста. Свв. мчч. Макавейських",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "2",
+    "day": "Сб",
+    "title": "Перенесення мощей св. первомч. Стефана",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "3",
+    "day": "Нд",
+    "title": "Свв. прпп. Ісаакія, Далмата і Фавста",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "4",
+    "day": "Пн",
+    "title": "Свв. 7-ох мчч. Ефеських. Св. прп. мчц. Євдокії",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "5",
+    "day": "Вт",
+    "title": "Передсв. Преображення. Св. мч. Євсигнія",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "6",
+    "day": "Ср",
+    "title": "Преображення Господнє",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "7",
+    "day": "Чт",
+    "title": "Св. прп. мч. Дометія",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "8",
+    "day": "Пт",
+    "title": "Св. ісп. Еміліяна. Свв. мчч. Єлевтерія і Леоніда",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "9",
+    "day": "Сб",
+    "title": "Св. ап. Матія",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "10",
+    "day": "Нд",
+    "title": "Св. мч. Лаврентія, архідиякона",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "11",
+    "day": "Пн",
+    "title": "Св. мч. Євпла",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "12",
+    "day": "Вт",
+    "title": "Свв. мчч. Фотія і Аникити",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "13",
+    "day": "Ср",
+    "title": "Віддання Преображення. Св. прп. Максима Іспов.",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "14",
+    "day": "Чт",
+    "title": "Передсв. Успіння. Перенесення мощей св. прп. Теодосія Печ.",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "15",
+    "day": "Пт",
+    "title": "Успіння Пресвятої Богородиці",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "16",
+    "day": "Сб",
+    "title": "Нерукотворного образу ГНІХ. Св. мч. Діомида",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "17",
+    "day": "Нд",
+    "title": "Св. мч. Мирона",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "18",
+    "day": "Пн",
+    "title": "Мчч. Флора і Лавра",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "19",
+    "day": "Вт",
+    "title": "Св. мч. Андрія Стратилата й інших",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "20",
+    "day": "Ср",
+    "title": "Св. прор. Самуїла",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "21",
+    "day": "Чт",
+    "title": "Св. ап. Тадея. Св. мчц. Васси",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "22",
+    "day": "Пт",
+    "title": "Свв. мчч. Агатоніка, Северіяна та ін.",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "23",
+    "day": "Сб",
+    "title": "Віддання Успіння. Св. мч. Луппа. Св. свщмч. Іринея Ліон.",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "24",
+    "day": "Нд",
+    "title": "Св. свщмч. Євтихія",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "25",
+    "day": "Пн",
+    "title": "Св. ап. Тита. Св. ап. Вартоломея",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "26",
+    "day": "Вт",
+    "title": "Свв. мчч. Андріяна і Наталії",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "27",
+    "day": "Ср",
+    "title": "Св. прп. Пімена",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "28",
+    "day": "Чт",
+    "title": "Св. прп. Мойсея Мурина. Св. Августина Іппонського",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "29",
+    "day": "Пт",
+    "title": "Усікновення голови св. прор. Йоана Хрестителя",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "30",
+    "day": "Сб",
+    "title": "Свв. Олександра, Івана, Павла, патр. Царг.",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "month": "серпень",
+    "date": "31",
+    "day": "Нд",
+    "title": "Покладання Пояса Пресвятій Богородиці",
+    "article": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  }
+]
