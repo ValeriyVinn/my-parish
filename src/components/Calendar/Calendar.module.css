@@ -70,10 +70,10 @@ h1 {
   white-space: normal;
 }
 
-.btn:hover {
+/* .btn:hover {
   background-color: #e0e0e0;
-  /* color: var(--color-accent, #e67e22); */
-}
+  color: var(--color-accent, #e67e22);
+} */
 
 .btn span:first-child {
   font-weight: bold;
