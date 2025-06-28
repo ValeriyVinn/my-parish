@@ -1,17 +1,12 @@
-.clergyTable{
-    font-size: 18px;
-    margin: 100px auto;
+.articleClergy {
+  margin: 100px auto;
+  font-size: 18px;
 }
 
-td{
-    padding: 10px 2px;
-    /* border: 1px solid #ccc; */
-    
+.clergyName {
+  margin-bottom: 30px;
 }
 
-.clergyDignity{
-    text-align: end;
+.clergyList > li {
+  font-size: 20px;
 }
-
-
-
