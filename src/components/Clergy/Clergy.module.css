@@ -1,0 +1,17 @@
+.clergyTable{
+    font-size: 18px;
+    margin: 100px auto;
+}
+
+td{
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    
+}
+
+.clergyDignity{
+    text-align: end;
+}
+
+
+
