@@ -8,7 +8,7 @@ const Clergy = () => {
 
         <ul className={css.clergyList}>
           <li>Настоятель</li>
-          <li className={css.clergyName}>Протиієрей Олександр Токарчук</li>
+          <li className={css.clergyName}>Протоієрей Олександр Токарчук</li>
           <li className={css.clergyName}>Ієрей Дмитро Турабов</li>
           <li className={css.clergyName}>Диякон Олег Кучерук</li>
           <li className={css.clergyName}>Диякон Андрій Прокопенко</li>
