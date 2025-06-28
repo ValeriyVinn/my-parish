@@ -7,7 +7,7 @@ const Clergy = () => {
         <tbody>
           <tr>
             <td>Настоятель</td>
-            <td className={css.clergyDignity}>Протиієрей </td>
+            <td className={css.clergyDignity}>протиієрей </td>
             <td className={css.clergyName}>Олександр Токарчук</td>
           </tr>
           <tr>
