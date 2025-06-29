@@ -33,7 +33,7 @@ const SharedLayout = () => {
               className={css.navLink}
               onClick={() => setIsOpen(false)}
             >
-              Розклад Богослужіннь
+              Розклад Богослужінь
             </NavLink>
           </li>
           <li className={css.navItem}>
