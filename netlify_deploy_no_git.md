@@ -78,5 +78,6 @@ netlify deploy --prod
 
 ## Стандартний коміт + деплой через Vercel CLI
 git add .
+git add src/components/Header.jsx
 git commit -m "Updated component"
 vercel --prod

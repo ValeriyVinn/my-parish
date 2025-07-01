@@ -1,12 +1,15 @@
 import { useState } from "react";
 import newsData from "../../data/news.json";
 import css from "./News.module.css";
+import Modal from "../Modal/Modal.jsx";
 
 export default function News() {
   const [visibleCount, setVisibleCount] = useState(5);
   const [expanded, setExpanded] = useState({});
+  const [modalImage, setModalImage] = useState(null);
+  const [carouselIndex, setCarouselIndex] = useState({}); // об'єкт для кожної галереї
 
-  const visibleNews = newsData.slice(0, visibleCount);
+  const reversedData = [...newsData].reverse().slice(0, visibleCount);
 
   const handleLoadMore = () => {
     setVisibleCount((prev) => prev + 5);
@@ -19,63 +22,153 @@ export default function News() {
     }));
   };
 
-  return (<div className="container">
+  const handleImageClick = (src) => {
+    setModalImage(src);
+  };
 
-    <section className={css.section}>
-      <h1 className={css.title}>Новини</h1>
-      {visibleNews.map((item) => {
-        const isExpanded = expanded[item.id];
-        const shouldTruncate = item.description.length > 200;
+  const closeModal = () => {
+    setModalImage(null);
+  };
 
-        return (
-          <article key={item.id}>
-            <h2 className={css.heading}>{item.title}</h2>
+  const handlePrev = (id, imagesLength) => {
+    setCarouselIndex((prev) => ({
+      ...prev,
+      [id]: (prev[id] > 0 ? prev[id] : imagesLength) - 1,
+    }));
+  };
 
-            <div className={css.card}>
-              <div className={css.videoBlock}>
-                <div className={css.videoWrapper}>
-                  <iframe
-                    src={`https://www.youtube.com/embed/${item.youtubeId}`}
-                    title={item.title}
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-              </div>
+  const handleNext = (id, imagesLength) => {
+    setCarouselIndex((prev) => ({
+      ...prev,
+      [id]: (prev[id] + 1 || 1) % imagesLength,
+    }));
+  };
 
-              <div className={css.descriptionWrapper}>
-                <p
-                  className={`${css.description} ${
-                    isExpanded ? css.expanded : ""
-                  }`}
-                >
-                  {item.description}
-                </p>
-                {shouldTruncate && (
-                  <button
-                    onClick={() => toggleReadMore(item.id)}
-                    className={css.readMoreBtn}
-                  >
-                    {isExpanded ? "Згорнути" : "Читати далі..."}
-                  </button>
-                )}
-              </div>
-            </div>
-          </article>
-        );
-      })}
+  return (
+    <div className="container">
+      <section className={css.section}>
+        <h1 className={css.title}>Новини</h1>
+        {reversedData.map((block, blockIndex) => (
+          <div key={blockIndex}>
+            {block.events.map((item) => {
+              const isExpanded = expanded[item.id];
+              const shouldTruncate =
+                item.description && item.description.length > 200;
 
-      {visibleCount < newsData.length && (
-        <button onClick={handleLoadMore} className={css.loadMore}>
-          Завантажити ще
-        </button>
+              const currentIndex = carouselIndex[item.id] || 0;
+
+              return (
+                <article key={item.id}>
+                  <h2 className={css.heading}>{item.title}</h2>
+                  <div className={css.card}>
+                    {item.type === "video" && (
+                      <div className={css.videoBlock}>
+                        <div className={css.videoWrapper}>
+                          <iframe
+                            src={`https://www.youtube.com/embed/${item.youtubeId}`}
+                            title={item.title}
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                          ></iframe>
+                        </div>
+                      </div>
+                    )}
+
+                    {item.type === "images" && (
+                      <div className={css.videoBlock}>
+                        <div className={css.carouselContainer}>
+                          <button
+                            className={`${css.carouselBtn} ${css.left}`}
+                            onClick={() =>
+                              handlePrev(item.id, item.images.length)
+                            }
+                          >
+                            <svg width="24" height="24" viewBox="0 0 24 24">
+                              <path
+                                d="M15 18l-6-6 6-6"
+                                stroke="currentColor"
+                                strokeWidth="3"
+                                fill="none"
+                                strokeLinecap="round"
+                              />
+                            </svg>
+                          </button>
+                          <img
+                            src={item.images[currentIndex].thumb}
+                            alt={`Превʼю ${currentIndex + 1}`}
+                            className={css.thumbnail}
+                            onClick={() =>
+                              handleImageClick(item.images[currentIndex].full)
+                            }
+                          />
+                          <button
+                            className={`${css.carouselBtn} ${css.right}`}
+                            onClick={() =>
+                              handleNext(item.id, item.images.length)
+                            }
+                          >
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M9 6l6 6-6 6"
+                                stroke="currentColor"
+                                strokeWidth="3"
+                                fill="none"
+                                strokeLinecap="round"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    )}
+
+                    <div className={css.descriptionWrapper}>
+                      <div
+                        className={`${css.description} ${
+                          isExpanded ? css.expanded : ""
+                        }`}
+                      >
+                        {item.description.split("\n").map((para, idx) => (
+                          <p key={idx}>{para}</p>
+                        ))}
+                      </div>
+                      {shouldTruncate && (
+                        <button
+                          onClick={() => toggleReadMore(item.id)}
+                          className={css.readMoreBtn}
+                        >
+                          {isExpanded ? "Згорнути" : "Читати далі..."}
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        ))}
+
+        {visibleCount < newsData.length && (
+          <button onClick={handleLoadMore} className={css.loadMore}>
+            Завантажити ще
+          </button>
+        )}
+      </section>
+
+      {modalImage && (
+        <Modal onClose={closeModal}>
+          <img
+            src={modalImage}
+            alt="Повне зображення"
+            className={css.fullImage}
+          />
+        </Modal>
       )}
-    </section>
-
-
-  </div>
-
+    </div>
   );
 }
-
