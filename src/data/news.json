@@ -204,7 +204,65 @@
         "type": "video",
         "title": " Привітання Предстоятеля з 1037-ю річницею хрещення України-Руси!",
         "youtubeId": "EB04ZELu4z8",
-                "description": "15 Липня 2025 "
+        "description": "15 Липня 2025 "
+      }
+    ]
+  },
+
+  {
+    "date": "Липень 2025 р.",
+    "events": [
+      {
+        "id": 17,
+        "type": "images",
+        "title": "Вінниця. Храм св. прп. Серафима Саровського чудотворця. Храмове свято.",
+        "images": [
+          {
+            "thumb": "/assets/news/July192025/thumb/DSC_1213.jpg",
+            "full": "/assets/news/July192025/DSC_1213.JPG"
+          },
+          {
+            "thumb": "/assets/news/July192025/thumb/DSC_1214.jpg",
+            "full": "/assets/news/July192025/DSC_1214.JPG"
+          },
+          {
+            "thumb": "/assets/news/July192025/thumb/DSC_1215.jpg",
+            "full": "/assets/news/July192025/DSC_1215.JPG"
+          },
+          {
+            "thumb": "/assets/news/July192025/thumb/DSC_1216.jpg",
+            "full": "/assets/news/July192025/DSC_1216.JPG"
+          },
+          {
+            "thumb": "/assets/news/July192025/thumb/DSC_1217.jpg",
+            "full": "/assets/news/July192025/DSC_1217.JPG"
+          },
+          {
+            "thumb": "/assets/news/July192025/thumb/DSC_1218.jpg",
+            "full": "/assets/news/July192025/DSC_1218.JPG"
+          },
+          {
+            "thumb": "/assets/news/July192025/thumb/DSC_1219.jpg",
+            "full": "/assets/news/July192025/DSC_1219.JPG"
+          },
+          {
+            "thumb": "/assets/news/July192025/thumb/DSC_1220.jpg",
+            "full": "/assets/news/July192025/DSC_1220.JPG"
+          },
+          {
+            "thumb": "/assets/news/July192025/thumb/DSC_1221.jpg",
+            "full": "/assets/news/July192025/DSC_1221.JPG"
+          }
+        ],
+        "description": "19 липня 2025"
+      },
+      {
+        "id": 18,
+        "type": "video",
+        "title": "Вінниця. Храм св. прп. Серафима Саровського чудотворця. Хресна хода",
+        "youtubeId": "YginJzYkfgo",
+        
+        "description": "19 Липня 2025"
       }
     ]
   }
