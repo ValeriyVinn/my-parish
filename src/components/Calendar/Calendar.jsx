@@ -135,8 +135,8 @@ export default function Calendar() {
                           }`}
                           onClick={() => toggle(`${rowIndex}-${i}`, item)}
                         >
-                          <span className={css.date}>{item.date}</span>{" "}
-                          <span className={css.day}>{item.day}</span> —{" "}
+                          <span className={css.date}>{item.date}</span>
+                          <span className={css.day}>{item.day}</span> —
                           {item.title}
                         </button>
                       </>

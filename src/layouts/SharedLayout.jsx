@@ -56,6 +56,15 @@ const SharedLayout = () => {
           </li>
           <li className={css.navItem}>
             <NavLink
+              to="prayers"
+              className={css.navLink}
+              onClick={() => setIsOpen(false)}
+            >
+              Молитовник
+            </NavLink>
+          </li>
+          <li className={css.navItem}>
+            <NavLink
               to="clergy"
               className={css.navLink}
               onClick={() => setIsOpen(false)}

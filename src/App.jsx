@@ -8,6 +8,7 @@ import Clergy from "./components/Clergy/Clergy";
 // import BreakpointHelper from "./components/BreakpointHelper/BreakpointHelper";
 import Footer from "./components/Footer/Footer";
 import Calendar from "./components/Calendar/Calendar";
+import Prayers from "./components/Prayers/Prayers";
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
             <Route path="/shedule" element={<Shedule />} />
             <Route path="/сalendar" element={<Calendar />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/prayers" element={<Prayers/>} />
             <Route path="/clergy" element={<Clergy />} />
+            
             <Route path="*" element={<h1>Element not found</h1>} />
           </Route>
         </Routes>
