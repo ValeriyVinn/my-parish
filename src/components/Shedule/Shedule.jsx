@@ -4,7 +4,7 @@ import css from "./Shedule.module.css";
 const Schedule = () => {
   return (
     <div className={`container ${css.wrapper}`}>
-      <h1 className={css.title}>Розклад Богослужінь — Липень</h1>
+      <h1 className={css.title}>Розклад Богослужінь — Липень-Серпень</h1>
       <div className={css.tableWrapper}>
         <table className={css.table}>
           <thead>
