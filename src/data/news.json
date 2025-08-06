@@ -265,5 +265,52 @@
         "description": "19 Липня 2025"
       }
     ]
+  },
+
+  {
+    "date": "Липень 2025 р.",
+    "events": [
+      {
+        "id": 19,
+        "type": "images",
+        "title": "Свято Преображення Господнього.",
+        "images": [
+          {
+            "thumb": "/assets/news/2025-08-06/thumbs/DSC_1226.jpg",
+            "full": "/assets/news/2025-08-06/DSC_1226.JPG"
+          },
+          {
+            "thumb": "/assets/news/2025-08-06/thumbs/DSC_1229.jpg",
+            "full": "/assets/news/2025-08-06/DSC_1229.JPG"
+          },
+          {
+            "thumb": "/assets/news/2025-08-06/thumbs/DSC_1230.jpg",
+            "full": "/assets/news/2025-08-06/DSC_1230.JPG"
+          },
+          {
+            "thumb": "/assets/news/2025-08-06/thumbs/DSC_1231.jpg",
+            "full": "/assets/news/2025-08-06/DSC_1231.JPG"
+          },
+          {
+            "thumb": "/assets/news/2025-08-06/thumbs/DSC_1232.jpg",
+            "full": "/assets/news/2025-08-06/DSC_1232.JPG"
+          },
+          {
+            "thumb": "/assets/news/2025-08-06/thumbs/DSC_1233.jpg",
+            "full": "/assets/news/2025-08-06/DSC_1233.JPG"
+          }
+          
+        ],
+        "description": "6 серпня 2025"
+      },
+      {
+        "id": 20,
+        "type": "video",
+        "title": " Освячення плодів на свято Преображення Господнього.",
+        "youtubeId": "aq4VXNihSr8",
+        
+        "description": "6 серпня 2025"
+      }
+    ]
   }
 ]
