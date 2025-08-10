@@ -261,14 +261,14 @@
         "type": "video",
         "title": "Вінниця. Храм св. прп. Серафима Саровського чудотворця. Хресна хода",
         "youtubeId": "YginJzYkfgo",
-        
+
         "description": "19 Липня 2025"
       }
     ]
   },
 
   {
-    "date": "Липень 2025 р.",
+    "date": "Серпень 2025 р.",
     "events": [
       {
         "id": 19,
@@ -292,7 +292,6 @@
             "thumb": "/assets/news/2025-08-06/thumbs/DSC_1233.jpg",
             "full": "/assets/news/2025-08-06/DSC_1233.JPG"
           }
-          
         ],
         "description": "6 серпня 2025"
       },
@@ -301,8 +300,22 @@
         "type": "video",
         "title": " Освячення плодів на свято Преображення Господнього.",
         "youtubeId": "aq4VXNihSr8",
-        
+
         "description": "6 серпня 2025"
+      }
+    ]
+  },
+
+  {
+    "date": "Серпень 2025 р.",
+    "events": [
+      {
+        "id": 21,
+        "type": "video",
+        "title": " Неділя 9-а після П'ятдесятниці.",
+        "youtubeId": "Zb5IkTonJWE",
+
+        "description": "10 серпня 2025"
       }
     ]
   }
