@@ -47,7 +47,7 @@ export default function News() {
   return (
     <div className="container">
       <section className={css.section}>
-        <h1 className={css.title}>Новини</h1>
+        <h1 className={css.title}>Оживи Душу свою, щоб ніколи не втрачати кого любиш</h1>
         {reversedData.map((block, blockIndex) => (
           <div key={blockIndex}>
             {block.events.map((item) => {
