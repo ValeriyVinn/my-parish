@@ -1,10 +1,16 @@
 .articleClergy {
   margin: 100px auto;
   font-size: 18px;
+  padding-left: 20px;
 }
 
-.clergyName {
-  margin-bottom: 30px;
+.prior {
+  font-size: 20px;
+ 
+}
+
+.clergyPhone {
+  margin-bottom: 20px;
 }
 
 .clergyList > li {
