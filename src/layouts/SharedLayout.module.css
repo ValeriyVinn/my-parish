@@ -98,11 +98,18 @@
   }
 
   .main {
+    margin-top: 100px; /* компенсуємо висоту горизонтального меню */
+   
+  }
+}
+@media (min-width: 968px) {
+
+
+  .main {
     margin-top: 70px; /* компенсуємо висоту горизонтального меню */
    
   }
 }
-
 
 body.modal-open .burger {
   display: none;
