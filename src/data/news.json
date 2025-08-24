@@ -342,5 +342,18 @@
         "description": "17 серпня 2025"
       }
     ]
+  },
+  
+  {
+    "date": "Серпень 2025 р.",
+    "events": [
+      {
+        "id": 25,
+        "type": "video",
+        "title": "Неділя 11-а після П'ятдесятниці.",
+        "youtubeId": "Izo6yn9Ahtw",
+        "description": "24 серпня 2025"
+      }
+    ]
   }
 ]
