@@ -12,7 +12,7 @@ const Clergy = () => {
           </ul>
           <ul className={css.clergyItem}>
             <li className={css.clergyName}>Ієрей Дмитро Турабов</li>
-            <li className={css.clergyPhone}></li>
+            <li className={css.clergyPhone}>096 800 63 03</li>
           </ul>
           <ul className={css.clergyItem}>
             <li className={css.clergyName}>Диякон Олег Кучерук</li>

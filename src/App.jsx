@@ -9,6 +9,7 @@ import Clergy from "./components/Clergy/Clergy";
 import Footer from "./components/Footer/Footer";
 import Calendar from "./components/Calendar/Calendar";
 import Prayers from "./components/Prayers/Prayers";
+import School from "./components/School/School";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<SharedLayout />}>
             <Route index element={<News />} />
+            <Route path="/school" element={<School />} />
             <Route path="/shedule" element={<Shedule />} />
             <Route path="/сalendar" element={<Calendar />} />
             <Route path="/gallery" element={<Gallery />} />
