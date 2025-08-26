@@ -8,7 +8,7 @@ const Clergy = () => {
           <h2 className={css.prior}>Настоятель</h2>
           <ul className={css.clergyItem}>
             <li className={css.clergyName}>Протоієрей Олександр Токарчук</li>
-            <li className={css.clergyPhone}>097 409 9913</li>
+            <li className={css.clergyPhone}>097 409 99 13</li>
           </ul>
           <ul className={css.clergyItem}>
             <li className={css.clergyName}>Ієрей Дмитро Турабов</li>
