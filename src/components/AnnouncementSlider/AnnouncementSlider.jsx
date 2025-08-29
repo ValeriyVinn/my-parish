@@ -42,7 +42,7 @@ const AnnouncementSlider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       handleNext();
-    }, 9000);
+    }, 12000);
 
     return () => clearInterval(interval);
   }, [handleNext]);
