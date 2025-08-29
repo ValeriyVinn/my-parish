@@ -26,17 +26,17 @@ const AnnouncementSlider = () => {
   }, [announcements.length]);
 
   // Вибір слайда вручну
-  const handleSelect = useCallback(
-    (index) => {
-      if (index > currentIndex) {
-        setDirection("right");
-      } else if (index < currentIndex) {
-        setDirection("left");
-      }
-      animateSlide(() => index);
-    },
-    [currentIndex]
-  );
+  // const handleSelect = useCallback(
+  //   (index) => {
+  //     if (index > currentIndex) {
+  //       setDirection("right");
+  //     } else if (index < currentIndex) {
+  //       setDirection("left");
+  //     }
+  //     animateSlide(() => index);
+  //   },
+  //   [currentIndex]
+  // );
 
   // Автоматична зміна слайда кожні 9 секунд
   useEffect(() => {
@@ -63,7 +63,7 @@ const AnnouncementSlider = () => {
       </p>
 
       {/* Навігаційні крапки */}
-      <div className={styles.dots}>
+      {/* <div className={styles.dots}>
         {announcements.map((_, index) => (
           <button
             key={index}
@@ -73,7 +73,7 @@ const AnnouncementSlider = () => {
             onClick={() => handleSelect(index)}
           />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };

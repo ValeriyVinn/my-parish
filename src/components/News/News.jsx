@@ -4,6 +4,7 @@ import css from "./News.module.css";
 import Modal from "../Modal/Modal.jsx";
 import AnnouncementSlider from "../AnnouncementSlider/AnnouncementSlider.jsx";
 import MarqueeAnnouncements from "../MarqueeAnnouncements/MarqueeAnnouncements.jsx";
+import Hero from "../Hero/Hero.jsx";
 export default function News() {
   const [visibleCount, setVisibleCount] = useState(5);
   const [expanded, setExpanded] = useState({});
@@ -49,13 +50,14 @@ export default function News() {
     <div className="container">
       <section className={css.section}>
         {/* <h1 className={css.title}>Оживи Душу свою, щоб ніколи не втрачати кого любиш</h1> */}
-        <MarqueeAnnouncements
-          separator=" — "
+        {/* <MarqueeAnnouncements
+          separator=" • "
           durationSec={20}
           direction="left" // або "right"
           pauseOnHover={true}
         />
-        <AnnouncementSlider />
+        <AnnouncementSlider /> */}
+        <Hero />
 
         {reversedData.map((block, blockIndex) => (
           <div key={blockIndex}>
