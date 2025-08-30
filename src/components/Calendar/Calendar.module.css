@@ -1,5 +1,7 @@
 /* Calendar.module.css */
-
+.section {
+  padding: 40px 0;
+}
 .calendar {
   padding: 20px 15px;
   max-width: 1000px;

@@ -1,15 +1,3 @@
-// import css from "./Prayers.module.css"
-
-// const Prayers = () => {
-//   return (
-//     <>
-//       <h1 className={css.h}>Молитви</h1>
-//     </>
-//   );
-// };
-
-// export default Prayers;
-
 
 import { useState } from "react";
 import prayersData from "../../data/prayers.json";
