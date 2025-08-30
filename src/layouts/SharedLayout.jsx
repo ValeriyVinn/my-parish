@@ -13,10 +13,11 @@ const SharedLayout = () => {
         ☰
       </button> */}
       <button className={`${css.burger}`} onClick={toggleMenu}>
-       {isOpen ? "закрити" : "меню"} 
+       {isOpen ? "приховати" : "МЕНЮ"} 
       </button>
 
       <div className={`${css.nav} ${isOpen ? css.open : ""}`}>
+        
         <ul className={css.navList}>
           <li className={css.navItem}>
             <NavLink
