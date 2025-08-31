@@ -11,6 +11,18 @@
   animation: fadeIn 4s ease-in-out forwards;
 }
 
+.advertisement {
+  font-size: 1.25rem;
+  margin: 20px auto;
+  padding: 5px;
+  max-width: 800px;
+  background-color: var(--color-accent);
+  color: white; /* темно-жовтий текст */
+  border: 1px solid var(--color-accent); /* світло-жовта рамка */
+  border-radius: 5px;
+  text-align: center;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
