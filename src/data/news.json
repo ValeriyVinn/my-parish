@@ -343,16 +343,40 @@
       }
     ]
   },
-  
+
+  {
+    "date": "Серпень 2025 р.",
+    "events": [
+      {
+        "id": 24,
+        "type": "video",
+        "title": "Неділя 11-а після П'ятдесятниці.",
+        "youtubeId": "Izo6yn9Ahtw",
+        "description": "24 серпня 2025"
+      }
+    ]
+  },
   {
     "date": "Серпень 2025 р.",
     "events": [
       {
         "id": 25,
         "type": "video",
-        "title": "Неділя 11-а після П'ятдесятниці.",
-        "youtubeId": "Izo6yn9Ahtw",
-        "description": "24 серпня 2025"
+        "title": "Символ Віри.",
+        "youtubeId": "9803J3-eb_U",
+        "description": "31 серпня 2025"
+      }
+    ]
+  },
+  {
+    "date": "Серпень 2025 р.",
+    "events": [
+      {
+        "id": 26,
+        "type": "video",
+        "title": "Отче Наш.",
+        "youtubeId": "fZ-5a5EKO7k",
+        "description": "31 серпня 2025"
       }
     ]
   }
