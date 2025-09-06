@@ -5,6 +5,10 @@ import Modal from "../Modal/Modal.jsx";
 import AnnouncementSlider from "../AnnouncementSlider/AnnouncementSlider.jsx";
 import MarqueeAnnouncements from "../MarqueeAnnouncements/MarqueeAnnouncements.jsx";
 import Hero from "../Hero/Hero.jsx";
+// import { Helmet } from "react-helmet-async";
+
+
+
 export default function News() {
   const [visibleCount, setVisibleCount] = useState(5);
   const [expanded, setExpanded] = useState({});
@@ -47,6 +51,10 @@ export default function News() {
   };
 
   return (
+    
+      
+
+    
     <div className="container">
       <section className={css.section}>
         {/* <h1 className={css.title}>Оживи Душу свою, щоб ніколи не втрачати кого любиш</h1> */}
@@ -81,8 +89,8 @@ export default function News() {
                           <iframe
                             src={`https://www.youtube.com/embed/${item.youtubeId}`}
                             title={item.title}
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            // frameBorder="0"
+                            allow=" autoplay; clipboard-write; encrypted-media;  picture-in-picture"
                             allowFullScreen
                           ></iframe>
                         </div>
@@ -184,5 +192,7 @@ export default function News() {
         </Modal>
       )}
     </div>
+    
+    
   );
 }
