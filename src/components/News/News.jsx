@@ -5,9 +5,6 @@ import Modal from "../Modal/Modal.jsx";
 import AnnouncementSlider from "../AnnouncementSlider/AnnouncementSlider.jsx";
 import MarqueeAnnouncements from "../MarqueeAnnouncements/MarqueeAnnouncements.jsx";
 import Hero from "../Hero/Hero.jsx";
-// import { Helmet } from "react-helmet-async";
-
-
 
 export default function News() {
   const [visibleCount, setVisibleCount] = useState(5);
@@ -51,10 +48,6 @@ export default function News() {
   };
 
   return (
-    
-      
-
-    
     <div className="container">
       <section className={css.section}>
         {/* <h1 className={css.title}>Оживи Душу свою, щоб ніколи не втрачати кого любиш</h1> */}
@@ -66,9 +59,19 @@ export default function News() {
         />
         <AnnouncementSlider /> */}
         <Hero />
-        <p className={css.advertisement}>Слава Ісусу Христу!  Дорога церква, вітаю всіх зі святою неділею! Завершилось літо, і скоро почнеться похолодання, тому не забуваймо про наших мужніх воїнів, які віддають за нас своє життя. Зараз є гостра необхідність в таких речах: ковдри, подушки, простині, підодіяльники, шкарпетки, спідні….., все це може бути не нове, але чисте. Пункт збору ви знаєте. Нехай Господь всіх блогословить!</p>
+        <p className={css.advertisement}>
+          Слава Ісусу Христу! Дорога церква, вітаю всіх зі святою неділею!
+          Завершилось літо, і скоро почнеться похолодання, тому не забуваймо про
+          наших мужніх воїнів, які віддають за нас своє життя. Зараз є гостра
+          необхідність в таких речах: ковдри, подушки, простині, підодіяльники,
+          шкарпетки, спідні….., все це може бути не нове, але чисте. Пункт збору
+          ви знаєте. Нехай Господь всіх блогословить!
+        </p>
 
-        <p className={css.advertisement}>Потрібен оператор твердопаливного котла (кожегар). Житлом і харчуванням забезпечуєм. Подробиці за тел: (097)409-99-13</p>
+        <p className={css.advertisement}>
+          Потрібен оператор твердопаливного котла (кожегар). Житлом і
+          харчуванням забезпечуєм. Подробиці за тел: (097)409-99-13
+        </p>
 
         {reversedData.map((block, blockIndex) => (
           <div key={blockIndex}>
@@ -192,7 +195,5 @@ export default function News() {
         </Modal>
       )}
     </div>
-    
-    
   );
 }
