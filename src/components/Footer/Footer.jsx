@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <>
       <footer className={css.footer}>
-        <p>Вінниця, Хм. шосе, 145 (097) 409-99-13</p>
+        <p>м.Вінниця, Хмельницьке шосе, 145</p>
         
         <button onClick={() => setShowMap(true)} className={css.mapButton}>
           На мапі
