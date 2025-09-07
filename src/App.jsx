@@ -14,7 +14,7 @@ import School from "./components/School/School";
 function App() {
   return (
     <div className="main">
-      {/* <h1>Моя церква</h1> */}
+     
       <div>
         <Routes>
           <Route path="/" element={<SharedLayout />}>

@@ -2,8 +2,8 @@ import { useState } from "react";
 import newsData from "../../data/news.json";
 import css from "./News.module.css";
 import Modal from "../Modal/Modal.jsx";
-import AnnouncementSlider from "../AnnouncementSlider/AnnouncementSlider.jsx";
-import MarqueeAnnouncements from "../MarqueeAnnouncements/MarqueeAnnouncements.jsx";
+// import AnnouncementSlider from "../AnnouncementSlider/AnnouncementSlider.jsx";
+// import MarqueeAnnouncements from "../MarqueeAnnouncements/MarqueeAnnouncements.jsx";
 import Hero from "../Hero/Hero.jsx";
 
 export default function News() {
@@ -93,7 +93,7 @@ export default function News() {
                             src={`https://www.youtube.com/embed/${item.youtubeId}`}
                             title={item.title}
                             // frameBorder="0"
-                            allow=" autoplay; clipboard-write; encrypted-media;  picture-in-picture"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
                             allowFullScreen
                           ></iframe>
                         </div>

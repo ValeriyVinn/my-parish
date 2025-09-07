@@ -12,7 +12,7 @@ import styles from "./MarqueeAnnouncements.module.css";
  */
 const MarqueeAnnouncements = ({
   separator = " • ",
-  durationSec = 120,
+  durationSec = 20,
   direction = "left",
   pauseOnHover = true,
 }) => {

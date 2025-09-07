@@ -384,11 +384,23 @@
     "date": "Серпень 2025 р.",
     "events": [
       {
-        "id": 26,
+        "id": 27,
         "type": "video",
         "title": "Неділя 12-а після П'ятдесятниці.",
         "youtubeId": "xS3w2EK2Sbc",
         "description": "31 серпня 2025"
+      }
+    ]
+  },
+  {
+    "date": "Вересень 2025 р.",
+    "events": [
+      {
+        "id": 28,
+        "type": "video",
+        "title": "Неділя 13-а після П'ятдесятниці.",
+        "youtubeId": "dqIjyetU_UM",
+        "description": "07 вересня 2025"
       }
     ]
   }
