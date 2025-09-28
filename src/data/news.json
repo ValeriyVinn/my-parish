@@ -439,5 +439,17 @@
         "description": "21 вересня 2025"
       }
     ]
+  },
+  {
+    "date": "Вересень 2025 р.",
+    "events": [
+      {
+        "id": 32,
+        "type": "video",
+        "title": "Неділя 16-та після П'ятдесятниці.",
+        "youtubeId": "rqoPZqJDZ9A",
+        "description": "28 вересня 2025"
+      }
+    ]
   }
 ]
