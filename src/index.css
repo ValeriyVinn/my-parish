@@ -121,3 +121,9 @@ div {
     max-width: 1200px;
   }
 }
+
+.quote {
+  font-style: italic;
+  font-weight: 400;
+  color: rgb(255, 255, 255,0.6);
+}

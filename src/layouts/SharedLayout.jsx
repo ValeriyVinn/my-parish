@@ -13,11 +13,10 @@ const SharedLayout = () => {
         ☰
       </button> */}
       <button className={`${css.burger}`} onClick={toggleMenu}>
-       {isOpen ? "ПРИХОВАТИ МЕНЮ" : "ВІДКРИТИ МЕНЮ"} 
+        {isOpen ? "ПРИХОВАТИ МЕНЮ" : "ВІДКРИТИ МЕНЮ"}
       </button>
 
       <div className={`${css.nav} ${isOpen ? css.open : ""}`}>
-        
         <ul className={css.navList}>
           <li className={css.navItem}>
             <NavLink
@@ -28,7 +27,7 @@ const SharedLayout = () => {
               Моя Церква
             </NavLink>
           </li>
-                    <li className={css.navItem}>
+          {/* <li className={css.navItem}>
             <NavLink
               to="school"
               className={css.navLink}
@@ -36,7 +35,7 @@ const SharedLayout = () => {
             >
               Школа
             </NavLink>
-          </li>
+          </li> */}
           <li className={css.navItem}>
             <NavLink
               to="shedule"
@@ -52,7 +51,7 @@ const SharedLayout = () => {
               className={css.navLink}
               onClick={() => setIsOpen(false)}
             >
-              Церковний календар
+              Календар
             </NavLink>
           </li>
           <li className={css.navItem}>
@@ -82,6 +81,7 @@ const SharedLayout = () => {
               Духовенство
             </NavLink>
           </li>
+          <li className={css.navItem}>(097) 409 9913</li>
         </ul>
       </div>
 
