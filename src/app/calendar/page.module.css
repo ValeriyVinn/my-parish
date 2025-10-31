@@ -1,0 +1,185 @@
+/* Calendar.module.css */
+.section {
+  padding: 40px 0;
+}
+.calendar {
+  padding: 20px 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.selectWrapper {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.selectWrapper select {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+.select {
+  background-color: rgb(250, 243, 243);
+  border: 1px solid var(--color-accent, #e67e22);
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  padding: 0px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.7rem;
+  text-align: end;
+  margin-bottom: 20px;
+}
+
+.w {
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.weekHeader {
+  display: none;
+}
+
+.weekRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.dayCell {
+  flex: 1;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  white-space: normal;
+}
+
+/* .btn:hover {
+  background-color: #e0e0e0;
+  color: var(--color-accent, #e67e22);
+} */
+
+.btn span:first-child {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.active {
+  background-color: var(--color-accent, #e67e22);
+  color: white;
+}
+/* .active:hover {
+  background-color: var(--color-accent, #e67e22);
+  color: rgb(201, 200, 200);
+} */
+
+.articleRow {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-left: 4px solid var(--color-accent, #e67e22);
+  margin-bottom: 15px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.empty {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Медіа-запити */
+
+@media (min-width: 768px) {
+  .weekHeader {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .weekHeader span,
+  .weekRow .dayCell {
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 13px;
+    padding: 6px;
+    /* height: 150px; */
+  }
+
+  .articleRow {
+    grid-column: 1 / -1;
+  }
+}
+
+.accordionList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.accordionItem {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+/* .articleRowWide {
+   width: 900px;
+ } */
+
+.weekRow {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.dayCell {
+  min-height: 100%;
+}
+
+.articleRowWide {
+  grid-column: 1 / -1;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+.article {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}

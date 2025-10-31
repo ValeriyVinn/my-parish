@@ -1,0 +1,64 @@
+.footer {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: var(--color-background);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05);
+  justify-content: center;
+  line-height: 50px;
+  
+  }
+.mapButton {
+  background:white ;
+  color: var(--color-accent);
+  /* padding: 0.5rem 1rem; */
+  font-weight: 600;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  /* margin-top: 0.5rem; */
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1500;
+}
+
+.modalContent {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 90%;
+  
+  width: 1000px;
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  /* width: fit-content;
+  height: auto; */
+  background:white ;
+  color: var(--color-accent);
+  font-weight: 700;
+  top: 8px;
+  right: 8px;
+  /* background: transparent; */
+  border: 3px solid var(--color-accent);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}

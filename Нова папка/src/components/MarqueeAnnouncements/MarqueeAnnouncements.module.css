@@ -1,0 +1,52 @@
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  background: transparent;
+  /* border: 1px solid var(--color-accent); */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+ background-color: rgb(230, 126, 34, 0.6);
+  
+}
+
+.track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  animation-name: scroll;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.row {
+  white-space: nowrap;
+  padding-right: 0.3rem; /* невеликий відступ після ряду */
+  margin: 0;
+  line-height: 1.6;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+/* Пауза при ховері */
+.marquee:hover .track {
+  animation-play-state: paused;
+}
+
+/* Анімація: з’їзд на ширину першої половини (друга — дубль) */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Доступність: якщо користувач просить менше анімацій */
+@media (prefers-reduced-motion: reduce) {
+  .track {
+    animation-duration: 0s !important;
+  }
+}
