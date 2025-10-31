@@ -1,6 +1,6 @@
 "use client";
 
-import { useLayoutEffect, useState } from "react";
+import { useLayoutEffect, useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import css from "./Modal.module.css";
 import type { ReactNode } from "react";
@@ -19,7 +19,6 @@ export default function Modal({ children, onClose }: ModalProps) {
 
     modalRoot.appendChild(modalContainer);
 
-    // Блокування прокрутки
     const originalOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
 
@@ -29,9 +28,25 @@ export default function Modal({ children, onClose }: ModalProps) {
     };
   }, [modalContainer]);
 
-  // Тепер можна обійти mounted-стан:
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        onClose();
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [onClose]);
+
+  const handleBackdropClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (e.target === e.currentTarget) {
+      onClose();
+    }
+  };
+
   return createPortal(
-    <div className={css.backdrop}>
+    <div className={css.backdrop} onClick={handleBackdropClick}>
       <div className={css.content}>
         <button className={css.closeBtn} onClick={onClose}>
           Закрити

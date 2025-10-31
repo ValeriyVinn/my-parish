@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
   description:
     "Офіційний сайт храму св. прп. Серафима Саровського чудотворця у Вінниці. Богослужіння, духовенство, новини парафії.",
-  metadataBase: new URL("https://parish-ten.vercel.app/"), 
+  metadataBase: new URL("https://parish-ten.vercel.app/"),
   openGraph: {
     title: "Храм св. прп. Серафима Саровського, Вінниця",
     description:
@@ -41,13 +41,12 @@ export default function RootLayout({
   return (
     <html lang="uk">
       <body>
-        {/* Портал для модалки */}
-        <div id="modal-root" className="modalRoot" />
-
         {/* Основний контент */}
         <div className="main">
           <SharedLayout>{children}</SharedLayout>
           <Footer />
+          {/* Портал для модалки */}
+          <div id="modal-root" className="modalRoot" />
         </div>
       </body>
     </html>
