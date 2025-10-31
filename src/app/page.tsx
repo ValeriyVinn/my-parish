@@ -25,17 +25,20 @@ type NewsBlock = {
   events: NewsItem[];
 };
 
-
 export default function NewsPage() {
   const [visibleCount, setVisibleCount] = useState<number>(5);
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [modalImage, setModalImage] = useState<string | null>(null);
-const [carouselIndex, setCarouselIndex] = useState<Record<string, number>>({});
+  const [carouselIndex, setCarouselIndex] = useState<Record<string, number>>(
+    {}
+  );
 
-const typedNewsData = newsData as unknown as NewsBlock[];
-const reversedData: NewsBlock[] = [...typedNewsData].reverse().slice(0, visibleCount);
+  const typedNewsData = newsData as unknown as NewsBlock[];
+  const reversedData: NewsBlock[] = [...typedNewsData]
+    .reverse()
+    .slice(0, visibleCount);
 
-const handleLoadMore = () => setVisibleCount((prev) => prev + 5);
+  const handleLoadMore = () => setVisibleCount((prev) => prev + 5);
 
   const toggleReadMore = (id: string) => {
     setExpanded((prev) => ({ ...prev, [id]: !prev[id] }));

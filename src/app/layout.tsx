@@ -4,8 +4,33 @@ import SharedLayout from "@/layouts/SharedLayout";
 import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
-  title: "Моя Церква",
-  description: "Офіційний сайт парафії",
+  title: {
+    default: "Моя церква  — Храм св. прп. Серафима Саровського, Вінниця",
+    template: "%s — Храм св. прп. Серафима Саровського, Вінниця",
+  },
+  description:
+    "Офіційний сайт храму св. прп. Серафима Саровського чудотворця у Вінниці. Богослужіння, духовенство, новини парафії.",
+  metadataBase: new URL("https://parish-ten.vercel.app/"), 
+  openGraph: {
+    title: "Храм св. прп. Серафима Саровського, Вінниця",
+    description:
+      "Офіційний сайт храму св. прп. Серафима Саровського чудотворця у Вінниці.",
+    url: "https://parish-ten.vercel.app/",
+    siteName: "Храм св. прп. Серафима Саровського",
+    images: [
+      {
+        url: "/assets/metadataphoto/og-default.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Храм св. прп. Серафима Саровського у Вінниці",
+      },
+    ],
+    locale: "uk_UA",
+    type: "website",
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

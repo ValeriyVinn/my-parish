@@ -1,11 +1,28 @@
 
-"use client";
+
 import styles from "./page.module.css";
 
-// export const metadata = {
-//   title: "Духовенство | Церковний сайт",
-//   description: "Настоятелі та духовенство парафії",
-// };
+export const metadata = {
+  title: "Духовенство ",
+  description:
+    "Настоятелі храму св. прп. Серафима Саровського у Вінниці. Адреса: Хмельницьке шосе, 145.",
+  openGraph: {
+    title: "Духовенство — Храм св. прп. Серафима Саровського, Вінниця",
+    description:
+      "Познайомтеся з настоятелями храму св. прп. Серафима Саровського у Вінниці. Фото та короткі відомості про духовенство.",
+    url: "https://parish-ten.vercel.app/clergy",
+    images: [
+      {
+        url: "/assets/metadataphoto/og-default.jpg", 
+        width: 1200,
+        height: 630,
+        alt: "Духовенство храму св. прп. Серафима Саровського у Вінниці",
+      },
+    ],
+    type: "article", 
+  },
+};
+
 
 export default function Clergy() {
   return (
