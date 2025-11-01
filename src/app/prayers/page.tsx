@@ -1,43 +1,35 @@
-"use client";
+import prayersData from "@/data/prayers.json";
+import { Prayer } from "@/types/prayers";
+import PrayersClient from "./PrayersClient";
 
-import { useState } from "react";
-import prayersData from "../../data/prayers.json";
-import styles from "./page.module.css";
-import type { Prayer } from "@/types/prayers";
-
-// export const metadata = {
-//   title: "Молитви | Церковний сайт",
-//   description: "Добірка молитов для парафіян нашої церкви.",
-// };
+export const metadata = {
+  title: "Молитви",
+  description:
+    "Молитви - тексти і відео молитов храму св. прп. Серафима Саровського у Вінниці. Адреса: Хмельницьке шосе, 145.",
+  metadataBase: new URL("https://parish-ten.vercel.app"),
+  openGraph: {
+    title: "Молитви — Храм св. прп. Серафима Саровського, Вінниця",
+    description:
+      "Почитайте та перегляньте відео молитов храму св. прп. Серафима Саровського у Вінниці. Тексти молитов для духовного збагачення.",
+    url: "https://parish-ten.vercel.app/prayers",
+    images: [
+      {
+        url: "/assets/metadataphoto/og-default.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Молитви храму св. прп. Серафима Саровського у Вінниці",
+      },
+    ],
+    type: "article",
+  },
+};
 
 export default function PrayersPage() {
   const prayers: Prayer[] = prayersData;
 
-  const [selectedPrayer, setSelectedPrayer] = useState<Prayer>(prayers[0]);
-
-  const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const prayer = prayers.find((p) => p.title === e.target.value);
-    if (prayer) setSelectedPrayer(prayer);
-  };
-
   return (
-    <section className={`container ${styles.wrapper}`}>
-      <div className={styles.prayersHeader}>
-        <select onChange={handleChange} className={styles.select}>
-          {prayers.map((prayer) => (
-            <option key={prayer.title} value={prayer.title}>
-              {prayer.title}
-            </option>
-          ))}
-        </select>
-      </div>
-
-      <div className={styles.text}>
-        {selectedPrayer.article.map((line, index) => (
-          <p key={index}>{line}</p>
-        ))}
-      </div>
+    <section className="container">
+      <PrayersClient prayers={prayers} />
     </section>
   );
 }
-
