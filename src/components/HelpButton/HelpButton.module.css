@@ -1,0 +1,23 @@
+.helpButton {
+  position: fixed;
+  right: 0;
+  bottom: 55px;
+  background-color: #b91c1c; /* насичений червоний */
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 10px;
+  border-radius:5px 0px 0px 5px ;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s, transform 0.2s;
+  z-index: 1000;
+}
+
+.helpButton:hover {
+  background-color: #dc2626;
+  transform: scale(1.05);
+}
+
+.helpButton:active {
+  transform: scale(0.97);
+}

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import SharedLayout from "@/layouts/SharedLayout";
 import Footer from "@/components/Footer/Footer";
+import HelpButton from "@/components/HelpButton/HelpButton";
 
 export const metadata: Metadata = {
   title: {
@@ -49,6 +50,7 @@ export default function RootLayout({
           <SharedLayout>{children}</SharedLayout>
           <Footer />
           {/* Портал для модалки */}
+          <HelpButton />
           <div id="modal-root" className="modalRoot" />
         </div>
       </body>

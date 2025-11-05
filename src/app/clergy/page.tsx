@@ -17,6 +17,7 @@ export const metadata = {
         alt: "Духовенство храму св. прп. Серафима Саровського у Вінниці",
       },
     ],
+    locale: "uk_UA",
     type: "article", 
   },
 };
