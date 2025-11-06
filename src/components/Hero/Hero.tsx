@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import css from "./Hero.module.css";
-import MarqueeAnnouncements from "../MarqueeAnnouncements/MarqueeAnnouncements";
+// import MarqueeAnnouncements from "../MarqueeAnnouncements/MarqueeAnnouncements";
 import AnnouncementSlider from "../AnnouncementSlider/AnnouncementSlider";
 
 const Hero: React.FC = () => {
@@ -25,9 +25,9 @@ const Hero: React.FC = () => {
 
       {showOverlay && (
         <div className={css.overlay} onClick={handleMapInteraction}>
-          <div className={css.marqueeWrapper}>
+          {/* <div className={css.marqueeWrapper}>
             <MarqueeAnnouncements />
-          </div>
+          </div> */}
           <div className={css.sliderWrapper}>
             <AnnouncementSlider />
           </div>
