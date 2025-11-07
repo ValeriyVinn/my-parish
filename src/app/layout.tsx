@@ -6,7 +6,7 @@ import HelpButton from "@/components/HelpButton/HelpButton";
 
 export const metadata: Metadata = {
   title: {
-    default: "Моя церква  — Храм св. прп. Серафима Саровського, Вінниця",
+    default: "Храм св. прп. Серафима Саровського, Вінниця - Новини",
     template: "%s — Храм св. прп. Серафима Саровського, Вінниця",
   },
   description:
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description:
       "Офіційний сайт храму св. прп. Серафима Саровського чудотворця у Вінниці.",
     url: "https://parish-ten.vercel.app/",
-    siteName: "Храм св. прп. Серафима Саровського",
+    siteName: "Храм св. прп. Серафима Саровського, Вінниця",
     images: [
       {
         url: "/assets/metadataphoto/og-default.jpg",

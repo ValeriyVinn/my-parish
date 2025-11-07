@@ -1,10 +1,8 @@
-
-
 .hero {
   position: relative;
   width: 100%;
   height: 95vh; /* займає всю висоту екрану */
-  
+
   overflow: hidden;
 }
 
@@ -33,5 +31,10 @@
 .marqueeWrapper,
 .sliderWrapper {
   pointer-events: auto;
-  margin:400px 10px 0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+  height: 100%; /* або конкретна висота */
 }
