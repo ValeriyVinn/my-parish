@@ -4,7 +4,11 @@ import Link from "next/link";
 import { useState } from "react";
 import css from "./SharedLayout.module.css";
 
-export default function SharedLayout({ children }: { children: React.ReactNode }) {
+export default function SharedLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -17,32 +21,57 @@ export default function SharedLayout({ children }: { children: React.ReactNode }
       <nav className={`${css.nav} ${isOpen ? css.open : ""}`}>
         <ul className={css.navList}>
           <li className={css.navItem}>
-            <Link href="/" className={css.navLink} onClick={() => setIsOpen(false)}>
-              Моя Церква
+            <Link
+              href="/"
+              className={css.navLink}
+              onClick={() => setIsOpen(false)}
+            >
+              Новини
             </Link>
           </li>
           <li className={css.navItem}>
-            <Link href="/shedule" className={css.navLink} onClick={() => setIsOpen(false)}>
+            <Link
+              href="/shedule"
+              className={css.navLink}
+              onClick={() => setIsOpen(false)}
+            >
               Розклад Богослужінь
             </Link>
           </li>
           <li className={css.navItem}>
-            <Link href="/calendar" className={css.navLink} onClick={() => setIsOpen(false)}>
+            <Link
+              href="/calendar"
+              className={css.navLink}
+              onClick={() => setIsOpen(false)}
+            >
               Календар
             </Link>
           </li>
+
           <li className={css.navItem}>
-            <Link href="/gallery" className={css.navLink} onClick={() => setIsOpen(false)}>
-              Галерея
-            </Link>
-          </li>
-          <li className={css.navItem}>
-            <Link href="/prayers" className={css.navLink} onClick={() => setIsOpen(false)}>
+            <Link
+              href="/prayers"
+              className={css.navLink}
+              onClick={() => setIsOpen(false)}
+            >
               Молитовник
             </Link>
           </li>
           <li className={css.navItem}>
-            <Link href="/clergy" className={css.navLink} onClick={() => setIsOpen(false)}>
+            <Link
+              href="/advert"
+              className={css.navLink}
+              onClick={() => setIsOpen(false)}
+            >
+              Оголошення
+            </Link>
+          </li>
+          <li className={css.navItem}>
+            <Link
+              href="/clergy"
+              className={css.navLink}
+              onClick={() => setIsOpen(false)}
+            >
               Духовенство
             </Link>
           </li>

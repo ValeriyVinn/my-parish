@@ -66,7 +66,7 @@ export default function NewsPage() {
       <section className={css.section}>
         <Hero />
 
-        {/* --- Тексти оголошень --- */}
+        {/* --- Тексти оголошень ---
         <p className={css.advertisement}>
           Слава Ісусу Христу! Дорога громадо, наші захисники мають гостру
           потребу в засобах гігієни (вологі серветки, сухий душ та ін.), прошу
@@ -86,7 +86,7 @@ export default function NewsPage() {
         <p className={css.advertisement}>
           Потрібен оператор твердопаливного котла (кочегар). Житлом і
           харчуванням забезпечуємо. Подробиці за тел: (097) 409-99-13
-        </p>
+        </p> */}
 
         {/* --- Новини --- */}
         {reversedData.map((block, blockIndex) => (
