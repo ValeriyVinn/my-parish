@@ -54,7 +54,7 @@ export default function SharedLayout({
               className={css.navLink}
               onClick={() => setIsOpen(false)}
             >
-              Молитовник
+              Молитви
             </Link>
           </li>
           <li className={css.navItem}>
