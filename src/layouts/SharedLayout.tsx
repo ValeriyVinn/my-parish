@@ -26,7 +26,7 @@ export default function SharedLayout({
               className={css.navLink}
               onClick={() => setIsOpen(false)}
             >
-              Новини
+              Храм
             </Link>
           </li>
           <li className={css.navItem}>
@@ -35,10 +35,10 @@ export default function SharedLayout({
               className={css.navLink}
               onClick={() => setIsOpen(false)}
             >
-              Розклад Богослужінь
+              Розклад
             </Link>
           </li>
-          <li className={css.navItem}>
+          {/* <li className={css.navItem}>
             <Link
               href="/calendar"
               className={css.navLink}
@@ -46,7 +46,7 @@ export default function SharedLayout({
             >
               Календар
             </Link>
-          </li>
+          </li> */}
 
           <li className={css.navItem}>
             <Link
