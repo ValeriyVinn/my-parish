@@ -23,21 +23,39 @@
 }
 
 body {
-  font-family: inherit; 
+  font-family: inherit;
   color: var(--color-text);
   background-color: var(--color-background);
   margin: 0;
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
+html {
+  font-size: 20px; /* телефон */
 }
 
+@media (min-width: 768px) {
+  html { font-size: 22px; } /* планшет */
+}
+
+@media (min-width: 1024px) {
+  html { font-size: 24px; } /* ноутбук */
+}
+
+@media (min-width: 1440px) {
+  html { font-size: 26px; } /* дисплей */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 h1,
 h2,
@@ -138,5 +156,5 @@ div {
 .quote {
   /* font-style: italic; */
   font-weight: 400;
-  color: rgb(255, 255, 255,0.6);
+  color: rgb(255, 255, 255, 0.6);
 }
