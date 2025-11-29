@@ -24,8 +24,10 @@ export const metadata = {
   },
 };
 
+
+
 export default function PrayersPage() {
-  const prayers: Prayer[] = prayersData;
+  const prayers: Prayer[] = prayersData as unknown as Prayer[];
 
   return (
     <section className="container">

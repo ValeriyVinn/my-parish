@@ -6,43 +6,118 @@
 
 // export default function PrayersClient({ prayers }: { prayers: Prayer[] }) {
 //   const [selectedPrayer, setSelectedPrayer] = useState<Prayer>(prayers[0]);
+//   const [activeVideoIndex, setActiveVideoIndex] = useState(0);
 
 //   const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
 //     const prayer = prayers.find((p) => p.title === e.target.value);
-//     if (prayer) setSelectedPrayer(prayer);
+//     if (prayer) {
+//       setSelectedPrayer(prayer);
+//       setActiveVideoIndex(0);
+//     }
 //   };
+
+//   const currentVideo = selectedPrayer.videos[activeVideoIndex];
 
 //   return (
 //     <div className={styles.wrapper}>
-//       <div className={styles.prayersHeader}>
-//         <select onChange={handleChange} className={styles.select}>
-//           {prayers.map((prayer) => (
-//             <option key={prayer.id} value={prayer.title}>
-//               {prayer.title}
-//             </option>
-//           ))}
-//         </select>
-//       </div>
-
-//       {/* Відео блок (тільки якщо youtubeId існує і не порожній) */}
-//       {selectedPrayer.youtubeId && selectedPrayer.youtubeId.trim() !== "" && (
+//       {/* Мобільне відео */}
+//       {currentVideo && (
 //         <div className={styles.videoBlock}>
 //           <div className={styles.videoWrapper}>
 //             <iframe
-//               src={`https://www.youtube.com/embed/${selectedPrayer.youtubeId}`}
-//               title={selectedPrayer.title}
+//               src={`https://www.youtube.com/embed/${currentVideo.id}`}
+//               title={currentVideo.title}
 //               allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
 //               allowFullScreen
 //             />
 //           </div>
+
+//           {/* Таби під відео на мобільному */}
+//           {selectedPrayer.videos.length > 1 && (
+//             <div className={styles.tabsMobile}>
+//               {selectedPrayer.videos.map((video, index) => (
+//                 <button
+//                   key={index}
+//                   className={`${styles.tab} ${
+//                     activeVideoIndex === index ? styles.activeTab : ""
+//                   }`}
+//                   onClick={() => setActiveVideoIndex(index)}
+//                 >
+//                   {video.title}
+//                 </button>
+//               ))}
+//             </div>
+//           )}
 //         </div>
 //       )}
 
-//       {/* Текст молитви */}
-//       <div className={styles.text}>
-//         {selectedPrayer.article.map((line, index) => (
-//           <p key={index}>{line}</p>
-//         ))}
+//       <div className={styles.content}>
+//         <div className={styles.leftColumn}>
+//           {/* Select */}
+//           <div className={styles.prayersHeader}>
+//             <select
+//               onChange={handleChange}
+//               className={styles.selectMobile}
+//               value={selectedPrayer.title}
+//             >
+//               {prayers.map((prayer) => (
+//                 <option key={prayer.id} value={prayer.title}>
+//                   {prayer.title}
+//                 </option>
+//               ))}
+//             </select>
+
+//             <select
+//               onChange={handleChange}
+//               className={styles.selectDecktop}
+//               value={selectedPrayer.title}
+//             >
+//               {prayers.map((prayer) => (
+//                 <option key={prayer.id} value={prayer.title}>
+//                   {prayer.title}
+//                 </option>
+//               ))}
+//             </select>
+//           </div>
+
+//           {/* Десктоп відео */}
+//           {currentVideo && (
+//             <div className={styles.videoBlockDesktop}>
+//               <div className={styles.videoWrapper}>
+//                 <iframe
+//                   src={`https://www.youtube.com/embed/${currentVideo.id}`}
+//                   title={currentVideo.title}
+//                   allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+//                   allowFullScreen
+//                 />
+//               </div>
+
+//               {/* Таби під відео десктоп */}
+//               {selectedPrayer.videos.length > 1 && (
+//                 <div className={styles.tabsDesktop}>
+//                   {selectedPrayer.videos.map((video, index) => (
+//                     <button
+//                       key={index}
+//                       className={`${styles.tab} ${
+//                         activeVideoIndex === index ? styles.activeTab : ""
+//                       }`}
+//                       onClick={() => setActiveVideoIndex(index)}
+//                     >
+//                       {video.title}
+//                     </button>
+//                   ))}
+//                 </div>
+//               )}
+//             </div>
+//           )}
+//         </div>
+
+//         {/* Текст молитви */}
+//         <div className={styles.text}>
+//           {selectedPrayer.article.map((line, index) => (
+//             <p key={index}>{line}</p>
+//           ))}
+//         </div>
 //       </div>
 //     </div>
 //   );
@@ -57,33 +132,74 @@ import styles from "./page.module.css";
 
 export default function PrayersClient({ prayers }: { prayers: Prayer[] }) {
   const [selectedPrayer, setSelectedPrayer] = useState<Prayer>(prayers[0]);
+  const [activeVideoIndex, setActiveVideoIndex] = useState(0);
 
   const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const prayer = prayers.find((p) => p.title === e.target.value);
-    if (prayer) setSelectedPrayer(prayer);
+    if (prayer) {
+      setSelectedPrayer(prayer);
+      setActiveVideoIndex(0);
+    }
   };
+
+  const currentVideo = selectedPrayer.videos[activeVideoIndex];
 
   return (
     <div className={styles.wrapper}>
-      {/* --- Фіксований або звичайний відеоблок залежно від ширини екрана --- */}
-      {selectedPrayer.youtubeId && selectedPrayer.youtubeId.trim() !== "" && (
+      {/* Мобільне відео */}
+      {currentVideo && (
         <div className={styles.videoBlock}>
           <div className={styles.videoWrapper}>
             <iframe
-              src={`https://www.youtube.com/embed/${selectedPrayer.youtubeId}`}
-              title={selectedPrayer.title}
+              src={`https://www.youtube.com/embed/${currentVideo.id}`}
+              title={currentVideo.title}
               allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
               allowFullScreen
             />
           </div>
+
+          {/* Таби під відео на мобільному (тільки якщо більше 1 відео) */}
+          {selectedPrayer.videos.length > 1 && (
+            <div className={styles.tabsMobile}>
+              {selectedPrayer.videos.map((video, index) => (
+                <button
+                  key={index}
+                  className={`${styles.tab} ${
+                    activeVideoIndex === index ? styles.activeTab : ""
+                  }`}
+                  onClick={() => setActiveVideoIndex(index)}
+                >
+                  {video.title}
+                </button>
+              ))}
+            </div>
+          )}
+
+          {/* Фіксований select під відео */}
+          <select
+            onChange={handleChange}
+            className={styles.selectMobileFixed}
+            value={selectedPrayer.title}
+          >
+            {prayers.map((prayer) => (
+              <option key={prayer.id} value={prayer.title}>
+                {prayer.title}
+              </option>
+            ))}
+          </select>
         </div>
       )}
 
-      {/* --- Ліва колонка (на планшетах і вище) або блок під відео (на мобільних) --- */}
+      {/* Контент тексту */}
       <div className={styles.content}>
         <div className={styles.leftColumn}>
+          {/* Десктоп select */}
           <div className={styles.prayersHeader}>
-            <select onChange={handleChange} className={styles.select}>
+            <select
+              onChange={handleChange}
+              className={styles.selectDecktop}
+              value={selectedPrayer.title}
+            >
               {prayers.map((prayer) => (
                 <option key={prayer.id} value={prayer.title}>
                   {prayer.title}
@@ -92,22 +208,39 @@ export default function PrayersClient({ prayers }: { prayers: Prayer[] }) {
             </select>
           </div>
 
-          {/* відео дублюється лише на планшетах, тому приховується на мобільних */}
-          {selectedPrayer.youtubeId && selectedPrayer.youtubeId.trim() !== "" && (
-            <div className={`${styles.videoBlock} ${styles.videoBlockDesktop}`}>
+          {/* Десктоп відео */}
+          {currentVideo && (
+            <div className={styles.videoBlockDesktop}>
               <div className={styles.videoWrapper}>
                 <iframe
-                  src={`https://www.youtube.com/embed/${selectedPrayer.youtubeId}`}
-                  title={selectedPrayer.title}
+                  src={`https://www.youtube.com/embed/${currentVideo.id}`}
+                  title={currentVideo.title}
                   allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
                   allowFullScreen
                 />
               </div>
+
+              {/* Таби десктоп */}
+              {selectedPrayer.videos.length > 1 && (
+                <div className={styles.tabsDesktop}>
+                  {selectedPrayer.videos.map((video, index) => (
+                    <button
+                      key={index}
+                      className={`${styles.tab} ${
+                        activeVideoIndex === index ? styles.activeTab : ""
+                      }`}
+                      onClick={() => setActiveVideoIndex(index)}
+                    >
+                      {video.title}
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           )}
         </div>
 
-        {/* --- Права колонка: текст з власним скролом --- */}
+        {/* Текст молитви */}
         <div className={styles.text}>
           {selectedPrayer.article.map((line, index) => (
             <p key={index}>{line}</p>
