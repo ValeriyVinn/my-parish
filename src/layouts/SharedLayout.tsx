@@ -18,7 +18,7 @@ export default function SharedLayout({
         {isOpen ? "ПРИХОВАТИ МЕНЮ" : "ВІДКРИТИ МЕНЮ"}
       </button>
 
-      <nav className={`${css.nav} ${isOpen ? css.open : ""}`}>
+      <nav className={`${css.nav}  ${isOpen ? css.open : ""} `}>
         <ul className={css.navList}>
           <li className={css.navItem}>
             <Link

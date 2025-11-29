@@ -40,15 +40,21 @@ html {
 }
 
 @media (min-width: 768px) {
-  html { font-size: 22px; } /* планшет */
+  html {
+    font-size: 22px;
+  } /* планшет */
 }
 
 @media (min-width: 1024px) {
-  html { font-size: 24px; } /* ноутбук */
+  html {
+    font-size: 24px;
+  } /* ноутбук */
 }
 
 @media (min-width: 1440px) {
-  html { font-size: 26px; } /* дисплей */
+  html {
+    font-size: 26px;
+  } /* дисплей */
 }
 
 *,
@@ -129,27 +135,20 @@ div {
   max-width: 100%; /* за замовчуванням */
 }
 
-@media (min-width: 480px) {
-  .container {
-    max-width: 440px;
-  }
+.container {
+  max-width: 95vw;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: 90vw;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1480px) {
   .container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1200px;
+    max-width: 80vw;
   }
 }
 
