@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import SharedLayout from "@/layouts/SharedLayout";
-import Footer from "@/components/Footer/Footer";
+// import Footer from "@/components/Footer/Footer";
 // import HelpButton from "@/components/HelpButton/HelpButton";
 
 export const metadata: Metadata = {
@@ -48,7 +48,7 @@ export default function RootLayout({
         {/* Основний контент */}
         <div className="main">
           <SharedLayout>{children}</SharedLayout>
-          <Footer />
+          {/* <Footer /> */}
           {/* Портал для модалки */}
           {/* <HelpButton /> */}
           <div id="modal-root" className="modalRoot" />

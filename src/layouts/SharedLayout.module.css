@@ -1,124 +1,275 @@
-/* Загальний reset */
-.nav {
-  background-color: var(--color-background);
-  padding: 0.8rem;
-  transition: transform 0.3s ease;
-  z-index: 1000;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+/* базові змінні */
+:root {
+  --nav-height: 64px;
+  --bg: rgb(250, 243, 243);
+  /* --accent: #e67e22; */
+  --accent: #2c3e50;;
+  --muted: #555;
+  --panel-bg: #fbfbfb;
 }
 
-/* Вертикальне мобільне меню (бургер) */
-.nav {
+/* header і navbar (фіксований зверху) */
+.header {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 350px;
-  transform: translateX(-100%);
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  z-index: 1200;
+  overflow: visible; /* щоб підменю не обрізалося */
 }
 
-.open {
-  transform: translateX(0);
-}
-
-/* Список пунктів */
-.navList {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-top: 4rem;
-}
-
-.navItem {
-  padding: 0;
-  font-size: 1rem;
-}
-
-.navLink {
-  color: var(--color-primary);
-  text-decoration: none;
-  
-}
-
-.navLink.active {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-/* Кнопка бургер */
-.burger {
+.navBar {
+  background: var(--bg);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  height: var(--nav-height);
   display: flex;
   align-items: center;
+  justify-content: center;
+  pointer-events: auto; /* головне меню завжди клікабельне */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
 
-  min-height: 3rem;
-  /* height: 2rem; */
-  position: fixed;
+/* Основний список меню (desktop) */
+.mainList {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0 1rem;
+}
 
-  top: 0.5rem;
-  left: 0rem;
-  z-index: 1100;
-  font-size: 1rem;
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.link {
+  color: var(--accent);
+  text-decoration: none;
   font-weight: 600;
-  border: none;
-  border-radius: 5px;
-  background-color: rgb(250, 243, 243, 0.5);
-    /* background-color: inherit; */
+}
 
-  /* background-color: rgb(230, 126, 34, 0.7); */
-  /* color: var(--color-accent); */
-  /* color: white; */
+.linkButton {
+  background: none;
+  /* border: none; */
   cursor: pointer;
-  padding: 10px 10px 10px 40px;
+  font-weight: 600;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0;
+  border: 1px solid #e67e22;
+  border-radius: 3px;
+  padding: 4px 8px;
+
 }
 
-/* Контент */
-.main {
-  /* padding: 1rem; */
-  padding-bottom: 70px;
+.caret {
+  font-size: 0.8rem;
+  opacity: 0.8;
 }
 
-/* === Планшет і ширше === */
+
+.phone {
+  margin-left: 1rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+/* ПАНЕЛЬ ПІДМЕНЮ (100% ширини під навбаром) */
+.submenuPanel {
+  position: fixed;
+  top: var(--nav-height);
+  left: 0;
+  width: 100%;
+  transform: translateY(-120%);
+  transition: transform 0.32s ease, opacity 0.32s ease;
+  opacity: 0;
+  pointer-events: none; /* блокуємо кліки за замовчуванням */
+  background: var(--panel-bg);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  z-index: 1100;
+}
+
+.submenuPanel.open {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto; /* кліки тільки коли відкрите */
+}
+
+.submenuPanel.hidden {
+  transform: translateY(-120%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* внутрішній контейнер підменю */
+.submenuInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* кожен пункт підменю */
+.subLink {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--accent);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.subText {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+/* Бургер (мобільна текстова кнопка) */
+.burger {
+  position: fixed;
+  top: 0.6rem;
+  left: 0.6rem;
+  z-index: 1300;
+  pointer-events: auto;
+  background: rgba(255,255,255,0.9);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Мобільне меню (offcanvas) */
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 85%;
+  max-width: 420px;
+  height: 100vh;
+  background: var(--bg);
+  box-shadow: 2px 0 12px rgba(0,0,0,0.12);
+  z-index: 1250;
+  transition: left 0.28s ease;
+  overflow-y: auto;
+  padding-top: calc(var(--nav-height) + 1rem);
+  pointer-events: auto;
+}
+
+.mobileOpen {
+  left: 0;
+}
+
+.mobileList {
+  list-style: none;
+  margin: 0;
+  padding: 0 1rem 2rem 1rem;
+}
+
+.mobileItem {
+  margin-bottom: 0.6rem;
+}
+
+.mobileMainLink {
+  display: block;
+  font-weight: 700;
+  padding: 0.1rem 0;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.mobileSubList {
+  margin-left: 0.8rem;
+  margin-top: 0.3rem;
+  list-style: none;
+  padding: 0;
+}
+
+.mobileSubItem {
+  margin-bottom: 0.3rem;
+}
+
+.mobileSubLink,
+.mobileSubButton {
+  display: block;
+  text-decoration: none;
+  color: var(--muted);
+  background: none;
+  border: none;
+  font-weight: 600;
+  padding: 0.25rem 0;
+  cursor: pointer;
+}
+
+.mobilePhone {
+  font-weight: 700;
+  color: var(--muted);
+}
+
+/* Основний контент сторінки — компенсуєм висоту меню на desktop */
+.pageMain {
+  padding-top: calc(var(--nav-height) + 8px);
+}
+
+
+
+/* Адаптивні правки */
 @media (min-width: 768px) {
-  .nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: auto;
-    width: 100%;
-    transform: translateX(0); /* постійно видно */
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .navList {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 0;
-  }
-
+  .mobileMenu,
   .burger {
     display: none;
   }
-
-  .main {
-    margin-top: 100px; /* компенсуємо висоту горизонтального меню */
-  }
-}
-@media (min-width: 968px) {
-  .main {
-    margin-top: 70px; /* компенсуємо висоту горизонтального меню */
+  .pageMain {
+    padding-top: calc(var(--nav-height) + 8px);
   }
 }
 
-body.modal-open .burger {
-  display: none;
+@media (max-width: 767px) {
+  .submenuPanel {
+    display: none;
+  }
+  .navBar {
+    justify-content: flex-start;
+    padding-left: 4rem;
+    display: none;
+  }
 }
+/* !-------- */
+/* .phoneText{
+  color: red;
+} */
+
+/* .contactBlock {
+  background-color: #ffe9e9; 
+
+
+} */
+.contactBlock:first-child {
+  margin-right: 0px;
+}
+
+/* Додатково можна зробити однаковий стиль для всіх */
+/* .contactBlock:hover {
+  background-color: #e0e6eb;
+} */
+
+.subLink.contactBlock,
+.mobileSubButton
+  {
+    padding: 2px 12px;
+    color: rgb(250, 243, 243);
+    border-radius: 3px;
+    background-color: #e67e22
+  }
+
