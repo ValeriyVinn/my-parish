@@ -1,18 +1,17 @@
-.articleClergy {
-  margin: 100px auto;
-  font-size: 18px;
-  padding-left: 20px;
+
+
+.contain {
+  padding: 2rem;
+  text-align: left;
 }
 
-.prior {
-  font-size: 20px;
- 
+.articleClergy {
+  max-width: fit-content;
+  margin: 100px auto;
 }
+
 
 .clergyPhone {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
-.clergyList > li {
-  font-size: 20px;
-}

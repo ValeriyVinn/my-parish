@@ -2,9 +2,9 @@ import styles from "./page.module.css";
 
 export default function AidPage() {
   return (
-    <div className= {`${styles.addContainer} container`}>
-      
-           
+    <main className={`${styles.addContainer} container`}>
+      <section>
+        <h1 className={`${styles.advertHeader} sr-only`}>Оголошення</h1>
         <p className={styles.advertisement}>
           Слава Ісусу Христу! Дорога громадо, наші захисники мають гостру
           потребу в засобах гігієни (вологі серветки, сухий душ та ін.), прошу
@@ -21,6 +21,7 @@ export default function AidPage() {
           підодіяльники, шкарпетки, спідня білизна — усе чисте. Пункт збору ви
           знаєте. Нехай Господь благословить!
         </p>
-    </div>
+      </section>
+    </main>
   );
 }

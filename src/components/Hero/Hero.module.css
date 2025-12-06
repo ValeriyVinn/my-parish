@@ -38,3 +38,7 @@
   padding-bottom: 30px;
   height: 100%; /* або конкретна висота */
 }
+.overlayImage {
+  object-fit: cover;
+  object-position: center; /* центрує фото */
+}

@@ -4,6 +4,7 @@ import { useState } from "react";
 import css from "./Hero.module.css";
 // import MarqueeAnnouncements from "../MarqueeAnnouncements/MarqueeAnnouncements";
 import AnnouncementSlider from "../AnnouncementSlider/AnnouncementSlider";
+// import Image from "next/image";
 
 const Hero: React.FC = () => {
   const [showOverlay, setShowOverlay] = useState<boolean>(true);
@@ -25,9 +26,13 @@ const Hero: React.FC = () => {
 
       {showOverlay && (
         <div className={css.overlay} onClick={handleMapInteraction}>
-          {/* <div className={css.marqueeWrapper}>
-            <MarqueeAnnouncements />
-          </div> */}
+          {/* <Image
+            src="/images/DSC_1226.JPG"
+            alt="Розпис козирка храму"
+            fill
+            className={css.overlayImage}
+            priority
+          /> */}
           <div className={css.sliderWrapper}>
             <AnnouncementSlider />
           </div>
@@ -38,5 +43,3 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
-
-

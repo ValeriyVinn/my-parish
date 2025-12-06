@@ -1,7 +1,11 @@
 .addContainer {
   padding-top: 50px;
-}
 
+}
+.advertHeader {
+  text-align: center;
+  margin-bottom: 20px;
+}
 .advertisement {
   font-size: 1.25rem;
   margin: 20px auto;

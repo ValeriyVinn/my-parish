@@ -11,22 +11,22 @@ export const metadata = {
     url: "https://parish-ten.vercel.app/clergy",
     images: [
       {
-        url: "/assets/metadataphoto/og-default.jpg", 
+        url: "/assets/metadataphoto/og-default.jpg",
         width: 1200,
         height: 630,
         alt: "Духовенство храму св. прп. Серафима Саровського у Вінниці",
       },
     ],
     locale: "uk_UA",
-    type: "article", 
+    type: "article",
   },
 };
 
-
 export default function Clergy() {
   return (
-    <div className="container">
-      <article className={styles.articleClergy}>
+    <main className={`${styles.contain} container `}>
+      <section className={styles.articleClergy}>
+        <h1 className="sr-only">Духовенство</h1>
         <h2 className={styles.prior}>Настоятель</h2>
 
         <ul className={styles.clergyList}>
@@ -50,7 +50,7 @@ export default function Clergy() {
             <p className={styles.clergyPhone}></p>
           </li>
         </ul>
-      </article>
-    </div>
+      </section>
+    </main>
   );
 }
