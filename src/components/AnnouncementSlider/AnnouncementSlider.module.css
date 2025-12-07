@@ -1,5 +1,4 @@
 .slider {
-  border: 1px solid var(--color-accent);
   border-radius: 5px;
   width: 100%;
   max-width: 1000px;
@@ -10,8 +9,8 @@
   overflow: hidden; /* щоб текст не виходив за межі */
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
- background-color: rgb(230, 126, 34, 0.6);
+  justify-content: space-between;
+  background-color: rgb(230, 126, 34, 0.6);
 }
 
 .text {
@@ -54,8 +53,8 @@
   cursor: pointer;
   /* background-color: #9ca3af; */
   background-color: rgb(250, 243, 243);
-  
-    border: 1px solid var(--color-accent);
+
+  border: 1px solid var(--color-accent);
 
   transition: background-color 0.3s ease;
 }
