@@ -1,8 +1,8 @@
 .slider {
-  /* border: 1px solid var(--color-accent); */
+  border: 1px solid var(--color-accent);
   border-radius: 5px;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   min-height: 180px;
   margin: 0 auto;
   text-align: center;
@@ -15,7 +15,7 @@
 }
 
 .text {
-  font-size: 18px;
+  /* font-size: 20px; */
   font-weight: 500;
   opacity: 0;
   transform: translateX(30px);

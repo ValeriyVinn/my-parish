@@ -2,37 +2,44 @@
 
 import { useState } from "react";
 import css from "./Hero.module.css";
-// import MarqueeAnnouncements from "../MarqueeAnnouncements/MarqueeAnnouncements";
 import AnnouncementSlider from "../AnnouncementSlider/AnnouncementSlider";
-// import Image from "next/image";
+import Image from "next/image";
 
 const Hero: React.FC = () => {
-  const [showOverlay, setShowOverlay] = useState<boolean>(true);
+  const [showOverlay, setShowOverlay] = useState(true);
+  const [isFading, setIsFading] = useState(false);
 
   const handleMapInteraction = () => {
-    if (showOverlay) setShowOverlay(false);
+    if (!showOverlay) return;
+
+    setIsFading(true);
+
+    setTimeout(() => {
+      setShowOverlay(false);
+    }, 400); // час збігається з CSS-анімацією
   };
 
   return (
     <section className={css.hero}>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!4v1756466151546!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRFJfdGFURkE.!2m2!1d49.23546411902534!2d28.40801582095849!3f197.5982378084684!4f-0.7682893815250225!5f0.803669135010503"
+        src="https://www.google.com/maps/embed?pb=!4v1765108292165!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRFJfcmFnamdF!2m2!1d49.23535792138819!2d28.40799720221045!3f181.88945890502413!4f5.391517585817354!5f0.7820865974627469"
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-        onClick={handleMapInteraction}
-        title="Google Map"
       />
 
       {showOverlay && (
-        <div className={css.overlay} onClick={handleMapInteraction}>
-          {/* <Image
-            src="/images/DSC_1226.JPG"
+        <div
+          className={`${css.overlay} ${isFading ? css.fadeOut : ""}`}
+          onClick={handleMapInteraction}
+        >
+          <Image
+            src="/images/hero-image1.jpg"
             alt="Розпис козирка храму"
             fill
             className={css.overlayImage}
             priority
-          /> */}
+          />
           <div className={css.sliderWrapper}>
             <AnnouncementSlider />
           </div>
