@@ -1,4 +1,3 @@
-
 import styles from "./page.module.css";
 
 const links = [
@@ -19,8 +18,8 @@ export default function UsefulLinksPage() {
       <section className={styles.usefulLinks}>
         <h1 className={styles.usefulLinksHeader}>Корисні посилання</h1>
         <ul className={styles.linkList}>
-          {links.map((link, i) => (
-            <li key={i} className={styles.linkItem}>
+          {links.map((link) => (
+            <li key={link.url} className={styles.linkItem}>
               <a href={link.url} target="_blank" rel="noopener noreferrer">
                 {link.title}
               </a>

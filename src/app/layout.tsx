@@ -6,7 +6,7 @@ import SharedLayout from "@/layouts/SharedLayout";
 
 export const metadata: Metadata = {
   title: {
-    default: "Храм св. прп. Серафима Саровського, Вінниця - Новини",
+    default: "Храм св. прп. Серафима Саровського, Вінниця - Сайт парафії",
     template: "%s — Храм св. прп. Серафима Саровського, Вінниця",
   },
   description:
