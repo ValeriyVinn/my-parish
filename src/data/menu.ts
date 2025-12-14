@@ -13,13 +13,14 @@ export const menu: MenuItem[] = [
     title: "Розклад",
     href: "/shedule",
     sub: [
-      { title: "Події", href: "/shedule/events" },
+      
       { title: "Таїнства", href: "/shedule/sacraments" },
       { title: "Свята", href: "/shedule/holidays" },
       { title: "Седмиці", href: "/shedule/weeks" },
       { title: "Пости", href: "/shedule/fasts" },
       { title: "Поминальні дні", href: "/shedule/memorial" },
       { title: "Житія Святих", href: "/shedule/lives" },
+      { title: "Наша Історія", href: "/shedule/events" },
     ],
   },
   { title: "Молитви", href: "/prayers" },
