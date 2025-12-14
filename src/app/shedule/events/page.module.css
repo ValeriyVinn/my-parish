@@ -79,8 +79,8 @@
 
 .videoBadge {
   position: absolute;
-  top: 6px;
-  right: 6px;
+  bottom: 5px;
+  right: 5px;
   background: #e67e22;
   color: #fff;
   font-size: 0.75rem;
