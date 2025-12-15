@@ -10,22 +10,28 @@ type MediaItem = {
   alt?: string;
 };
 
+type EventPosition = "top" | "bottom";
+
 type Event = {
   date: string;
   type: "youtube" | "gallery";
+  position?: EventPosition; // тільки для youtube
   youtubeId?: string;
   media?: MediaItem[];
 };
+
 
 const events: Event[] = [
   {
     date: "Художник Іван Петрович Грищук",
     type: "youtube",
+    position: "top",
     youtubeId: "dvy47iFfhAA",
   },
   {
     date: "'СПОВІДЬ' авторська програма Олега Володарського 11.05.2021",
     type: "youtube",
+    position: "top",
     youtubeId: "RcqlodEGuZs",
   },
   {
@@ -49,36 +55,61 @@ const events: Event[] = [
       { type: "video", src: "/assets/churchpainting/2021-10-21/7.mp4" },
     ],
   },
+  
+    {
+    date: "Розпис Храму 28 жовтня 2025 р. - Ч. 1",
+    type: "youtube",
+    position: "bottom",
+    youtubeId: "nfxQjtu5Pwo",
+  },
+  {
+    date: "Розпис Храму 28 жовтня 2025 р. - Ч. 2",
+    type: "youtube",
+    position: "bottom",  
+    youtubeId: "CRFOhqtg_yE",
+  },
 ];
 
 const Timeline: React.FC = () => {
   const [selectedMedia, setSelectedMedia] = useState<MediaItem | null>(null);
 
+  const renderYoutubeRow = (position: "top" | "bottom") => (
+    <div className={styles.youtubeRow}>
+      {events
+        .filter(
+          (event) =>
+            event.type === "youtube" && event.position === position
+        )
+        .map((event, idx) => (
+          <div key={idx} className={styles.eventYoutube}>
+            <h3 className={styles.eventDate}>{event.date}</h3>
+            <div className={styles.youtubeWrapper}>
+              <iframe
+                src={`https://www.youtube.com/embed/${event.youtubeId}`}
+                title={event.date}
+                allowFullScreen
+              />
+            </div>
+            
+          </div>
+        ))}
+    </div>
+  );
+
   return (
     <div className={`${styles.timeline} container`}>
       <h1 className={styles.paintingHeader}>Розпис Храму</h1>
-      <div className={styles.youtubeRow}>
-        {events
-          .filter((event) => event.type === "youtube")
-          .map((event, idx) => (
-            <div key={idx} className={styles.eventYoutube}>
-              <div className={styles.youtubeWrapper}>
-                <iframe
-                  src={`https://www.youtube.com/embed/${event.youtubeId}`}
-                  title="YouTube video"
-                  allowFullScreen
-                />
-              </div>
-              <h3 className={styles.eventDate}>{event.date}</h3>
-            </div>
-          ))}
-      </div>
 
+      {/* 🔝 YouTube зверху */}
+      {renderYoutubeRow("top")}
+
+      {/* 🖼 Галереї */}
       {events
         .filter((event) => event.type === "gallery")
         .map((event, idx) => (
           <div key={idx} className={styles.eventGallery}>
             <h3 className={styles.eventDate}>{event.date}</h3>
+
             <div className={styles.galleryGrid}>
               {event.media?.map((m, i) => (
                 <div
@@ -101,6 +132,10 @@ const Timeline: React.FC = () => {
           </div>
         ))}
 
+      {/* 🔽 YouTube в кінці сторінки */}
+      {renderYoutubeRow("bottom")}
+
+      {/* 🔍 Модалка */}
       {selectedMedia && (
         <Modal onClose={() => setSelectedMedia(null)}>
           {selectedMedia.type === "image" ? (

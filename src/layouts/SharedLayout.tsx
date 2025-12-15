@@ -6,8 +6,13 @@ import { usePathname, useRouter } from "next/navigation";
 import { menu } from "@/data/menu";
 import css from "./SharedLayout.module.css";
 import Modal from "../components/Modal/Modal";
+import { FiChevronRight } from "react-icons/fi";
 
-export default function SharedLayout({ children }: { children: React.ReactNode }) {
+export default function SharedLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const [isOpen, setIsOpen] = useState(false);
   const [openSub, setOpenSub] = useState<string | null>(null);
   const [submenuHidden, setSubmenuHidden] = useState(false);
@@ -155,13 +160,21 @@ export default function SharedLayout({ children }: { children: React.ReactNode }
                       m.title === "Контакти" ? css.contactBlock : ""
                     }`}
                   >
-                    <Link
-                      href={m.href ?? "#"}
-                      className={css.mobileMainLink}
-                      onClick={() => setIsOpen(false)}
-                    >
-                      {m.title}
-                    </Link>
+{m.href ? (
+  <Link
+    href={m.href}
+    className={css.mobileMainLink}
+    onClick={() => setIsOpen(false)}
+  >
+    <span>{m.title}</span>
+    <FiChevronRight className={css.mobileArrow} />
+  </Link>
+) : (
+  <div className={css.mobileMainLabel}>
+    <span>{m.title}</span>
+  </div>
+)}
+
                   </div>
                   {m.sub && (
                     <ul className={css.mobileSubList}>
@@ -189,7 +202,8 @@ export default function SharedLayout({ children }: { children: React.ReactNode }
                               className={css.mobileSubLink}
                               onClick={() => setIsOpen(false)}
                             >
-                              {s.title}
+                              <span>{s.title}</span>
+                              <FiChevronRight className={css.mobileArrow} />
                             </Link>
                           )}
                         </li>

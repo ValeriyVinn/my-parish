@@ -8,24 +8,31 @@ export type MenuItem = {
 };
 
 export const menu: MenuItem[] = [
-  { title: "Храм", href: "/" },
   {
-    title: "Розклад",
-    href: "/shedule",
+    title: "Храм",
+    // href: "/",
     sub: [
-      
-      { title: "Таїнства", href: "/shedule/sacraments" },
-      { title: "Свята", href: "/shedule/holidays" },
-      { title: "Седмиці", href: "/shedule/weeks" },
-      { title: "Пости", href: "/shedule/fasts" },
-      { title: "Поминальні дні", href: "/shedule/memorial" },
-      { title: "Житія Святих", href: "/shedule/lives" },
-      { title: "Наша Історія", href: "/shedule/events" },
+      { title: "Головна", href: "/" },
+      { title: "Наша Історія", href: "/history" },
+      { title: "Духовенство", href: "/clergy" },
+    ],
+  },
+  { title: "Розклад", href: "/shedule" },
+  {
+    title: "Події",
+    // href: "/shedule",
+    sub: [
+      { title: "Таїнства", href: "/events/sacraments" },
+      { title: "Свята", href: "/events/holidays" },
+      { title: "Седмиці", href: "/events/weeks" },
+      { title: "Пости", href: "/events/fasts" },
+      { title: "Поминальні дні", href: "/events/memorial" },
+      { title: "Житія Святих", href: "/events/lives" },
     ],
   },
   { title: "Молитви", href: "/prayers" },
   { title: "Оголошення", href: "/advert" },
-  { title: "Духовенство", href: "/clergy" },
+
   { title: "Ресурси", href: "/useful-links" },
   {
     title: "Контакти",
