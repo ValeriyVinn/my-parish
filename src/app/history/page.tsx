@@ -20,7 +20,6 @@ type Event = {
   media?: MediaItem[];
 };
 
-
 const events: Event[] = [
   {
     date: "Художник Іван Петрович Грищук",
@@ -35,28 +34,263 @@ const events: Event[] = [
     youtubeId: "RcqlodEGuZs",
   },
   {
-    date: "Розпис Храму 2021-2022 рр.",
+    date: "Розпис Храму 20 липня - 31 серпня 2021 р.",
     type: "gallery",
     media: [
-      { type: "image", src: "/assets/churchpainting/2021-10-21/1.jpg", alt: "Фото 1" },
-      { type: "video", src: "/assets/churchpainting/2021-10-21/4.mp4" },
-      { type: "video", src: "/assets/churchpainting/2021-10-21/3.mp4" },
-      { type: "image", src: "/assets/churchpainting/2021-10-21/2.jpg", alt: "Фото 2" },
-      { type: "video", src: "/assets/churchpainting/2021-10-21/8.mp4" },
-      { type: "video", src: "/assets/churchpainting/2021-10-21/9.mp4" },
-      { type: "image", src: "/assets/churchpainting/2021-10-21/4.jpg", alt: "Фото 4" },
-      { type: "image", src: "/assets/churchpainting/2021-10-21/5.jpg", alt: "Фото 5" },
-      { type: "image", src: "/assets/churchpainting/2021-10-21/6.jpg", alt: "Фото 6" },
-      { type: "image", src: "/assets/churchpainting/2021-10-21/7.jpg", alt: "Фото 7" },
-      { type: "video", src: "/assets/churchpainting/2021-10-21/1.mp4" },
-      { type: "video", src: "/assets/churchpainting/2021-10-21/2.mp4" },
-      { type: "video", src: "/assets/churchpainting/2021-10-21/5.mp4" },
-      { type: "video", src: "/assets/churchpainting/2021-10-21/6.mp4" },
-      { type: "video", src: "/assets/churchpainting/2021-10-21/7.mp4" },
+      {
+        type: "image",
+        src: "/assets/churchpainting/01-20july-31august-2021/01.jpg",
+        alt: "Фото 1",
+      },
+
+      {
+        type: "video",
+        src: "/assets/churchpainting/01-20july-31august-2021/02.mp4",
+      },
+
+      {
+        type: "video",
+        src: "/assets/churchpainting/01-20july-31august-2021/03.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/01-20july-31august-2021/04.mp4",
+      },
+
+      {
+        type: "video",
+        src: "/assets/churchpainting/01-20july-31august-2021/05.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/01-20july-31august-2021/06.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/01-20july-31august-2021/07.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/01-20july-31august-2021/08.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/01-20july-31august-2021/01.mp4",
+      },
     ],
   },
-  
-    {
+  {
+    date: "Розпис Храму 06 вересня - 18 жовтня 2021 р.",
+    type: "gallery",
+
+    media: [
+      {
+        type: "image",
+        src: "/assets/churchpainting/03-21october-2021/01.jpg",
+        alt: "Фото 1",
+      },
+
+      {
+        type: "video",
+        src: "/assets/churchpainting/03-21october-2021/01.mp4",
+      },
+
+      {
+        type: "video",
+        src: "/assets/churchpainting/03-21october-2021/02.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/03-21october-2021/03.mp4",
+      },
+
+      {
+        type: "video",
+        src: "/assets/churchpainting/03-21october-2021/04.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/03-21october-2021/05.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/03-21october-2021/06.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/03-21october-2021/07.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/03-21october-2021/08.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/03-21october-2021/09.mp4",
+      },
+    ],
+  },
+  {
+    date: "Розпис Храму 21 жовтня 2021р.",
+    type: "gallery",
+
+    media: [
+      {
+        type: "video",
+        src: "/assets/churchpainting/02-06september-18october-2021/09.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/02-06september-18october-2021/10.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/02-06september-18october-2021/01.mp4",
+      },
+
+      {
+        type: "video",
+        src: "/assets/churchpainting/02-06september-18october-2021/02.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/02-06september-18october-2021/03.mp4",
+      },
+
+      {
+        type: "video",
+        src: "/assets/churchpainting/02-06september-18october-2021/04.mp4",
+      },
+
+      {
+        type: "video",
+        src: "/assets/churchpainting/02-06september-18october-2021/05.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/02-06september-18october-2021/06.mp4",
+      },
+
+      {
+        type: "video",
+        src: "/assets/churchpainting/02-06september-18october-2021/07.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/02-06september-18october-2021/08.mp4",
+      },
+
+      {
+        type: "video",
+        src: "/assets/churchpainting/02-06september-18october-2021/11.mp4",
+      },
+    ],
+  },
+  {
+    date: "Розпис Храму 03 листопада 2021р - 06 січня 2022р.",
+    type: "gallery",
+    media: [
+      {
+        type: "image",
+        src: "/assets/churchpainting/04-03november2021-06january2022/01.jpg",
+        alt: "Фото 1",
+      },
+      {
+        type: "image",
+        src: "/assets/churchpainting/04-03november2021-06january2022/02.jpg",
+        alt: "Фото 1",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/04-03november2021-06january2022/01.mp4",
+      },
+
+      {
+        type: "video",
+        src: "/assets/churchpainting/04-03november2021-06january2022/02.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/04-03november2021-06january2022/03.mp4",
+      },
+
+      {
+        type: "video",
+        src: "/assets/churchpainting/04-03november2021-06january2022/04.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/04-03november2021-06january2022/05.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/04-03november2021-06january2022/06.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/04-03november2021-06january2022/07.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/04-03november2021-06january2022/08.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/04-03november2021-06january2022/09.mp4",
+      },
+      {
+        type: "video",
+        src: "/assets/churchpainting/04-03november2021-06january2022/10.mp4",
+      },
+    ],
+  },
+  // {
+  //   date: "Розпис Храму 2021-2022 рр.",
+  //   type: "gallery",
+  //   media: [
+  //     {
+  //       type: "image",
+  //       src: "/assets/churchpainting/2021-10-21/1.jpg",
+  //       alt: "Фото 1",
+  //     },
+  //     { type: "video", src: "/assets/churchpainting/2021-10-21/4.mp4" },
+  //     { type: "video", src: "/assets/churchpainting/2021-10-21/3.mp4" },
+  //     {
+  //       type: "image",
+  //       src: "/assets/churchpainting/2021-10-21/2.jpg",
+  //       alt: "Фото 2",
+  //     },
+  //     { type: "video", src: "/assets/churchpainting/2021-10-21/8.mp4" },
+  //     { type: "video", src: "/assets/churchpainting/2021-10-21/9.mp4" },
+  //     {
+  //       type: "image",
+  //       src: "/assets/churchpainting/2021-10-21/4.jpg",
+  //       alt: "Фото 4",
+  //     },
+  //     {
+  //       type: "image",
+  //       src: "/assets/churchpainting/2021-10-21/5.jpg",
+  //       alt: "Фото 5",
+  //     },
+  //     {
+  //       type: "image",
+  //       src: "/assets/churchpainting/2021-10-21/6.jpg",
+  //       alt: "Фото 6",
+  //     },
+  //     {
+  //       type: "image",
+  //       src: "/assets/churchpainting/2021-10-21/7.jpg",
+  //       alt: "Фото 7",
+  //     },
+  //     { type: "video", src: "/assets/churchpainting/2021-10-21/1.mp4" },
+  //     { type: "video", src: "/assets/churchpainting/2021-10-21/2.mp4" },
+  //     { type: "video", src: "/assets/churchpainting/2021-10-21/5.mp4" },
+  //     { type: "video", src: "/assets/churchpainting/2021-10-21/6.mp4" },
+  //     { type: "video", src: "/assets/churchpainting/2021-10-21/7.mp4" },
+  //   ],
+  // },
+
+  {
     date: "Розпис Храму 28 жовтня 2025 р. - Ч. 1",
     type: "youtube",
     position: "bottom",
@@ -65,7 +299,7 @@ const events: Event[] = [
   {
     date: "Розпис Храму 28 жовтня 2025 р. - Ч. 2",
     type: "youtube",
-    position: "bottom",  
+    position: "bottom",
     youtubeId: "CRFOhqtg_yE",
   },
 ];
@@ -77,8 +311,7 @@ const Timeline: React.FC = () => {
     <div className={styles.youtubeRow}>
       {events
         .filter(
-          (event) =>
-            event.type === "youtube" && event.position === position
+          (event) => event.type === "youtube" && event.position === position
         )
         .map((event, idx) => (
           <div key={idx} className={styles.eventYoutube}>
@@ -90,7 +323,6 @@ const Timeline: React.FC = () => {
                 allowFullScreen
               />
             </div>
-            
           </div>
         ))}
     </div>
