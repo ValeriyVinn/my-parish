@@ -31,7 +31,7 @@ export default function ShedulePage() {
 
   return (
     <section className={`container ${styles.wrapper}`}>
-      <h1 className={styles.title}>Розклад Богослужінь — Грудень</h1>
+      <h1 className={styles.title}>Розклад Богослужінь — Січень</h1>
 
       <div className={styles.tableWrapper}>
         <table className={styles.table}>
