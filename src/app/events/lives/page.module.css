@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* gap: 24px; */
+}
+
+/* меню */
+.menu {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+/* кнопки */
+.menuItem {
+  padding: 5px 8px;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #222;
+  background-color: #fff;
+  transition: all 0.2s ease;
+}
+
+/* hover */
+/* .menuItem:hover {
+  background-color: #f3f3f3;
+  border-color: #999;
+} */
+
+/* активна */
+.active {
+  background-color: #e67e22;
+  color: #fff;
+  /* border-color: #2b6cb0; */
+  /* pointer-events: none; */
+}
+
+
+.sacramentsParagraph{
+  text-align: left;
+}

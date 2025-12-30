@@ -3,7 +3,7 @@
 import scheduleData from "../../data/schedule.json";
 import styles from "./page.module.css";
 import type { ScheduleItem } from "@/types/schedule";
-
+import Link from "next/link";
 export const metadata = {
   title: "Розклад Богослужінь ",
   description:
@@ -15,7 +15,7 @@ export const metadata = {
     url: "https://parish-ten.vercel.app/shedule",
     images: [
       {
-        url: "/assets/metadataphoto/og-default.jpg", 
+        url: "/assets/metadataphoto/og-default.jpg",
         width: 1200,
         height: 630,
         alt: "Розклад богослужінь у храмі св. прп. Серафима Саровського, Вінниця",
@@ -24,7 +24,6 @@ export const metadata = {
     type: "article",
   },
 };
-
 
 export default function ShedulePage() {
   const schedule: ScheduleItem[] = scheduleData;
@@ -52,8 +51,25 @@ export default function ShedulePage() {
                   {i === 0 && (
                     <>
                       <td rowSpan={item.services.length}>{item.date}</td>
-                      {/* <td rowSpan={item.services.length}>{item.day}</td> */}
-                      <td rowSpan={item.services.length}>{item.title}</td>
+                      <td rowSpan={item.services.length}>
+                        {item.title}
+
+                        {item.saints && item.saints.length > 0 && (
+                          <>
+                            {item.saints.map((saint, index) => (
+                              <span key={saint.slug}>
+                                <Link
+                                  href={`/events/lives/${saint.slug}`}
+                                  className={styles.saintLink}
+                                >
+                                  {saint.name}
+                                </Link>
+                                {index < item.saints!.length - 1 && ", "}
+                              </span>
+                            ))}
+                          </>
+                        )}
+                      </td>
                     </>
                   )}
                   <td>{service.time}</td>
@@ -67,4 +83,3 @@ export default function ShedulePage() {
     </section>
   );
 }
-

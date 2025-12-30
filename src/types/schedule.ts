@@ -1,11 +1,16 @@
-export interface Service {
+export type Saint = {
+  name: string;
+  slug: string;
+};
+
+export type Service = {
   time: string;
   name: string;
-}
+};
 
-export interface ScheduleItem {
+export type ScheduleItem = {
   date: string;
-  day?: string;
   title: string;
+  saints?: Saint[];
   services: Service[];
-}
+};
