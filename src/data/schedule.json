@@ -18,10 +18,12 @@
     "date": "2 січня,  п'ятниця",
     "day": "",
     "title": "",
-    "saint": {
-      "name": "Св. прп. Серафима Саровського",
-      "slug": "seraphim-sarovskyi"
-    },
+    "saints": [
+      {
+        "name": "Св. прп. Серафима Саровського",
+        "slug": "seraphim-sarovskyi"
+      }
+    ],
     "services": [{ "time": "9:00", "name": "Молебень з акафістом" }]
   },
   {
