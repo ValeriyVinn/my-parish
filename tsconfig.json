@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "src/app/events/lives/vasyl-velykyi/page.mdx"  ],
+, "src/app/events/lives/vasyl-velykyi/page.mdx", "src/app/history/page.tsx"  ],
   "exclude": ["node_modules"]
 }
