@@ -26,7 +26,22 @@ export const metadata = {
 };
 
 export default function ShedulePage() {
-  const schedule: ScheduleItem[] = scheduleData;
+  const schedule = scheduleData as ScheduleItem[];
+
+
+  function renderEventLinks(
+    items: { name: string; slug: string }[],
+    basePath: string
+  ) {
+    return items.map((item, index) => (
+      <span key={item.slug}>
+        <Link href={`${basePath}/${item.slug}`} className={styles.eventLink}>
+          {item.name}
+        </Link>
+        {index < items.length - 1 && ", "}
+      </span>
+    ));
+  }
 
   return (
     <section className={`container ${styles.wrapper}`}>
@@ -52,22 +67,22 @@ export default function ShedulePage() {
                     <>
                       <td rowSpan={item.services.length}>{item.date}</td>
                       <td rowSpan={item.services.length}>
-                        {item.title}
+                       {item.title && <span>{item.title}</span>}
+
+
+                        {item.holidays && item.holidays.length > 0 && (
+                          <div className={styles.eventLinks}>
+                            {renderEventLinks(
+                              item.holidays,
+                              "/events/holidays"
+                            )}
+                          </div>
+                        )}
 
                         {item.saints && item.saints.length > 0 && (
-                          <>
-                            {item.saints.map((saint, index) => (
-                              <span key={saint.slug}>
-                                <Link
-                                  href={`/events/lives/${saint.slug}`}
-                                  className={styles.saintLink}
-                                >
-                                  {saint.name}
-                                </Link>
-                                {index < item.saints!.length - 1 && ", "}
-                              </span>
-                            ))}
-                          </>
+                          <div className={styles.eventLinks}>
+                            {renderEventLinks(item.saints, "/events/lives")}
+                          </div>
                         )}
                       </td>
                     </>

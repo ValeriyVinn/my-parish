@@ -24,7 +24,7 @@ export const menu: MenuItem[] = [
     sub: [
       { title: "Таїнства", href: "/events/sacraments" },
       { title: "Свята", href: "/events/holidays" },
-      { title: "Седмиці", href: "/events/weeks" },
+      // { title: "Седмиці", href: "/events/weeks" },
       { title: "Пости", href: "/events/fasts" },
       { title: "Поминальні дні", href: "/events/memorial" },
       { title: "Житія Святих", href: "/events/lives" },

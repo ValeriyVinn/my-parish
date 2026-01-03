@@ -1,4 +1,4 @@
-export type Saint = {
+export type EventLink = {
   name: string;
   slug: string;
 };
@@ -10,7 +10,9 @@ export type Service = {
 
 export type ScheduleItem = {
   date: string;
+  day?: string;
   title: string;
-  saints?: Saint[];
+  saints?: EventLink[];
+  holidays?: EventLink[];
   services: Service[];
 };

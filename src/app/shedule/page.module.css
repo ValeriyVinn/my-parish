@@ -41,8 +41,12 @@
     font-size: 14px;
   }
 }
-.saintLink {
+.eventLink {
   color: #6b4e2e;
   text-decoration: underline;
     
+}
+.eventLinks {
+  /* margin-top: 4px; */
+  display: inline;
 }
