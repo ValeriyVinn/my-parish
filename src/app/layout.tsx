@@ -3,7 +3,7 @@ import "./globals.css";
 import SharedLayout from "@/layouts/SharedLayout";
 // import Footer from "@/components/Footer/Footer";
 // import HelpButton from "@/components/HelpButton/HelpButton";
-
+// import BreakpointHelper from "@/components/BreakpointHelper/BreakpointHelper";
 export const metadata: Metadata = {
   title: {
     default: "Храм св. прп. Серафима Саровського, Вінниця - Сайт парафії",
@@ -53,6 +53,7 @@ export default function RootLayout({
           {/* <HelpButton /> */}
           <div id="modal-root" className="modalRoot" />
         </div>
+        {/* <BreakpointHelper />   */}
       </body>
     </html>
   );

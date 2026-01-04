@@ -101,21 +101,48 @@ export default function NewsPage() {
                 <article key={item.id}>
                   <h2 className={css.heading}>{item.title}</h2>
                   <div className={css.card}>
-                    {item.type === "video" && (
-                      <div className={css.videoBlock}>
-                        <div className={css.videoWrapper}>
-                          <iframe
-                            src={`https://www.youtube.com/embed/${item.youtubeId}`}
-                            title={item.title}
-                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
-                            allowFullScreen
-                          />
-                        </div>
+                    <div>
+                      <div className={css.descriptionWrapper}>
+                        {item.type === "video" && (
+                          <div className={css.floatVideo}>
+                            <div className={css.videoWrapper}>
+                              <iframe
+                                src={`https://www.youtube.com/embed/${item.youtubeId}`}
+                                title={item.title}
+                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+                                allowFullScreen
+                              />
+                            </div>
+                          </div>
+                        )}
+
+                        {item.type === "video" && (
+                          <div
+                            className={`${css.description} ${
+                              isExpanded ? css.expanded : ""
+                            }`}
+                          >
+                            {item.description
+                              .split("\n")
+                              .map((para: string, idx: number) => (
+                                <p key={idx}>{para}</p>
+                              ))}
+                          </div>
+                        )}
+
+                        {item.type === "video" && shouldTruncate && (
+                          <button
+                            onClick={() => toggleReadMore(String(item.id))}
+                            className={css.readMoreBtn}
+                          >
+                            {isExpanded ? "Згорнути" : "Читати далі..."}
+                          </button>
+                        )}
                       </div>
-                    )}
+                    </div>
 
                     {item.type === "images" && item.images && (
-                      <div className={css.videoBlock}>
+                      <div className={css.imageBlock}>
                         <div className={css.carouselContainer}>
                           <button
                             className={`${css.carouselBtn} ${css.left}`}
@@ -162,31 +189,15 @@ export default function NewsPage() {
                             </svg>
                           </button>
                         </div>
+                        <div className={css.imgDescription}>
+                          {item.description
+                            .split("\n")
+                            .map((para: string, idx: number) => (
+                              <p key={idx}>{para}</p>
+                            ))}
+                        </div>
                       </div>
                     )}
-
-                    <div className={css.descriptionWrapper}>
-                      <div
-                        className={`${css.description} ${
-                          isExpanded ? css.expanded : ""
-                        }`}
-                      >
-                        {item.description
-                          .split("\n")
-                          .map((para: string, idx: number) => (
-                            <p key={idx}>{para}</p>
-                          ))}
-                      </div>
-
-                      {shouldTruncate && (
-                        <button
-                          onClick={() => toggleReadMore(String(item.id))}
-                          className={css.readMoreBtn}
-                        >
-                          {isExpanded ? "Згорнути" : "Читати далі..."}
-                        </button>
-                      )}
-                    </div>
                   </div>
                 </article>
               );
