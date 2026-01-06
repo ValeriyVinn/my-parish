@@ -39,6 +39,7 @@ export default function TheophanyPage() {
           alt="Хрещення Господнє. Ікона"
           width={560}
           height={880}
+          sizes="(min-width: 768px) 360px, 100vw"
         />
         <figcaption className={css.caption}>
           Хрещення Господнє. Іконописна традиція.
@@ -68,12 +69,14 @@ export default function TheophanyPage() {
       <figure className={css.mediaFloat}>
         <Image
           src={WaterBlessingTheophany}
-          alt="Освячення води у день Богоявлення."
+          alt="Освячення води у навечір'я Богоявлення."
           width={560}
           height={880}
+          sizes="(min-width: 768px) 360px, 100vw"
         />
         <figcaption className={css.caption}>
-          Освячення води у день Богоявлення. Храм св. прп. Серафима Саровського, Вінниця
+          Освячення води у навечір&apos;я Богоявлення. Храм св. прп. Серафима
+          Саровського, Вінниця
         </figcaption>
       </figure>
 
@@ -98,61 +101,39 @@ export default function TheophanyPage() {
         «Явився Ти нині вселенній, і світло Твоє, Господи, знаменувалося на
         нас».
       </blockquote>
-<div className={css.block}>
-        {/* VIDEO — TROPAR */}
-      <figure className={css.videoFloat}>
-        <iframe
-          src="https://www.youtube.com/embed/3_wzEqlVH6c"
-         
-          title="Тропар свята Богоявлення, глас 1"
-          allowFullScreen
-        />
-        <figcaption className={css.caption}>
-          Тропар свята Богоявлення, глас 1.
-        </figcaption>
-      </figure>
 
-      <h2>Тропар Богоявлення</h2>
-      <p>
-        <em>(глас 1)</em>
-      </p>
-
-      <p>
-        В Йордані хрестився Ти, Господи,
-        <br />
-        і Троїчне явилося поклоніння,
-        <br />
-        Отцівський бо голос засвідчив про Тебе,
-        <br />
-        улюбленим Сином Тебе іменуючи;
-        <br />
-        і Дух у вигляді голубинім, сповістив слова ствердження.
-        <br />
-        Явився Ти, Христе Боже, і світ просвітив, слава Тобі!
-      </p>
-
-           
-</div>
-
+      <h2 className={css.title}>Тропар Богоявлення (глас 1)</h2>
 
       <div className={css.block}>
-        
-        <figure className={css.videoFloat}>
-          <iframe
-            src="https://www.youtube.com/embed/Tk8ZnZ7UiAI"
-            
-            title="Кондак Богоявлення (глас 4)"
+        {/* VIDEO — TROPAR */}
+        <p className={css.textSide}>
+          В Йордані хрестився Ти, Господи,
+          <br />
+          і Троїчне явилося поклоніння,
+          <br />
+          Отцівський бо голос засвідчив про Тебе,
+          <br />
+          улюбленим Сином Тебе іменуючи;
+          <br />
+          і Дух у вигляді голубинім, сповістив слова ствердження.
+          <br />
+          Явився Ти, Христе Боже, і світ просвітив, слава Тобі!
+        </p>
+
+        <figure className={css.videoSide}>
+          <iframe className={css.videoFrame}
+            src="https://www.youtube.com/embed/3_wzEqlVH6c"
+            title="Тропар свята Богоявлення, глас 1"
+            loading="lazy"
             allowFullScreen
           />
-          <figcaption className={css.caption}>
-            Кондак Богоявлення (глас 4)
-          </figcaption>
+
         </figure>
-        <h2>Кондак Богоявлення</h2>
-        <p>
-          <em>(глас 4)</em>
-        </p>
-        <p>
+      </div>
+      <h2 className={css.title}>Кондак Богоявлення (глас 4)</h2>
+
+      <div className={css.block}>
+        <p className={css.textSide}>
           Явився Ти сьогодні вселенній,
           <br />
           і світло Твоє, Господи, ознаменувалось на нас,
@@ -161,14 +142,23 @@ export default function TheophanyPage() {
           <br />
           прийшов єси і явився єси - Світло неприступне.
         </p>
-           
+
+        <figure className={css.videoSide}>
+          <iframe className={css.videoFrame}
+            src="https://www.youtube.com/embed/Tk8ZnZ7UiAI"
+            title="Кондак Богоявлення (глас 4)"
+            loading="lazy"
+            allowFullScreen
+          />
+
+        </figure>
       </div>
 
       {/* NESTED ARTICLE — PRAYER */}
-      <article className={css.nestedArticle}>
+      <section className={css.nestedArticle}>
         <h2>Молитва на освячення води</h2>
 
-        <p>
+        <p className={css.textSide}>
           Господи Ісусе Христе, Сину Божий,
           <br />
           що в Йордані від Іоана хреститися зволив
@@ -216,7 +206,33 @@ export default function TheophanyPage() {
           <br />
           Амінь.
         </p>
-      </article>
+      </section>
+      <h2 className={css.title}>Освячення води</h2>
+      <div className={css.block}>
+        <div className={css.textSide}>
+          <em>Євангеліє від Марка. 1:9-11</em>
+          <p>
+            І сталось у ті дні, прийшов Ісус із Назарета галилейського і
+            хрестився від Іоана в Йордані. І коли виходив з води, зараз же
+            побачив Іоан небеса, що розкривалися, і Духа, Який, мов голуб,
+            сходив на Нього. І голос був з небес: Ти Син Мій Улюблений, в Якому
+            Моє благовоління.
+          </p>
+        </div>
+
+        <figure className={css.videoSide}>
+          <iframe   className={css.videoFrame}
+            src="https://www.youtube.com/embed/blApIMn-gDc"
+            title="Освячення води у день Богоявлення."
+            loading="lazy"
+            allowFullScreen
+          />
+          <figcaption className={css.caption}>
+            Освячення води у день Богоявлення. Храм св. прп. Серафима
+            Саровського, Вінниця 6 січня 2026 р.
+          </figcaption>
+        </figure>
+      </div>
     </article>
   );
 }
