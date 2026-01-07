@@ -35,7 +35,7 @@ export default function TheophanyPage() {
       {/* IMAGE — 1 */}
       <figure className={css.mediaFloat}>
         <Image
-          src={Theophany} // ← заміниш
+          src={Theophany}
           alt="Хрещення Господнє. Ікона"
           width={560}
           height={880}
@@ -136,12 +136,15 @@ export default function TheophanyPage() {
         <p className={css.textSide}>
           Явився Ти сьогодні вселенній,
           <br />
-          і світло Твоє, Господи, ознаменувалось на нас,
+          і світло Твоє, Господи,
           <br />
-          в розумінні оспівуємо Тебе:
-          <br />
-          прийшов єси і явився єси - Світло неприступне.
-        </p>
+
+ознаменувалось на нас,
+<br />
+в розумінні оспівуємо Тебе:
+<br />
+прийшов єси і явився єси - Світло неприступне.
+</p>
 
         <figure className={css.videoSide}>
           <iframe className={css.videoFrame}
@@ -221,7 +224,8 @@ export default function TheophanyPage() {
         </div>
 
         <figure className={css.videoSide}>
-          <iframe   className={css.videoFrame}
+        <div>
+                 <iframe   className={css.videoFrame}
             src="https://www.youtube.com/embed/blApIMn-gDc"
             title="Освячення води у день Богоявлення."
             loading="lazy"
@@ -231,8 +235,11 @@ export default function TheophanyPage() {
             Освячення води у день Богоявлення. Храм св. прп. Серафима
             Саровського, Вінниця 6 січня 2026 р.
           </figcaption>
+        </div>
+
         </figure>
       </div>
     </article>
-  );
+
+);
 }

@@ -77,7 +77,7 @@ export default function VasylVelykyi() {
 
 
             <p className={css.quote} >
-        «Якщо зруйнується сім'я, то повалені будуть держави і перекрутяться народи».
+        «Якщо зруйнується сім&apos;я, то повалені будуть держави і перекрутяться народи».
       </p>
 
 <article className={css.nestedArticle}>
