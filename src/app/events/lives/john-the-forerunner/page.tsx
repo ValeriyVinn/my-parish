@@ -46,7 +46,7 @@ export default function JohnTheForerunner() {
           height={420}
         />
         <figcaption className={css.caption}>
-          Місце народження Івана. Церква святого Івана Хрестителя (Єрусалим)
+          Місце народження Іoана. Церква святого Іoана Хрестителя (Єрусалим)
         </figcaption>
       </figure>
 
