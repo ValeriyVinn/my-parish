@@ -1,9 +1,12 @@
 .container {
   display: flex;
   flex-direction: column;
-  /* gap: 24px; */
+  gap: 14px;
 }
 
+.sacramentsHeader {
+  text-align: center;
+}
 /* меню */
 .menu {
   padding-top: 40px;
@@ -38,7 +41,11 @@
   /* pointer-events: none; */
 }
 
-
-.sacramentsParagraph{
+.sacramentsParagraph {
   text-align: left;
+}
+.sacramentsList li {
+  /* text-align: left; */
+  list-style:decimal;
+  margin-left: 20px;
 }
