@@ -1,0 +1,128 @@
+.article {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+.nestedArticle {
+  margin: 1rem 0;
+  /* border-left: 3px solid rgb(255, 255, 167); */
+  border-radius: 5px;
+  padding: 0 1rem 0.5rem 1rem;
+  background-color: rgb(255, 254, 254);
+}
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* FLOAT IMAGE */
+.mediaFloat {
+  float: none;
+  margin: 0 0 1rem 0;
+  padding: 5px;
+  background-color: rgb(255, 254, 254);
+  border: none;
+  border-radius: 5px;
+}
+
+.mediaFloat img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* FLOAT VIDEO */
+.videoFloat {
+  float: none;
+  margin: 1.5rem 0;
+  padding: 5px;
+  background-color: rgb(255, 254, 254);
+  border: none;
+  border-radius: 5px;
+}
+
+.videoFloat iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  border: none;
+}
+
+.videoPloat {
+  float: none;
+  margin: 1.5rem 0;
+}
+
+.videoPloat iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  border: none;
+}
+/* TABLET + */
+@media (min-width: 768px) {
+  .mediaFloat {
+    float: left;
+    margin: 0.5rem 1.5rem 0.5rem 0;
+    max-width: 360px;
+  }
+
+  .videoFloat {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    /* width: 50%;  */
+    /* width: auto; */
+    max-width: 420px;
+    
+    /* margin: 0.5rem 0 0 -9rem; */
+    margin: 0.5rem 0 0 1.5rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .videoPloat {
+    float: right;
+    width: 50%; /* ← 30–50% */
+    max-width: none; /* важливо */
+    margin: 0 0 0 0.5rem;
+  }
+
+  .videoCrop {
+    /* max-width: 450px; 
+    margin: 0; */
+    width: 100%;
+  }
+
+  .videoCrop iframe {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    height: auto;
+  }
+
+}
+
+/* CLEAR FLOATS */
+.article::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.caption {
+  font-size: 0.8rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.quote {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  /* border-left: 4px solid #e67e22; */
+  border-radius: 5px;
+  /* color: green; */
+}

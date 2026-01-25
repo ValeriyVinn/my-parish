@@ -30,7 +30,7 @@ export default function NewsPage() {
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [modalImage, setModalImage] = useState<string | null>(null);
   const [carouselIndex, setCarouselIndex] = useState<Record<string, number>>(
-    {}
+    {},
   );
 
   const typedNewsData = newsData as unknown as NewsBlock[];
@@ -65,28 +65,12 @@ export default function NewsPage() {
     <div className="container">
       <section className={css.section}>
         <Hero />
-
-        {/* --- Тексти оголошень --- */}
-        {/* <p className={css.advertisement}>
-          Слава Ісусу Христу! Дорога громадо, наші захисники мають гостру
-          потребу в засобах гігієни (вологі серветки, сухий душ та ін.), прошу
-          долучіться до доброї справи, приносьте до церкви. Щиро дякую за вашу
-          допомогу.
+        <p className={css.greeting}>
+          Шановний отець Олег, cердечно вітаємо Вас із Днем народження. Дякуємо
+          за Вашу невтомну працю, щирі молитви та духовну опіку. Нехай Господь
+          дарує Вам міцне здоров’я, благодать, силу духу та світло для
+          подальшого служіння.
         </p>
-        <p className={css.advertisement}>
-          Дорогі браття і сестри, збираємо побутові газові балони б/у для
-          виготовлення обігрівачів на дровах (буржуйок). Для наших захисників.
-        </p>
-        <p className={css.advertisement}>
-          Не забуваймо про наших мужніх воїнів, які віддають за нас своє життя.
-          Зараз є гостра необхідність у речах: ковдри, подушки, простині,
-          підодіяльники, шкарпетки, спідня білизна — усе чисте. Пункт збору ви
-          знаєте. Нехай Господь благословить!
-        </p>
-        <p className={css.advertisement}>
-          Потрібен оператор твердопаливного котла (кочегар). Житлом і
-          харчуванням забезпечуємо. Подробиці за тел: (097) 409-99-13
-        </p> */}
 
         {/* --- Новини --- */}
         {reversedData.map((block, blockIndex) => (
