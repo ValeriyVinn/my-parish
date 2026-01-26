@@ -65,12 +65,12 @@ export default function NewsPage() {
     <div className="container">
       <section className={css.section}>
         <Hero />
-        <p className={css.greeting}>
+        {/* <p className={css.greeting}>
           Шановний отець Олег, cердечно вітаємо Вас із Днем народження. Дякуємо
           за Вашу невтомну працю, щирі молитви та духовну опіку. Нехай Господь
           дарує Вам міцне здоров’я, благодать, силу духу та світло для
           подальшого служіння.
-        </p>
+        </p> */}
 
         {/* --- Новини --- */}
         {reversedData.map((block, blockIndex) => (
