@@ -51,8 +51,8 @@
 }
 
 .videoPloat {
-  float: none;
-  margin: 0 0 1rem 0;
+    float: none;
+  margin: 1.5rem 0;
   padding: 5px;
   background-color: rgb(255, 254, 254);
   border: none;
@@ -120,7 +120,10 @@
   color: #666;
   text-align: center;
   margin-top: 0.5rem;
-}
+    display: block;
+  width: 100%;
+  
+  }
 
 .quote {
   font-style: italic;
@@ -131,12 +134,4 @@
   /* color: green; */
 }
 
-.headerPoetry {
-text-align: center;
-}
 
-.article h2 a::after {
-  content: " ↗";
-  font-size: 1em;
-  opacity: 0.6;
-}

@@ -154,7 +154,7 @@ export default function GregoryTheTheologianPage() {
         </p>
       </section>
 
-      <figure className={css.videoFloat}>
+      <figure className={css.videoPloat}>
         <div>
           <iframe
             className={css.videoFrame}
