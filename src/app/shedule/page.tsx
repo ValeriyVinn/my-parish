@@ -27,11 +27,33 @@ export const metadata = {
 
 export default function ShedulePage() {
   const schedule = scheduleData as ScheduleItem[];
+  function renderDayTitle(item: ScheduleItem) {
+    // 1. Свята — як головний заголовок
+    if (item.holidays && item.holidays.length > 0) {
+      return <>{renderEventLinks(item.holidays, "/events/holidays")}</>;
+    }
 
+    // 2. title + saints в одному рядку
+    if (item.title && item.saints && item.saints.length > 0) {
+      return (
+        <>
+          <span>{item.title}</span>
+          {renderEventLinks(item.saints, "/events/lives")}
+        </>
+      );
+    }
+
+    // 3. Звичайний title
+    if (item.title) {
+      return <span>{item.title}</span>;
+    }
+
+    return null;
+  }
 
   function renderEventLinks(
     items: { name: string; slug: string }[],
-    basePath: string
+    basePath: string,
   ) {
     return items.map((item, index) => (
       <span key={item.slug}>
@@ -45,7 +67,7 @@ export default function ShedulePage() {
 
   return (
     <section className={`container ${styles.wrapper}`}>
-      <h1 className={styles.title}>Розклад Богослужінь — Січень</h1>
+      <h1 className={styles.title}>Лютий</h1>
 
       <div className={styles.tableWrapper}>
         <table className={styles.table}>
@@ -54,44 +76,36 @@ export default function ShedulePage() {
               <th>Дата</th>
               {/* <th>День</th> */}
               <th>Подія</th>
-              <th>Час</th>
-              <th>Богослужіння</th>
+              {/* <th>Час</th>
+              <th>Богослужіння</th> */}
             </tr>
           </thead>
 
           <tbody>
-            {schedule.map((item, index) =>
-              item.services.map((service, i) => (
-                <tr key={`${index}-${i}`}>
-                  {i === 0 && (
-                    <>
-                      <td rowSpan={item.services.length}>{item.date}</td>
-                      <td rowSpan={item.services.length}>
-                       {item.title && <span>{item.title}</span>}
+            {schedule.map((item, index) => (
+              <tr key={index}>
+                {/* ДАТА */}
+                <td className={styles.dateCell}>{item.date}</td>
 
-
-                        {item.holidays && item.holidays.length > 0 && (
-                          <div className={styles.eventLinks}>
-                            {renderEventLinks(
-                              item.holidays,
-                              "/events/holidays"
-                            )}
-                          </div>
-                        )}
-
-                        {item.saints && item.saints.length > 0 && (
-                          <div className={styles.eventLinks}>
-                            {renderEventLinks(item.saints, "/events/lives")}
-                          </div>
-                        )}
-                      </td>
-                    </>
+                {/* БОГОСЛУЖІННЯ */}
+                <td className={styles.servicesCell}>
+                  {renderDayTitle(item) && (
+                    <div className={styles.dayTitle}>
+                      {renderDayTitle(item)}
+                    </div>
                   )}
-                  <td>{service.time}</td>
-                  <td>{service.name}</td>
-                </tr>
-              ))
-            )}
+
+                  <div className={styles.servicesList}>
+                    {item.services.map((service, i) => (
+                      <div key={i} className={styles.serviceRow}>
+                        <span className={styles.time}>{service.time}</span>
+                        <span className={styles.name}>{service.name}</span>
+                      </div>
+                    ))}
+                  </div>
+                </td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>

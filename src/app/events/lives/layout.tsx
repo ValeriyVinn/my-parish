@@ -29,7 +29,10 @@ const sacramentsMenu = [
     title: "свт. Іоанн Золотоустий",
     href: "/events/lives/john-chrysostom",
   },
-
+  {
+    title: "Вмч. Феодор Тирон",
+    href: "/events/lives/theodore-tyron",
+  },
 ];
 
 export default function SacramentsLayout({
@@ -45,16 +48,13 @@ export default function SacramentsLayout({
         {sacramentsMenu.map((item) => {
           const isActive =
             pathname === item.href ||
-            (item.href !== "/events/lives" &&
-              pathname.startsWith(item.href));
+            (item.href !== "/events/lives" && pathname.startsWith(item.href));
 
           return (
             <Link
               key={item.href}
               href={item.href}
-              className={`${styles.menuItem} ${
-                isActive ? styles.active : ""
-              }`}
+              className={`${styles.menuItem} ${isActive ? styles.active : ""}`}
             >
               {item.title}
             </Link>

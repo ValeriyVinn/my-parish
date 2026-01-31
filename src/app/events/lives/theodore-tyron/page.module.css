@@ -1,0 +1,13 @@
+.article {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  line-height: 1.7;
+  font-size: 1.05rem;
+  
+}
+
+.p {
+  text-align: center;
+  
+}
