@@ -43,3 +43,84 @@
 .sacramentsParagraph{
   text-align: left;
 }
+
+/* Accordion */
+
+.container {
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Accordion button */
+.accordionButton {
+  margin-top: 40px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #e67e22;
+  color: #fff;
+  cursor: pointer;
+}
+
+.accordionTitle {
+  text-align: center;
+  font-weight: 600;
+}
+
+.accordionAction {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.menuItem {
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  background: #f2f2f2;
+  color: inherit;
+  font-size: 0.9rem;
+}
+
+.menuItem:hover {
+  background: #e6e6e6;
+}
+
+.active {
+  background: #e67e22;
+  color: #fff;
+  font-weight: 600;
+}
+
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+
+  transition:
+    max-height 0.35s ease,
+    opacity 0.25s ease;
+}
+
+.menu.open {
+  max-height: 500px; /* запас, можна 1000px якщо меню виросте */
+  opacity: 1;
+}

@@ -4,7 +4,7 @@ export default function HolidaysPage() {
   return (
     <article className={styles.article}>
       <header className={styles.header}>
-        <h1>Свята</h1>
+        {/* <h1>Свята</h1> */}
         <p className={styles.lead}>
           Православний церковний рік — це шлях духовного життя, у якому віруючі
           разом із Церквою згадують найважливіші події життя Ісуса Христа,

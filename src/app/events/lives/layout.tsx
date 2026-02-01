@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useMemo, useState } from "react";
 import styles from "./page.module.css";
 
 const sacramentsMenu = [
@@ -41,20 +42,49 @@ export default function SacramentsLayout({
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
+  const [open, setOpen] = useState(false);
+
+  const activeTitle = useMemo(() => {
+    return (
+      sacramentsMenu.find(
+        (item) =>
+          pathname === item.href ||
+          (item.href !== "/events/lives" &&
+            pathname.startsWith(item.href))
+      )?.title || "Житія Святих"
+    );
+  }, [pathname]);
 
   return (
     <div className={`${styles.container} container`}>
-      <nav className={styles.menu}>
+      {/* Accordion button */}
+      <button
+        className={styles.accordionButton}
+        onClick={() => setOpen((prev) => !prev)}
+        aria-expanded={open}
+      >
+        <span className={styles.accordionTitle}>{activeTitle}</span>
+        <span className={styles.accordionAction}>
+          {open ? "Закрити " : "Відкрити"}
+        </span>
+      </button>
+
+      {/* Accordion content */}
+      <nav className={`${styles.menu} ${open ? styles.open : ""}`}>
         {sacramentsMenu.map((item) => {
           const isActive =
             pathname === item.href ||
-            (item.href !== "/events/lives" && pathname.startsWith(item.href));
+            (item.href !== "/events/lives" &&
+              pathname.startsWith(item.href));
 
           return (
             <Link
               key={item.href}
               href={item.href}
-              className={`${styles.menuItem} ${isActive ? styles.active : ""}`}
+              className={`${styles.menuItem} ${
+                isActive ? styles.active : ""
+              }`}
+              onClick={() => setOpen(false)}
             >
               {item.title}
             </Link>
