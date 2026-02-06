@@ -1,0 +1,41 @@
+.fastsMain {
+  margin: 0 auto;
+  padding: 34px 10px;
+}
+
+.fastsHeader {
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+
+.headerQuote {
+  margin-top: 2rem;
+}
+
+.quote {
+  border-left: 4px solid #ccc;
+  padding-left: 16px;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.gospel {
+  position: relative;
+  margin: 2rem 0;
+  padding: 1.5rem 1.8rem;
+  background: linear-gradient(180deg, #fffdf6 0%, #ffffff 60%);
+  border-left: 4px solid #d4af37;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.gospelTitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #8b7a2b;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+}
+

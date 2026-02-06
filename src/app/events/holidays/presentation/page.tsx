@@ -13,7 +13,7 @@ export default function PresentationPage() {
 
         <section className={styles.gospel}>
           <h3 className={styles.gospelTitle}>
-            Євангеліє від Луки (Лк. 2:22–40)
+            Євангеліє від Луки Лк. 2:22–40
           </h3>
 
           <p>
