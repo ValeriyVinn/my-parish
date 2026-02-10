@@ -5,6 +5,17 @@
   line-height: 1.7;
   font-size: 1.05rem;
 }
+.section {
+  margin-bottom: 1rem;
+  display: flow-root;
+}
+
+.sectionTropar {
+  margin-bottom: 1rem;
+  background-color: rgb(255, 254, 254);
+  padding: 1rem;
+  border-radius: 5px;
+}
 .nestedArticle {
   margin: 0 auto 1rem;
   /* border-left: 3px solid rgb(255, 255, 167); */
@@ -24,12 +35,13 @@
   grid-template-columns: 1fr;
   gap: 1rem;
   margin-bottom: 1rem;
+  /* background-color: rgb(255, 254, 254); */
 }
 
 .videoFrame {
   width: 100%;
   height: 100%;
-  aspect-ratio: auto; 
+  aspect-ratio: auto;
 }
 
 .block:last-child {
@@ -38,16 +50,21 @@
 
 .videoSide {
   margin: 0;
+  background-color: rgb(255, 254, 254);
 }
 .videoFrame {
   margin: 0;
   padding: 5px;
-  background-color: rgb(255, 254, 254);
+  /* background-color: rgb(255, 254, 254); */
   border: none;
   border-radius: 5px;
 }
 
 .textSide {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center; /* вертикальне центрування */
+  height: 100%; /* займає всю висоту grid-ячейки */
   margin-bottom: 0.5rem;
 }
 .videoSide iframe {
