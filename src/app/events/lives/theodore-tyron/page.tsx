@@ -21,7 +21,7 @@ export default function TheodoreTyron() {
             />
           </div>
           <figcaption className={styles.caption}>Св. Феодор Тирон.</figcaption>
-        </figure>
+        </figure> 
 
         <div className={!expanded ? styles.preview : ""}>
           <h2 className={styles.historyHeader}>Життєпис</h2>
