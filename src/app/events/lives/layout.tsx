@@ -23,16 +23,32 @@ const sacramentsMenu = [
     href: "/events/lives/john-the-forerunner",
   },
   {
-    title: "свт. Григорій Богослов",
+    title: "Свт. Григорій Богослов",
     href: "/events/lives/gregory-the-theologian",
   },
   {
-    title: "свт. Іоанн Золотоустий",
+    title: "Свт. Іоанн Золотоустий",
     href: "/events/lives/john-chrysostom",
   },
   {
     title: "Вмч. Феодор Тирон",
     href: "/events/lives/theodore-tyron",
+  },
+  {
+    title: "Свт. Григорій Палама",
+    href: "/events/lives/hryhorii-palama",
+  },
+  {
+    title: "40 мчч. Севастійських",
+    href: "/events/lives/40-muchenykiv-sevastiiskykh",
+  },
+  {
+    title: "Прп. Іоан Ліствичник",
+    href: "/events/lives/ioan-listvychnyk",
+  },
+  {
+    title: "Прп. Марія Єгипетська",
+    href: "/events/lives/maria-yehypetska",
   },
 ];
 
@@ -49,8 +65,7 @@ export default function SacramentsLayout({
       sacramentsMenu.find(
         (item) =>
           pathname === item.href ||
-          (item.href !== "/events/lives" &&
-            pathname.startsWith(item.href))
+          (item.href !== "/events/lives" && pathname.startsWith(item.href)),
       )?.title || "Житія Святих"
     );
   }, [pathname]);
@@ -74,16 +89,13 @@ export default function SacramentsLayout({
         {sacramentsMenu.map((item) => {
           const isActive =
             pathname === item.href ||
-            (item.href !== "/events/lives" &&
-              pathname.startsWith(item.href));
+            (item.href !== "/events/lives" && pathname.startsWith(item.href));
 
           return (
             <Link
               key={item.href}
               href={item.href}
-              className={`${styles.menuItem} ${
-                isActive ? styles.active : ""
-              }`}
+              className={`${styles.menuItem} ${isActive ? styles.active : ""}`}
               onClick={() => setOpen(false)}
             >
               {item.title}
