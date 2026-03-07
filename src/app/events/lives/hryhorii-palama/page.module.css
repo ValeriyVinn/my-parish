@@ -1,0 +1,109 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 0.5rem;
+}
+
+.article {
+padding-bottom: 1rem;
+  border-bottom: 1px solid #e67e22;
+  margin-bottom: 1rem;
+}
+
+.prayerArticle {
+  margin-bottom: 1rem;
+  
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background-color: rgb(255, 254, 254);
+}
+
+/* FLOAT IMAGE */
+.historyHeader {
+  text-indent: 1rem;
+}
+
+.prayerHeader {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.paragraph {
+  text-indent: 1rem;
+  margin-bottom: 0.5rem;
+  /* line-height: 1.6; */
+  font-size: 1rem;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  word-spacing: 0.05em;
+}
+
+.mediaFloat {
+  padding: 5px;
+  float: left;
+  width: 40%;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.imageWrapper {
+  position: relative;
+  aspect-ratio: 2 / 3;
+}
+
+.imageWrapper img {
+  object-fit: cover;
+}
+
+.caption {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+/* Кнопка */
+.readMore {
+  display: inline-block;
+  background-color: inherit;
+  color: #e67e22;
+  border: none;
+  cursor: pointer;
+}
+
+.article::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .mediaFloat {
+    float: none;
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+  .preview {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+/* TABLET+ — висота = фото */
+@media (min-width: 768px) {
+  .preview {
+    padding-top: 0.5rem;
+    max-height: 33em;
+    overflow: hidden;
+  }
+
+  .container {
+    max-width: 1320px;
+  }
+}
+
+
