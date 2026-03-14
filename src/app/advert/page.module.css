@@ -17,3 +17,16 @@
   border-radius: 5px;
   text-align: center;
 }
+.data{
+ width: fit-content;
+ margin: 1rem  auto  ;
+ padding: 1rem 2rem;
+  font-size: 2rem;
+ 
+  background-color: white;
+  border-radius: 5px;
+
+}
+.time{
+  font-size: 1.5rem;
+}
