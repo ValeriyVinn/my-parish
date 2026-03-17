@@ -10,6 +10,7 @@ export default function FortyMartyrsOfSebaste() {
 
   return (
     <div className={styles.container}>
+            <h1  className={styles.mainHeader}>І я - християнин</h1>
       <article className={styles.article}>
         <figure className={styles.mediaFloat}>
           <div className={styles.imageWrapper}>

@@ -10,6 +10,7 @@ export default function MariaYehypetska() {
 
   return (
     <div className={styles.container}>
+      <h1  className={styles.mainHeader}>Владичице Богородице, не покидай мене</h1>
       <article className={styles.article}>
         <figure className={styles.mediaFloat}>
           <div className={styles.imageWrapper}>

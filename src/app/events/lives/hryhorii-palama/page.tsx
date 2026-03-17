@@ -11,6 +11,7 @@ export default function HryhoriiPalama() {
   return (
     <div className={styles.container}>
       <article className={styles.article}>
+             <h1  className={styles.mainHeader}>Господи, Ісусе Христе, Сину Божий, помилуй мене грішного</h1>
         <figure className={styles.mediaFloat}>
           <div className={styles.imageWrapper}>
             <Image

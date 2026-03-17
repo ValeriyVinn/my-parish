@@ -6,8 +6,11 @@ import BasilImgIcon from "./images/images.webp";
 export default function VasylVelykyi() {
   return (
     <article className={css.article}>
-      <h1 className={css.title}>
+      {/* <h1 className={css.title}>
         Преподобний Серафим Саровський — святий радості та миру
+      </h1> */}
+            <h1 className={css.mainHeader}>
+        Стяжи дух мирний - і тисячі навколо тебе спасуться
       </h1>
 
       <figure className={css.mediaFloat}>

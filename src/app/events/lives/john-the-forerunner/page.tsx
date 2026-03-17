@@ -8,7 +8,9 @@ import PlaceOfTheBaptism from "./images/place-of-baptism.jpg";
 export default function JohnTheForerunner() {
   return (
     <article className={css.article}>
-      <h1 className={css.title}>Предтеча і Хреститель Господній Іоан</h1>
+      <h1 className={css.mainHeader}>
+        Покайтеся, бо наблизилось Царство Небесне.
+      </h1>
 
       {/* MAIN ICON */}
       <figure className={css.mediaFloat}>
@@ -138,7 +140,7 @@ export default function JohnTheForerunner() {
           Євангеліє від Марка 6:14-30.
         </figcaption>
       </figure>
-      
+
       <h3>Євангеліє від Марка 6:14-30</h3>
       <p>
         Цар Ірод, почувши про Ісуса [бо Його ім’я стало відомим], говорив: це

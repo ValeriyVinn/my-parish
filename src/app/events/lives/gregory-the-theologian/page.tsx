@@ -8,7 +8,9 @@ import ThreeSaints from "../vasyl-velykyi/images/three-saints.jpg";
 export default function GregoryTheTheologianPage() {
   return (
     <article className={css.article}>
-      <h1 className={css.title}>Святитель Григорій Богослов</h1>
+            <h1 className={css.mainHeader}>
+        Пам’ятай Бога частіше, ніж дихаєш.
+      </h1>
 
       {/* MAIN ICON */}
       <figure className={css.mediaFloat}>
@@ -61,7 +63,8 @@ export default function GregoryTheTheologianPage() {
       <figure className={css.videoPloat}>
         <iframe
           className={css.videoFrame}
-          src="https://www.youtube.com/embed/Tii3-dQzfHI"
+          src="https://www.youtube.com/embed/Ze-hU9fENKk"
+      
           title="Григорій Богослов — Цитати "
           allowFullScreen
         />

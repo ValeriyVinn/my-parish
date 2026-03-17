@@ -6,7 +6,7 @@ import ThreeSaints from "./images/three-saints.jpg";
 export default function VasylVelykyi() {
   return (
     <article className={css.article}>
-      <h1 className={css.title}>Святитель Василій Великий</h1>
+           <h1 className={css.mainHeader}>В спокої Господеві помолімось.</h1>
 
       <figure className={css.mediaFloat}>
         <Image

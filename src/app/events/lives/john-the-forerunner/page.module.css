@@ -16,7 +16,11 @@
   text-align: center;
   margin-bottom: 2rem;
 }
-
+.mainHeader {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #e67e22;
+}
 
 .mediaFloat {
   float: none;

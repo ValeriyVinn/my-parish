@@ -7,7 +7,7 @@ import ThreeSaints from "../vasyl-velykyi/images/three-saints.jpg";
 export default function JohnChrysostomPage() {
   return (
     <article className={css.article}>
-      <h1 className={css.title}>Святитель Іоан Золотоустий</h1>
+               <h1 className={css.mainHeader}>Слава Богові за все!</h1>
 
       {/* MAIN ICON */}
       <figure className={css.mediaFloat}>
@@ -58,7 +58,8 @@ export default function JohnChrysostomPage() {
       <figure className={css.videoPloat}>
         <iframe
           className={css.videoFrame}
-          src="https://www.youtube.com/embed/5mUR9TOUvMk"
+          src="https://www.youtube.com/embed/Skl-L1_r7Qs"
+          
           title="Цитати Іоана Золотоуста"
           allowFullScreen
         />
