@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  /* gap: 24px; */
+  gap: 16px;
 }
 
 .livesMain {
@@ -11,52 +11,55 @@
 
 /* меню */
 .menu {
-  padding-top: 40px;
+  padding-top: 10px;
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 8px;
   justify-content: center;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+
+  transition:
+    max-height 0.35s ease,
+    opacity 0.25s ease;
 }
 
 /* кнопки */
 .menuItem {
-  padding: 5px 8px;
+  padding: 6px 10px;
   border: 1px solid #d0d0d0;
-  border-radius: 5px;
+  border-radius: 6px;
   text-decoration: none;
   font-weight: 500;
-  color: #222;
-  background-color: #fff;
+  color: inherit;
+  background: #f2f2f2;
   transition: all 0.2s ease;
+  font-size: 0.9rem;
 }
 
-/* hover */
-/* .menuItem:hover {
-  background-color: #f3f3f3;
-  border-color: #999;
-} */
+.menuItem:hover {
+  background: white;
+  color: #e67e22;
+  border: 1px solid white;
+}
+.menu.open {
+  max-height: fit-content;
+  opacity: 1;
+}
 
 /* активна */
 .active {
   background-color: #e67e22;
   color: #fff;
-  /* border-color: #2b6cb0; */
-  /* pointer-events: none; */
+  font-weight: 600;
 }
 
-
-.sacramentsParagraph{
+.sacramentsParagraph {
   text-align: left;
 }
 
 /* Accordion */
-
-.container {
-
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
 
 /* Accordion button */
 .accordionButton {
@@ -85,50 +88,6 @@
 }
 
 /* Menu */
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.menuItem {
-  padding: 6px 10px;
-  border-radius: 6px;
-  text-decoration: none;
-  background: #f2f2f2;
-  color: inherit;
-  font-size: 0.9rem;
-}
-
-.menuItem:hover {
-  background: #e6e6e6;
-}
-
-.active {
-  background: #e67e22;
-  color: #fff;
-  font-weight: 600;
-}
-
-
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-
-  overflow: hidden;
-  max-height: 0;
-  opacity: 0;
-
-  transition:
-    max-height 0.35s ease,
-    opacity 0.25s ease;
-}
-
-.menu.open {
-  max-height: 500px; /* запас, можна 1000px якщо меню виросте */
-  opacity: 1;
-}
 
 .gospel {
   position: relative;

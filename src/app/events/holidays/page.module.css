@@ -178,6 +178,6 @@
 }
 
 .menu.open {
-  max-height: 500px; /* запас, можна 1000px якщо меню виросте */
+  max-height: fit-content; 
   opacity: 1;
 }
