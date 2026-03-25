@@ -5,7 +5,7 @@ import Image from "next/image";
 import Modal from "@/components/Modal/Modal";
 import css from "./page.module.css";
 
-const images = Array.from({ length: 35 }, (_, i) =>
+const images = Array.from({ length: 36 }, (_, i) =>
   `/assets/history/${String(i + 1).padStart(3, "0")}.jpg`
 );
 
