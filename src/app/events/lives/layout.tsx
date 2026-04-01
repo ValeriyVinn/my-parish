@@ -50,6 +50,18 @@ const sacramentsMenu = [
     title: "Прп. Марія Єгипетська",
     href: "/events/lives/maria-yehypetska",
   },
+  {
+    title: "Прав. Лазар",
+    href: "/events/lives/lazarus",
+  },
+  {
+    title: "Ап. Фома",
+    href: "/events/lives/thomas",
+  },
+  {
+    title: "Свв. жінки-мироносиці",
+    href: "/events/lives/myrrh-bearing-women",
+  },
 ];
 
 export default function SacramentsLayout({

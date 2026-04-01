@@ -28,22 +28,32 @@ export const metadata = {
 export default function ShedulePage() {
   const schedule = scheduleData as ScheduleItem[];
   function renderDayTitle(item: ScheduleItem) {
-    // 1. Свята — як головний заголовок
+    // 1. title + holidays в одному рядку
+    if (item.title && item.holidays && item.holidays.length > 0) {
+      return (
+        <>
+          <span>{item.title}</span>{" "}
+          {renderEventLinks(item.holidays, "/events/holidays")}
+        </>
+      );
+    }
+
+    // 2. Свята — як головний заголовок
     if (item.holidays && item.holidays.length > 0) {
       return <>{renderEventLinks(item.holidays, "/events/holidays")}</>;
     }
 
-    // 2. title + saints в одному рядку
+    // 3. title + saints в одному рядку
     if (item.title && item.saints && item.saints.length > 0) {
       return (
         <>
-          <span>{item.title}</span>
+          <span>{item.title}</span>{" "}
           {renderEventLinks(item.saints, "/events/lives")}
         </>
       );
     }
 
-    // 3. Звичайний title
+    // 4. Звичайний title
     if (item.title) {
       return <span>{item.title}</span>;
     }
@@ -67,7 +77,7 @@ export default function ShedulePage() {
 
   return (
     <section className={`container ${styles.wrapper}`}>
-      <h1 className={styles.title}>Березень</h1>
+      <h1 className={styles.title}>Квітень</h1>
 
       <div className={styles.tableWrapper}>
         <table className={styles.table}>
