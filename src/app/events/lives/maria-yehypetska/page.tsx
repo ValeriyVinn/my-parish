@@ -65,7 +65,7 @@ export default function MariaYehypetska() {
           </p>
           <p className={styles.paragraph}>
             Марія повірила, що невидимий голос стосується саме її, і плачучи
-            сказала: „Владичице Богородице, не покидай мене”. Так Марія
+            сказала: <span className={styles.quoteToHeader}>„Владичице Богородице, не покидай мене”</span> . Так Марія
             Єгипетська назавжди залишила безсоромне життя.
           </p>
           <p className={styles.paragraph}>
