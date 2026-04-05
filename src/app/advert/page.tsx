@@ -5,17 +5,7 @@ export default function AidPage() {
     <main className={`${styles.addContainer} container`}>
       <section>
         <h1 className={`${styles.advertHeader} sr-only`}>Оголошення</h1>
-        <div className={styles.advertisement}>
-          Дорога громадо!
-          <br /> Семінар-практикум з писання Великодньої писанки <br />
-          <p className={styles.data}>
-            2 - 4 квітня <br /> 
-            <span className={styles.time}> з 9:00 до 19:00</span>
-          </p>
-          Відкриття 2 квітня о 9:00 <br />
-          Майстер-класи проводять відомі вінницькі писанкарки. <br /> Чекаємо на
-          вас!
-        </div>
+
         <p className={styles.advertisement}>
           Слава Ісусу Христу! Дорога громадо, наші захисники мають гостру
           потребу в засобах гігієни (вологі серветки, сухий душ та ін.), прошу
