@@ -22,6 +22,22 @@
 }
 
 .greeting {
+  color: red;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 20px auto;
+  padding: 5px;
+  max-width: 800px;
+  border: 1px solid red;
+  border-radius: 5px;
+  text-align: center;
+  animation: pulse 4s infinite ease-in-out;
+  
+  letter-spacing: 0.02em;
+  word-spacing: 0.05em;
+}
+
+.greetin {
   color: black;
   font-size: 1rem;
   font-weight: 600;
