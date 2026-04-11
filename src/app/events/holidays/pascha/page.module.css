@@ -1,0 +1,119 @@
+.article {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.paragraph {
+  text-indent: 1rem;
+  margin-bottom: 0.5rem;
+  /* line-height: 1.6; */
+  font-size: 1rem;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  word-spacing: 0.05em;
+}
+
+.block {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 0.5rem;
+}
+.block > h2,
+.block > h3 {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.textSide {
+  line-height: 1.8;
+  font-size: 1.05rem;
+
+  padding: 0.5rem;
+
+  border-radius: 8px;
+}
+/* Відео-блок */
+.videoSide {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* iframe */
+.videoFrame {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Підпис */
+.caption {
+  font-size: 0.8rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5rem;
+  max-width: 90%;
+}
+
+@media (min-width: 768px) {
+  .flex {
+    flex-direction: row;
+    /* align-items: flex-start; */
+    /* gap: 2rem; */
+  }
+
+  /* .textSide {
+    width: 50%;
+  } */
+
+  /* .videoSide {
+    width: 50%;
+    align-items: flex-end;
+  } */
+  /* 
+  .videoFrame {
+    max-width: 100%;
+  } */
+}
+
+.quote {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-radius: 5px;
+}
+/* gospel */
+.gospel {
+  position: relative;
+  margin: 2rem 0;
+  padding: 1.5rem 1.8rem;
+  background: linear-gradient(180deg, #fffdf6 0%, #ffffff 60%);
+  border-left: 4px solid #d4af37;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  word-spacing: 0.05em;
+}
+
+.gospelTitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #8b7a2b;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+}

@@ -8,7 +8,7 @@ import styles from "./page.module.css";
 
 const holidaysMenu = [
   { title: "Свята", href: "/events/holidays" },
-  { title: "Пасха", href: "/events/holidays/pascha" },
+  { title: "Великдень", href: "/events/holidays/pascha" },
   { title: "Різдво Христове", href: "/events/holidays/nativity" },
   { title: "Хрещення", href: "/events/holidays/theophany" },
   { title: "Стрітення", href: "/events/holidays/presentation" },
