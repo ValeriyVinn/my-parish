@@ -78,7 +78,7 @@ export default function JohnChrysostomPage() {
         Виснажений хворобами та тяжкою дорогою, він помер у 407 році зі словами,
         які стали підсумком його життя і віри:
       </p>
-      <blockquote className={css.quote}>«Слава Богові за все!»</blockquote>
+      <blockquote className={`${css.quote} ${css.quoteToHeader}`}>«Слава Богові за все!»</blockquote>
 
       <p>Він говорив:</p>
       <blockquote className={css.quote}>
