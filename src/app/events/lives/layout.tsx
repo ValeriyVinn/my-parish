@@ -62,6 +62,23 @@ const sacramentsMenu = [
     title: "Свв. жінки-мироносиці",
     href: "/events/lives/myrrh-bearing-women",
   },
+  
+  { 
+    title: "Ап. Іоан Богослов",
+    href: "/events/lives/john-the-theologian",
+  },
+  {
+    title: "Рівноапп. Кирило та Мефодій",
+    href: "/events/lives/cyril-and-methodius",
+  },
+  {
+    title: "Свт. Миколай Чудотворець",
+    href: "/events/lives/nicholas-of-myra",
+  },
+  {
+    title: "Свв. отці I Вселенського собору",
+    href: "/events/lives/fathers-first-ecumenical-council",
+  },
 ];
 
 export default function SacramentsLayout({
