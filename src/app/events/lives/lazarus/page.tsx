@@ -5,7 +5,7 @@ import Lazarus from "./images/lazarus.jpg";
 import Image from "next/image";
 import { useState } from "react";
 
-export default function ThomasPage() {
+export default function LazarusPage() {
   const [expanded, setExpanded] = useState(false);
 
   return (
