@@ -23,7 +23,8 @@ export default function NicolasOfMyraPage() {
             />
           </div>
           <figcaption className={styles.caption}>
-Ікона з Базиліки св. Миколая у м. Барі (Італія), яка, як вважається, була написана на основі прижиттєвого зображення святого
+            Ікона з Базиліки св. Миколая у м. Барі (Італія), яка, як вважається,
+            була написана на основі прижиттєвого зображення святого
           </figcaption>
         </figure>
         <div className={!expanded ? styles.preview : ""}>
