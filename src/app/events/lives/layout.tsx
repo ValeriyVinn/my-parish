@@ -79,6 +79,10 @@ const sacramentsMenu = [
     title: "Свв. отці I Вселенського собору",
     href: "/events/lives/fathers-first-ecumenical-council",
   },
+  {
+    title: "Апостоли Петро і Павло",
+    href: "/events/lives/apostles-peter-and-paul",
+  },
 ];
 
 export default function SacramentsLayout({
