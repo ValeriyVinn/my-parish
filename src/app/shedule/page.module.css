@@ -149,3 +149,35 @@
     padding-left: 0;
   }
 }
+/* ------------------------- */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.memorialsBlock {
+  border:black 2px solid; 
+  padding: 0px 15px;
+  width: fit-content;
+  border-radius: 10px;
+  /* text-align: center; */
+
+  /* font-style: italic; */
+  
+  margin-top: 4px;
+}
+
+.servicesList{
+  /* border: 1px #861616 solid;
+  border-radius: 3px; */
+  background-color: white;
+}

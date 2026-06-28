@@ -1,0 +1,178 @@
+[
+  {
+    "date": {
+      "year": 2026,
+      "month": 6,
+      "day": 27
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 6,
+      "day": 28
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 3-тя після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці",
+        "slug": "holidays/pentecost"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+
+  {
+    "date": {
+      "year": 2026,
+      "month": 6,
+      "day": 29
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Славних і всехвальних першоверховних апостолів "
+      },
+      {
+        "type": "link",
+        "value": "Петра",
+        "slug": "lives/apostles-peter-and-paul"
+      },
+      {
+        "type": "text",
+        "value": " і "
+      },
+      {
+        "type": "link",
+        "value": "Павла",
+        "slug": "lives/apostles-peter-and-paul"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 7,
+      "day": 1
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Віддання свята "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці",
+        "slug": "pentecost"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 7,
+      "day": 2
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 7,
+      "day": 3
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 7,
+      "day": 4
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 7,
+      "day": 5
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  }
+]
