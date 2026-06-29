@@ -62,8 +62,8 @@ const sacramentsMenu = [
     title: "Свв. жінки-мироносиці",
     href: "/events/lives/myrrh-bearing-women",
   },
-  
-  { 
+
+  {
     title: "Ап. Іоан Богослов",
     href: "/events/lives/john-the-theologian",
   },
@@ -82,6 +82,22 @@ const sacramentsMenu = [
   {
     title: "Апостоли Петро і Павло",
     href: "/events/lives/apostles-peter-and-paul",
+  },
+  {
+    title: "Ольга Київська",
+    href: "/events/lives/olga-of-kyiv",
+  },
+  {
+    title: "Володимир Великий",
+    href: "/events/lives/vladimir-the-great",
+  },
+  {
+    title: "Пророк Ілля",
+    href: "/events/lives/prophet-elijah",
+  },
+  {
+    title: "Вмч. Пантелеймон",
+    href: "/events/lives/great-martyr-panteleimon",
   },
 ];
 

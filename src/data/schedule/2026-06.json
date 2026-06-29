@@ -89,64 +89,6 @@
     "date": {
       "year": 2026,
       "month": 7,
-      "day": 1
-    },
-
-    "headline": [
-      {
-        "type": "text",
-        "value": "Віддання свята "
-      },
-      {
-        "type": "link",
-        "value": "П'ятдесятниці",
-        "slug": "pentecost"
-      }
-    ],
-
-    "services": [
-      {
-        "time": "17:00",
-        "name": "Вечірня"
-      }
-    ]
-  },
-  {
-    "date": {
-      "year": 2026,
-      "month": 7,
-      "day": 2
-    },
-
-    "headline": [],
-
-    "services": [
-      {
-        "time": "17:00",
-        "name": "Вечірня"
-      }
-    ]
-  },
-  {
-    "date": {
-      "year": 2026,
-      "month": 7,
-      "day": 3
-    },
-
-    "headline": [],
-
-    "services": [
-      {
-        "time": "17:00",
-        "name": "Вечірня"
-      }
-    ]
-  },
-  {
-    "date": {
-      "year": 2026,
-      "month": 7,
       "day": 4
     },
 
@@ -166,7 +108,273 @@
       "day": 5
     },
 
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 5-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці",
+        "slug": "holidays/pentecost"
+      }
+    ],
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 7,
+      "day": 11
+    },
+
+    "headline": [
+      {
+        "type": "link",
+        "value": "Рівноап. Ольги, княгині Київської",
+        "slug": "lives/olga-of-kyiv"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "09:00",
+        "name": "Молебень з акафістом"
+      },
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 7,
+      "day": 12
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 6-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці",
+        "slug": "holidays/pentecost"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 7,
+      "day": 15
+    },
+
+    "headline": [
+      {
+        "type": "link",
+        "value": "Рівноап. вел. кн. Володимира.",
+        "slug": "lives/vladimir-the-great"
+      },
+
+      {
+        "type": "text",
+        "value": " День хрещення Руси-України. "
+      }
+    ],
+
+    "services": [
+      {
+        "time": "09:00",
+        "name": "Молебень з акафістом"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 7,
+      "day": 18
+    },
+
     "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 7,
+      "day": 19
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 7-ма після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці.",
+        "slug": "holidays/pentecost"
+      },
+      {
+        "type": "text",
+        "value": "Знайд. мощей "
+      },
+      {
+        "type": "link",
+        "value": "прп. Серафима Саровського чудотворця.",
+        "slug": "lives/seraphim-sarovskyi"
+      },
+      {
+        "type": "text",
+        "value": "ХРАМОВЕ СВЯТО. "
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 7,
+      "day": 20
+    },
+
+    "headline": [
+      {
+        "type": "link",
+        "value": "Пророка Іллі.",
+        "slug": "lives/prophet-elijah"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "09:00",
+        "name": "Молебень з акафістом"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 7,
+      "day": 25
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 7,
+      "day": 26
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 8-ма після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці.",
+        "slug": "holidays/pentecost"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 7,
+      "day": 27
+    },
+
+    "headline": [
+      {
+        "type": "link",
+        "value": "Вмч. і цілителя Пантелеймона.",
+        "slug": "lives/great-martyr-panteleimon"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "09:00",
+        "name": "Молебень з акафістом"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 7,
+      "day": 31
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Заговини на Успенський піст. "
+      }
+    ],
 
     "services": [
       {

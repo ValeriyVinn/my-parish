@@ -165,19 +165,70 @@
   cursor: pointer;
 }
 .memorialsBlock {
-  border:black 2px solid; 
+  border: black 2px solid;
   padding: 0px 15px;
   width: fit-content;
   border-radius: 10px;
   /* text-align: center; */
 
   /* font-style: italic; */
-  
+
   margin-top: 4px;
 }
 
-.servicesList{
+.servicesList {
   /* border: 1px #861616 solid;
   border-radius: 3px; */
   background-color: white;
+  padding: 0px 10px;
 }
+
+.saintsBlock,
+.holidaysBlock {
+  white-space: pre-line;
+}
+/* .readingsBtn{
+  background-color: white;
+} */
+
+.readingsContent {
+  background-color: white;
+  padding:  0px 10px;
+}
+.accordionButton{
+   background: linear-gradient(to bottom, #faf7f2, #e8dfd1);
+  /* border: 1px solid #c7b79b; */
+  padding: 3px 3px 5px 15px;
+  border-radius: 2px;
+}
+
+/* .accordionButton {
+  background: linear-gradient(to bottom, #faf7f2, #e8dfd1);
+  border: 1px solid #c7b79b;
+  padding: 3px 3px 5px 15px;
+  border-radius: 2px;
+
+  box-shadow:
+    inset 0 2px 2px rgba(255, 255, 255, 0.8),
+    inset 0 -2px 3px rgba(0, 0, 0, 0.08),
+    0 3px 8px rgba(0, 0, 0, 0.18);
+
+  transition: all 0.25s ease;
+}
+
+.accordionButton:hover {
+  transform: translateY(-1px);
+
+  box-shadow:
+    inset 0 2px 2px rgba(255, 255, 255, 0.85),
+    inset 0 -2px 3px rgba(0, 0, 0, 0.08),
+    0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+.accordionButton:active {
+  transform: translateY(1px);
+
+  box-shadow:
+    inset 0 3px 6px rgba(0, 0, 0, 0.15),
+    inset 0 -1px 2px rgba(255, 255, 255, 0.5);
+} */

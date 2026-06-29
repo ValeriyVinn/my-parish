@@ -84,7 +84,7 @@ export default function SchedulePage() {
 
                   {day.calendar.saints.length > 0 && (
                     <div className={styles.saintsBlock}>
-                      {day.calendar.saints.join(", ")}
+                      {day.calendar.saints.join("\n")}
                     </div>
                   )}                  
 
@@ -108,12 +108,12 @@ export default function SchedulePage() {
 
                   {day.calendar.readings.length > 0 && (
                     <details className={styles.readingsBlock}>
-                      <summary>Читання дня</summary>
+                      <summary className={styles.accordionButton}>Читання дня</summary>
 
                       {day.calendar.readings.map((r, i) => (
-                        <div key={i}>
+                        <div className={styles.readingsContent} key={i}>
                           <strong>{r.title}</strong>
-                          <p>{r.content}</p>
+                          <p >{r.content}</p>
                         </div>
                       ))}
                     </details>
