@@ -158,6 +158,10 @@
   margin-bottom: 20px;
 }
 
+.dayTitle{
+  font-size: 1.2rem;
+}
+
 .toggle {
   display: flex;
   align-items: center;
@@ -183,7 +187,8 @@
   padding: 0px 10px;
 }
 .holidaysBlock{
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .saintsBlock,
