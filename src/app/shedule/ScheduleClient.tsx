@@ -78,7 +78,7 @@ export default function SchedulePage() {
 
                   {day.calendar.holidays.length > 0 && (
                     <div className={styles.holidaysBlock}>
-                      {day.calendar.holidays.join(", ")}
+                      {day.calendar.holidays.join("\n")}
                     </div>
                   )}
 
