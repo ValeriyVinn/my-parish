@@ -339,3 +339,13 @@
   height: 100%;
   object-fit: cover;
 }
+
+.paragraph {
+  text-indent: 1rem;
+  margin-bottom: 0.5rem;
+  /* line-height: 1.6; */
+  font-size: 1rem;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  word-spacing: 0.05em;
+}
