@@ -3,19 +3,29 @@
 import { useState } from "react";
 
 import styles from "./page.module.css";
-
+import FastInfo from "@/components/Schedule/FastInfo/FastInfo";
 import scheduleData from "@/data/schedule/2026-06.json";
 import calendarData from "@/data/church-calendar/2026.json";
 
 import { mergeSchedule } from "@/lib/calendar/mergeSchedule";
-import type { ScheduleModel } from "@/lib/calendar/types";
+import type { ScheduleModel, ChurchCalendarModel } from "@/lib/calendar/types";
+
+const typedCalendar = calendarData as ChurchCalendarModel;
 
 export default function SchedulePage() {
   const [showFullCalendar, setShowFullCalendar] = useState(false);
 
+  const calendarForSchedule = {
+    days: typedCalendar.days.map((day) => ({
+      date: day.date,
+      fast: day.fast,
+    })),
+    fasts: [],
+  };
+
   const merged = mergeSchedule(
     scheduleData as ScheduleModel[],
-    showFullCalendar ? calendarData : { days: [] },
+    showFullCalendar ? typedCalendar : calendarForSchedule,
     2026,
     7,
   );
@@ -23,8 +33,6 @@ export default function SchedulePage() {
   const daysToRender = showFullCalendar
     ? merged
     : merged.filter((day) => day.isInMainSchedule);
-
-
 
   return (
     <section className={`container ${styles.wrapper}`}>
@@ -54,7 +62,15 @@ export default function SchedulePage() {
             {daysToRender.map((day) => (
               <tr key={`${day.date.year}-${day.date.month}-${day.date.day}`}>
                 <td className={styles.dateCell}>
-                  {day.date.day}, {day.date.weekday}
+                  <div className={styles.dateContent}>
+                    <div className={styles.date}>
+                      {day.date.day}, {day.date.weekday}
+                    </div>
+
+                  <div className={styles.fast}>
+                    <FastInfo fast={day.calendar.fast} />
+                  </div>
+                  </div>
                 </td>
 
                 <td className={styles.servicesCell}>
@@ -86,7 +102,13 @@ export default function SchedulePage() {
                     <div className={styles.saintsBlock}>
                       {day.calendar.saints.join("\n")}
                     </div>
-                  )}                  
+                  )}
+
+                  {day.calendar.saints.length > 0 && (
+                    <div className={styles.saintsBlock}>
+                      {day.calendar.saints.join("\n")}
+                    </div>
+                  )}
 
                   {day.services.length > 0 && (
                     <div className={styles.servicesList}>
@@ -99,7 +121,6 @@ export default function SchedulePage() {
                     </div>
                   )}
 
-
                   {day.calendar.memorials.length > 0 && (
                     <div className={styles.memorialsBlock}>
                       {day.calendar.memorials.join(", ")}
@@ -108,12 +129,14 @@ export default function SchedulePage() {
 
                   {day.calendar.readings.length > 0 && (
                     <details className={styles.readingsBlock}>
-                      <summary className={styles.accordionButton}>Читання дня</summary>
+                      <summary className={styles.accordionButton}>
+                        Читання дня
+                      </summary>
 
                       {day.calendar.readings.map((r, i) => (
                         <div className={styles.readingsContent} key={i}>
                           <strong>{r.title}</strong>
-                          <p >{r.content}</p>
+                          <p>{r.content}</p>
                         </div>
                       ))}
                     </details>

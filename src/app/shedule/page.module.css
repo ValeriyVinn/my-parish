@@ -50,10 +50,22 @@
 /* ----------- */
 .dateCell {
   vertical-align: top;
-  white-space: nowrap;
-  font-weight: 500;
+    white-space: nowrap;
+    font-weight: 500;
+  
 }
 
+.dateContent{
+    display:flex;
+    flex-direction:column;
+
+    height:100%;
+
+    justify-content:space-between;
+}
+.fast{
+    margin-top:auto;
+}
 .servicesCell {
   padding: 10px 12px;
 }
@@ -117,12 +129,21 @@
   }
 
   .dateCell {
-    overflow: hidden;
+    /* overflow: hidden; */
     background: #f5f5f5;
 
     font-weight: 600;
     padding: 8px 12px;
   }
+
+  .dateContent{
+    flex-direction:row;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+}
 
   .servicesCell {
     padding: 10px 12px;
@@ -148,6 +169,21 @@
   .name {
     padding-left: 0;
   }
+  .dateContent{
+
+    flex-direction:row;
+
+    align-items:center;
+
+}
+
+.fast{
+
+    margin-top:0;
+
+    margin-left:auto;
+
+}
 }
 /* ------------------------- */
 
@@ -158,7 +194,7 @@
   margin-bottom: 20px;
 }
 
-.dayTitle{
+.dayTitle {
   font-size: 1.2rem;
 }
 
@@ -186,7 +222,7 @@
   background-color: white;
   padding: 0px 10px;
 }
-.holidaysBlock{
+.holidaysBlock {
   font-size: 1rem;
   font-weight: 600;
 }
@@ -201,10 +237,10 @@
 
 .readingsContent {
   background-color: white;
-  padding:  0px 10px;
+  padding: 0px 10px;
 }
-.accordionButton{
-   background: linear-gradient(to bottom, #faf7f2, #e8dfd1);
+.accordionButton {
+  background: linear-gradient(to bottom, #faf7f2, #e8dfd1);
   /* border: 1px solid #c7b79b; */
   padding: 3px 3px 5px 15px;
   border-radius: 2px;

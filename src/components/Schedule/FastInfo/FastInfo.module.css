@@ -1,0 +1,131 @@
+.fast,
+.strictFast {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* ---------- кнопка ---------- */
+
+.button {
+  all: unset;
+
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 999px;
+
+  padding: 4px 18px;
+
+  background: #fafafa;
+
+  border: 1px solid orange;
+
+  transition: background 0.2s;
+}
+
+.button:hover {
+  background: #f0f0f0;
+}
+
+/* ---------- popup ---------- */
+
+.popup {
+  position: absolute;
+
+  top: calc(100% + 6px);
+  left: 0;
+
+  z-index: 100;
+
+  width: max-content;
+  min-width: 230px;
+
+  padding: 10px 14px;
+
+  border-radius: 10px;
+
+  background: white;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.strictFast .popup {
+  border-left: 12px double rgb(255, 165, 0, 0.5);
+}
+
+.fast .popup {
+  border-left: 4px solid rgb(255, 165, 0, 0.5);
+}
+
+/* ---------- заголовок ---------- */
+
+.popupTitle {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* ---------- кнопка ---------- */
+
+.icons {
+  display: flex;
+  gap: 6px;
+}
+
+/* ---------- popup ---------- */
+
+.iconList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.iconRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.iconSvg {
+  width: 20px;
+  height: 20px;
+
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .popup {
+    right: 0;
+    left: auto;
+    z-index: 100;
+
+    width: fit-content;
+    min-width: auto;
+  }
+  .button {
+    border: 1px solid #861616;
+  }
+}
+
+
+
+.fast,
+.strictFast {
+  width: fit-content;
+}
+
+.popupTitle {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
