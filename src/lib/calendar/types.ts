@@ -15,14 +15,6 @@ export type Fast = {
   food: FoodRule[];
 };
 
-export type FastPeriod = {
-  id: string;
-  title: string;
-  start: MonthDay;
-  end: MonthDay;
-  description?: string;
-};
-
 export type ChurchCalendarEntry = {
   date: {
     month: number;
@@ -56,4 +48,14 @@ export type ScheduleModel = {
     time: string;
     name: string;
   }[];
+};
+
+export type FastPeriod = {
+  id: string;
+  title: string;
+
+  start: MonthDay;
+  end: MonthDay;
+
+  description?: string;
 };

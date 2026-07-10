@@ -34,6 +34,7 @@ export function createEmptyMonth(
         fast: null,
         memorials: [],
         readings: [],
+        fastPeriod: null,
       },
     });
   }

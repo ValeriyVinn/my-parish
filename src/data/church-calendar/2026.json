@@ -845,19 +845,36 @@
     {
       "id": "petrov-fast",
 
-      "title": "Петрів піст",
+      "title": "Петрів піст ",
 
       "start": {
-        "month": 6,
-        "day": 8
+        "month": 8,
+        "day": 1
       },
 
       "end": {
-        "month": 6,
-        "day": 28
+        "month": 8,
+        "day": 14
       },
 
-      "description": "..."
+      "description": "1.08 – 14.08"
+    },
+    {
+      "id": "сhristmas-fast",
+
+      "title": "Різдвяний піст ",
+
+      "start": {
+        "month": 11,
+        "day": 15
+      },
+
+      "end": {
+        "month": 12,
+        "day": 24
+      },
+
+      "description": "15.11 – 24.12"
     }
   ]
 }

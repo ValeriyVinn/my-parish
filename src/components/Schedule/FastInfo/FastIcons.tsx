@@ -16,7 +16,7 @@ export default function FastIcons({ fast, withLabels = false }: Props) {
 
         return (
           <div key={rule} className={withLabels ? styles.iconRow : styles.icon}>
-            <Icon size={20} />
+            <Icon className={styles.iconSvg} />
             {withLabels && <span>{ruleData.label}</span>}
           </div>
         );

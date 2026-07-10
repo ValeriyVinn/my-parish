@@ -53,7 +53,7 @@ export const FOOD_RULES: Record<FoodRule, FoodRuleConfig> = {
     icon: TbChefHatOff,
   },
 
-  meatless: {
+  "meatless": {
     label: "Їжа без м'яса",
     icon: TbMeatOff,
   },
@@ -64,4 +64,4 @@ export const FAST_LEVELS = {
   "non-strict": "Піст",
 } as const;
 
-// TbBoneOff TbCarrot  TbFiltersTbEgg TbHourglass TbMeatOff TbLeaf TbSoupOff TbToolsKitchen2Off
+// "TbBoneOff" "TbCarrot"  "TbFiltersTbEgg TbHourglass TbMeatOff TbLeaf TbSoupOff TbToolsKitchen2Off

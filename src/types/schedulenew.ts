@@ -1,4 +1,4 @@
-import type { Fast } from "@/lib/calendar/types";
+import type { Fast, FastPeriod } from "@/lib/calendar/types";
 
 export type DateValue = {
   year: number;
@@ -33,6 +33,7 @@ export type CalendarBlock = {
   fast: Fast | null;
   memorials: string[];
   readings: Reading[];
+  fastPeriod: FastPeriod | null;
 };
 
 export type DayViewModel = {
@@ -50,4 +51,9 @@ export type DayViewModel = {
   services: Service[];
 
   calendar: CalendarBlock;
+};
+
+export type MonthDay = {
+  month: number;
+  day: number;
 };

@@ -17,15 +17,21 @@
   align-items: center;
   justify-content: center;
 
-  border-radius: 999px;
+  /* border-radius: 999px; */
 
   padding: 4px 18px;
 
-  background: #fafafa;
+  /* background: #fafafa; */
 
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
 
-  transition: background 0.2s;
+  /* transition: background 0.2s; */
+
+  padding: 4px 14px;
+
+  background: linear-gradient(#faf7f2, #e8dfd1);
+
+  border-radius: 4px;
 }
 
 .button:hover {
@@ -37,7 +43,10 @@
 .popup {
   position: absolute;
 
-  top: calc(100% + 6px);
+  /* top: calc(100% + 6px);
+  left: 0; */
+
+    bottom: calc(100% + 8px);
   left: 0;
 
   z-index: 100;
@@ -47,7 +56,7 @@
 
   padding: 10px 14px;
 
-  border-radius: 10px;
+  border-radius: 5px;
 
   background: white;
 
@@ -59,7 +68,7 @@
 }
 
 .fast .popup {
-  border-left: 4px solid rgb(255, 165, 0, 0.5);
+  border-left: 3px solid rgb(255, 165, 0, 0.5);
 }
 
 /* ---------- заголовок ---------- */
@@ -102,21 +111,25 @@
   flex-shrink: 0;
 }
 
+@media (max-width: 768px) {
+  .popup {
+    right: 0;
+    left: auto;
+    z-index: 100;
+
+    min-width: fit-content;
+  }
+}
+
 @media (max-width: 600px) {
   .popup {
     right: 0;
     left: auto;
     z-index: 100;
 
-    width: fit-content;
-    min-width: auto;
-  }
-  .button {
-    border: 1px solid #861616;
+    min-width: fit-content;
   }
 }
-
-
 
 .fast,
 .strictFast {
@@ -128,4 +141,44 @@
   font-size: 1rem;
   font-weight: 600;
   text-align: center;
+}
+
+/* ------------------------- */
+.icon {
+  font-size: 20px;
+}
+
+.iconRow {
+  font-size: 20px;
+}
+
+.icon svg {
+  width: 1em;
+  height: 1em;
+}
+
+.iconRow svg {
+  width: 1em;
+  height: 1em;
+}
+/* ПК */
+.icon,
+.iconRow {
+  font-size: 28px;
+}
+
+/* планшет */
+@media (max-width: 992px) {
+  .icon,
+  .iconRow {
+    font-size: 22px;
+  }
+}
+
+/* телефон */
+@media (max-width: 600px) {
+  .icon,
+  .iconRow {
+    font-size: 20x;
+  }
 }
