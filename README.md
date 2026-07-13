@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🇬🇧 English
 
-## Getting Started
+# Church Website
 
-First, run the development server:
+## Overview
+This is a volunteer project developed for a local Orthodox parish.
+The website provides parishioners with access to church news, liturgical schedules, daily Scripture readings, video recordings of services, information about saints and feast days, and other educational resources.
+The project is developed from within the parish community, allowing new features and content to evolve naturally alongside the needs of parish life.
+The project is intended to serve both regular parishioners and visitors by providing timely information, educational resources, and access to the liturgical life of the community.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Role
+As the sole volunteer developer, I continuously evolve the website alongside the needs of the parish, designing and implementing new features as church activities and community requirements grow.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Responsibilities include:
+·	architecture
+·	frontend development
+·	content integration
+·	deployment
+·	maintenance
+·	feature planning
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies
+·	Next.js
+·	React
+·	TypeScript
+·	CSS Modules
+·	MDX
+·	Vercel
+·	ESLint
+·	Prettier
+·	GitHub
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
+·	Church calendar
+·	Liturgical schedule
+·	Daily Gospel readings
+·	Saints database
+·	Feast days
+·	Parish announcements
+·	Video archive
+·	Responsive design
+·	SEO optimization
 
-## Learn More
+## Design Principles
+The project prioritizes usability and accessibility over architectural complexity. Since the primary audience includes many elderly parishioners, interface decisions are driven by clarity and ease of use rather than visual novelty.
 
-To learn more about Next.js, take a look at the following resources:
+## Current Status
+The project is actively developed and regularly updated with new content and features.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Current focus:
+·	completing MVP
+·	expanding saints database
+·	improving homepage
+·	extending church calendar
+·	preparing project for long-term maintenance
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Future Plans
+·	administration panel
+·	content management
+·	improved search
+·	community contributions
 
-## Deploy on Vercel
+----------------------------------
+🇺🇦 Українська
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Вебсайт церкви
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Огляд
+Це волонтерський проєкт, розроблений для місцевої православної парафії.
+Вебсайт надає парафіянам доступ до церковних новин, літургійних розкладів, щоденних читань Святого Письма, відеозаписів служб, інформації про святих та свята, а також інших освітніх ресурсів.
+Проєкт розробляється всередині парафіяльної громади, що дозволяє новим функціям та контенту природно розвиватися разом із потребами парафіяльного життя.
+Проєкт має на меті служити як постійним парафіянам, так і відвідувачам, надаючи своєчасну інформацію, освітні ресурси та доступ до літургійного життя громади.
+
+## Роль
+Як єдиний розробник-волонтер, я постійно розвиваю вебсайт відповідно до потреб парафії, розробляючи та впроваджуючи нові функції в міру зростання церковної діяльності та вимог громади.
+Обов'язки включають:
+· архітектуру
+· розробку фронтенду
+· інтеграцію контенту
+· розгортання
+· технічне обслуговування
+· планування функцій
+
+## Технології
+· Next.js
+· React
+· TypeScript
+· CSS модулі
+· MDX
+· Vercel
+· ESLint
+· Prettier
+· GitHub
+
+## Функції
+· Церковний календар
+· Літургійний розклад
+· Щоденні читання Євангелія
+· База даних святих
+· Свята
+· Парафіяльні оголошення
+· Відеоархів
+· Адаптивний дизайн
+· SEO-оптимізація
+
+## Принципи дизайну
+Проєкт надає пріоритет зручності використання та доступності над архітектурною складністю. Оскільки основна аудиторія включає багатьох літніх парафіян, рішення щодо інтерфейсу приймаються з огляду на ясність та простоту використання, а не на візуальну новизну.
+
+## Поточний статус
+Проєкт активно розвивається та регулярно оновлюється новим контентом та функціями.
+
+## Поточний фокус:
+· завершення MVP
+· розширення бази даних святих
+· покращення головної сторінки
+· розширення церковного календаря
+· підготовка проекту до довгострокового обслуговування
+
+## Майбутні плани
+· панель адміністрування
+· управління контентом
+· покращений пошук
+· внесок спільноти
