@@ -4,7 +4,7 @@ import type { FoodRule } from "@/lib/calendar/types";
 import {
   TbSalad,
   TbSoup,
-  TbBottle,
+  TbSoupFilled,
   TbFish,
   TbGlassFull,
   TbFilters,
@@ -30,7 +30,7 @@ export const FOOD_RULES: Record<FoodRule, FoodRuleConfig> = {
 
   "hot-with-oil": {
     label: "Гаряча їжа з рослинною олією",
-    icon: TbBottle,
+    icon: TbSoupFilled,
   },
 
   "allow-fish": {
@@ -53,7 +53,7 @@ export const FOOD_RULES: Record<FoodRule, FoodRuleConfig> = {
     icon: TbChefHatOff,
   },
 
-  "meatless": {
+  meatless: {
     label: "Їжа без м'яса",
     icon: TbMeatOff,
   },
@@ -64,4 +64,4 @@ export const FAST_LEVELS = {
   "non-strict": "Піст",
 } as const;
 
-// "TbBoneOff" "TbCarrot"  "TbFiltersTbEgg TbHourglass TbMeatOff TbLeaf TbSoupOff TbToolsKitchen2Off
+// "TbBoneOff", "TbCarrot",  "TbFiltersTbEgg", "TbHourglass", "TbMeatOff", "TbLeaf", "TbSoupOff", "TbToolsKitchen2Off",

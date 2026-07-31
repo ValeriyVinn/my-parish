@@ -382,5 +382,339 @@
         "name": "Вечірня"
       }
     ]
+  },
+
+  {
+    "date": {
+      "year": 2026,
+      "month": 8,
+      "day": 1
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Винесення чесних древ животворчого Хреста Господнього. "
+      },
+      {
+        "type": "link",
+        "value": "Сімох мчч. Маккавеєвих.",
+        "slug": "lives/maccabean-martyrs"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      },
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 8,
+      "day": 2
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 9-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці",
+        "slug": "holidays/pentecost"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+
+  {
+    "date": {
+      "year": 2026,
+      "month": 8,
+      "day": 5
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 8,
+      "day": 6
+    },
+
+    "headline": [
+      {
+        "type": "link",
+        "value": "ПРЕОБРАЖЕННЯ ГОСПОДА БОГА І СПАСА НАШОГО ІСУСА ХРИСТА.",
+        "slug": "holidays/transfiguration"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 8,
+      "day": 8
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 8,
+      "day": 9
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 10-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці",
+        "slug": "holidays/pentecost"
+      }
+    ],
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 8,
+      "day": 14
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 8,
+      "day": 15
+    },
+
+    "headline": [
+      {
+        "type": "link",
+        "value": "УСПІННЯ ПРЕСВЯТОЇ ВЛАДИЧИЦІ НАШОЇ БОГОРОДИЦІ І ПРИСНОДІВИ МАРІЇ.",
+        "slug": "holidays/dormition"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      },
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 8,
+      "day": 16
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 11-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці",
+        "slug": "holidays/pentecost"
+      }
+    ],
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 8,
+      "day": 22
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 8,
+      "day": 23
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 12-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці.",
+        "slug": "holidays/pentecost"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 8,
+      "day": 29
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Усікновення голови пророка, "
+      },
+      {
+        "type": "link",
+        "value": "Предтечі і Хрестителя Господнього Іоана.",
+        "slug": "lives/john-the-forerunner"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "09:00",
+        "name": "Молебень з акафістом"
+      },
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 8,
+      "day": 30
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 13-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці.",
+        "slug": "holidays/pentecost"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
   }
 ]

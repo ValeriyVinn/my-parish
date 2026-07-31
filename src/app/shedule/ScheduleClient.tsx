@@ -17,19 +17,19 @@ const typedCalendar = calendarData as ChurchCalendarModel;
 export default function SchedulePage() {
   const [showFullCalendar, setShowFullCalendar] = useState(false);
 
-const calendarForSchedule: ChurchCalendarModel = {
-  days: typedCalendar.days.map((day) => ({
-    date: day.date,
-    fast: day.fast,
-  })),
-  fasts: typedCalendar.fasts,
-};
+  const calendarForSchedule: ChurchCalendarModel = {
+    days: typedCalendar.days.map((day) => ({
+      date: day.date,
+      fast: day.fast,
+    })),
+    fasts: typedCalendar.fasts,
+  };
 
   const merged = mergeSchedule(
     scheduleData as ScheduleModel[],
     showFullCalendar ? typedCalendar : calendarForSchedule,
     2026,
-    7,
+    8,
   );
 
   const daysToRender = showFullCalendar
@@ -41,7 +41,7 @@ const calendarForSchedule: ChurchCalendarModel = {
   return (
     <section className={`${styles.container} ${styles.wrapper}`}>
       <div className={styles.header}>
-        <h1 className={styles.title}>Липень</h1>
+        <h1 className={styles.title}>Серпень</h1>
 
         <label className={styles.toggle}>
           <input
@@ -63,7 +63,6 @@ const calendarForSchedule: ChurchCalendarModel = {
           <div className={styles.scheduleBody}>
             {daysToRender.map((day) => {
               return (
-
                 <div
                   key={`${day.date.year}-${day.date.month}-${day.date.day}`}
                   className={styles.dayRow}
@@ -157,10 +156,8 @@ const calendarForSchedule: ChurchCalendarModel = {
 
       {currentFast && (
         <div className={styles.fastFloating}>
-         
-            <strong>{currentFast.title}</strong> 
-            <span>{currentFast.description}</span>
-          
+          <strong>{currentFast.title}</strong>
+          <span>{currentFast.description}</span>
         </div>
       )}
     </section>

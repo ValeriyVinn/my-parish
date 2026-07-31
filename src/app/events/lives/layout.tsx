@@ -99,6 +99,10 @@ const sacramentsMenu = [
     title: "Вмч. Пантелеймон",
     href: "/events/lives/great-martyr-panteleimon",
   },
+  {
+    title: "Свв. мчч. Маккавеї",
+    href: "/events/lives/maccabean-martyrs",
+  },
 ];
 
 export default function SacramentsLayout({
