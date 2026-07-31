@@ -116,8 +116,7 @@
     right: 0;
     left: auto;
     z-index: 100;
-
-    min-width: fit-content;
+    max-width: 90vw;
   }
 }
 
