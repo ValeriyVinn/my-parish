@@ -100,7 +100,7 @@ const sacramentsMenu = [
     href: "/events/lives/great-martyr-panteleimon",
   },
   {
-    title: "Свв. мчч. Маккавеї",
+    title: "Свв. мчч. Маккавеїв",
     href: "/events/lives/maccabean-martyrs",
   },
 ];
