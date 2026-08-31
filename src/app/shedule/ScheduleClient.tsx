@@ -41,7 +41,7 @@ export default function SchedulePage() {
   return (
     <section className={`${styles.container} ${styles.wrapper}`}>
       <div className={styles.header}>
-        <h1 className={styles.title}>Серпень</h1>
+        <h1 className={styles.title}>Вересень</h1>
 
         <label className={styles.toggle}>
           <input
