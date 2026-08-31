@@ -29,7 +29,7 @@ export default function SchedulePage() {
     scheduleData as ScheduleModel[],
     showFullCalendar ? typedCalendar : calendarForSchedule,
     2026,
-    8,
+    9,
   );
 
   const daysToRender = showFullCalendar

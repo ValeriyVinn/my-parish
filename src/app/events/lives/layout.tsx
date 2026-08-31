@@ -103,6 +103,10 @@ const sacramentsMenu = [
     title: "Свв. мчч. Маккавеїв",
     href: "/events/lives/maccabean-martyrs",
   },
+    {
+    title: "Мцц. Віри, Надії, Любові та матері їх Софії",
+    href: "/events/lives/faith-hope-love-and-sophia",
+  },
 ];
 
 export default function SacramentsLayout({

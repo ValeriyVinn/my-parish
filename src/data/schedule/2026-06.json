@@ -716,5 +716,316 @@
         "name": "Божественна Літургія"
       }
     ]
+  },
+
+  {
+    "date": {
+      "year": 2026,
+      "month": 9,
+      "day": 1
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Початок індикту - церковне новоліття. "
+      }
+    ],
+
+    "services": []
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 9,
+      "day": 5
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+
+  {
+    "date": {
+      "year": 2026,
+      "month": 9,
+      "day": 6
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 14-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці. ",
+        "slug": "holidays/pentecost"
+      },
+      {
+        "type": "text",
+        "value": " Молебень за довкілля. "
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 9,
+      "day": 7
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 9,
+      "day": 8
+    },
+
+    "headline": [
+      {
+        "type": "link",
+        "value": "РІЗДВО ПРЕСВЯТОЇ ВЛАДИЧИЦІ НАШОЇ БОГОРОДИЦІ I ПРИСНОДІВИ МАРІЇ",
+        "slug": "holidays/nativity-of-theotokos"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 9,
+      "day": 12
+    },
+
+    "headline": [],
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 9,
+      "day": 13
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 15-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці. ",
+        "slug": "holidays/pentecost"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      },
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 9,
+      "day": 14
+    },
+
+    "headline": [
+      {
+        "type": "link",
+        "value": "ВОЗДВИЖЕННЯ ЧЕСНОГО І ЖИВОТВОРЧОГО ХРЕСТА ГОСПОДНЬОГО.",
+        "slug": "holidays/exaltation-of-the-cross"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 9,
+      "day": 17
+    },
+
+    "headline": [
+
+      {
+        "type": "link",
+        "value": "Мцц. Віри, Надії, Любові та матері їх Софії",
+        "slug": "lives/faith-hope-love-and-sophia"
+      }
+    ],
+    "services": [
+ 
+      {
+        "time": "09:00",
+        "name": "Молебень з акафістом"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 9,
+      "day": 19
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 9,
+      "day": 20
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 16-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці.",
+        "slug": "holidays/pentecost"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 9,
+      "day": 26
+    },
+
+    "headline": [
+ 
+      {
+        "type": "link",
+        "value": "Св. апостола і євангеліста Іоана Богослова",
+        "slug": "lives/john-the-theologian"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "09:00",
+        "name": "Молебень з акафістом"
+      },
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 9,
+      "day": 27
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 17-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці.",
+        "slug": "holidays/pentecost"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
   }
 ]
