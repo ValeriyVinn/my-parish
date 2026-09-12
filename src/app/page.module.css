@@ -37,6 +37,10 @@
   word-spacing: 0.05em;
 }
 
+.textBold {
+  font-weight: bold;
+}
+
 .greetin {
   color: black;
   font-size: 1rem;
