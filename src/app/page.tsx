@@ -65,7 +65,7 @@ export default function NewsPage() {
     <div className="container">
       <section className={css.section}>
         <Hero />
-        <div className={css.greeting}>
+        {/* <div className={css.greeting}>
           <p className={css.textBold}>Шановний отче Олександр!</p>
           <p className={css.paragraph}>
             {" "}
@@ -97,7 +97,7 @@ export default function NewsPage() {
           <p className={`${css.textBold} ${css.paragraph}`}>
             Многая і благая літа!
           </p>
-        </div>
+        </div> */}
         {/* <div className={css.greetin}>
           <h3>Упокоївся у Бозі Святійший Патріарх Філарет</h3>
           <p>
