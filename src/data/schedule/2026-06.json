@@ -910,7 +910,6 @@
     },
 
     "headline": [
-
       {
         "type": "link",
         "value": "Мцц. Віри, Надії, Любові та матері їх Софії",
@@ -918,7 +917,6 @@
       }
     ],
     "services": [
- 
       {
         "time": "09:00",
         "name": "Молебень з акафістом"
@@ -979,7 +977,6 @@
     },
 
     "headline": [
- 
       {
         "type": "link",
         "value": "Св. апостола і євангеліста Іоана Богослова",
@@ -1025,6 +1022,298 @@
       {
         "time": "09:00",
         "name": "Божественна Літургія"
+      }
+    ]
+  },
+
+  {
+    "date": {
+      "year": 2026,
+      "month": 10,
+      "day": 1
+    },
+
+    "headline": [
+    {
+        "type": "link",
+        "value": "ПОКРОВА ПРЕСВЯТОЇ БОГОРОДИЦІ. ",
+        "slug": "holidays/protection-of-the-theotokos"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 10,
+      "day": 3
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+
+  {
+    "date": {
+      "year": 2026,
+      "month": 10,
+      "day": 4
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 18-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці. ",
+        "slug": "holidays/pentecost"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 10,
+      "day": 10
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 10,
+      "day": 11
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 19-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці",
+        "slug": "holidays/pentecost"
+      },
+      {
+        "type": "text",
+        "value": ". "
+      },
+      {
+        "type": "link",
+        "value": " Пам'ять святих отців VII Вселенського собору ",
+        "slug": "lives/fathers-seventh-ecumenical-council"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 10,
+      "day": 17
+    },
+
+    "headline": [],
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 10,
+      "day": 18
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 20-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці. ",
+        "slug": "holidays/pentecost"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 10,
+      "day": 24
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Димитрівська поминальна субота. Поминання померлих. Парастас"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      },
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 10,
+      "day": 25
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 21-ша після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці. ",
+        "slug": "holidays/pentecost"
+      }
+    ],
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 10,
+      "day": 26
+    },
+
+    "headline": [
+      {
+        "type": "link",
+        "value": "Вмч. Димитрія Солунського",
+        "slug": "lives/great-martyr-demetrius-of-thessaloniki"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "09:00",
+        "name": "Молебень з акафістом"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 10,
+      "day": 28
+    },
+
+    "headline": [
+      {
+        "type": "link",
+        "value": "Вмц. Параскеви",
+        "slug": "lives/great-martyr-paraskeva"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "09:00",
+        "name": "Молебень з акафістом"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 10,
+      "day": 31
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
       }
     ]
   }

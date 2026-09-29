@@ -29,6 +29,10 @@ const holidaysMenu = [
     title: "Введення в храм Пресвятої Богородиці",
     href: "/events/holidays/entrance-of-the-theotokos",
   },
+    {
+    title: "Покрова пресвятої Богородиці",
+    href: "/events/holidays/protection-of-the-theotokos",
+  },
 ];
 
 export default function HolidaysLayout({

@@ -100,12 +100,24 @@ const sacramentsMenu = [
     href: "/events/lives/great-martyr-panteleimon",
   },
   {
-    title: "Свв. мчч. Маккавеїв",
+    title: "Свв. мчч. Маккавеї",
     href: "/events/lives/maccabean-martyrs",
   },
-    {
-    title: "Мцц. Віри, Надії, Любові та матері їх Софії",
+  {
+    title: "Мцц. Віра, Надія, Любов та матер їх Софія",
     href: "/events/lives/faith-hope-love-and-sophia",
+  },
+  {
+    title: "Свв. отці VII Вселенського собору",
+    href: "/events/lives/fathers-seventh-ecumenical-council",
+  },
+  {
+    title: "Вмч. Димитрій Солунський",
+    href: "/events/lives/great-martyr-demetrius-of-thessaloniki",
+  },
+  {
+    title: "Вмц. Параскева",
+    href: "/events/lives/great-martyr-paraskeva",
   },
 ];
 

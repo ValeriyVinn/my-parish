@@ -29,7 +29,7 @@ export default function SchedulePage() {
     scheduleData as ScheduleModel[],
     showFullCalendar ? typedCalendar : calendarForSchedule,
     2026,
-    9,
+    10,
   );
 
   const daysToRender = showFullCalendar
@@ -41,7 +41,7 @@ export default function SchedulePage() {
   return (
     <section className={`${styles.container} ${styles.wrapper}`}>
       <div className={styles.header}>
-        <h1 className={styles.title}>Вересень</h1>
+        <h1 className={styles.title}>Жовтень</h1>
 
         <label className={styles.toggle}>
           <input
