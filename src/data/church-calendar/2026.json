@@ -2481,10 +2481,7 @@
       ],
 
       "memorials": [],
-      "fast": {
-        "level": "strict",
-        "food": ["hot-no-oil"]
-      },
+      "fast": null,
 
       "readings": [
         {
@@ -2557,7 +2554,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-no-oil"]
+      },
 
       "readings": [
         {
@@ -2651,10 +2651,7 @@
       ],
 
       "memorials": [],
-      "fast": {
-        "level": "non-strict",
-        "food": ["hot-no-oil"]
-      },
+      "fast": null,
 
       "readings": [
         {
@@ -2724,8 +2721,8 @@
 
       "memorials": [],
       "fast": {
-        "level": "strict",
-        "food": ["hot-with-oil"]
+        "level": "non-strict",
+        "food": ["hot-no-oil"]
       },
 
       "readings": [
@@ -2821,10 +2818,7 @@
       ],
 
       "memorials": [],
-      "fast": {
-        "level": "non-strict",
-        "food": ["hot-no-oil"]
-      },
+      "fast": null,
 
       "readings": [
         {
@@ -2898,7 +2892,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-no-oil"]
+      },
 
       "readings": [
         {
@@ -2997,10 +2994,7 @@
       ],
 
       "memorials": [],
-      "fast": {
-        "level": "non-strict",
-        "food": ["hot-no-oil"]
-      },
+      "fast": null,
 
       "readings": [
         {
@@ -3066,7 +3060,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-no-oil"]
+      },
       "readings": [
         {
           "title": " Лк. IX, 44 – 50.",
@@ -3138,10 +3135,7 @@
       ],
 
       "memorials": [],
-      "fast": {
-        "level": "non-strict",
-        "food": ["hot-no-oil"]
-      },
+      "fast": null,
       "readings": [
         {
           "title": "  Лк. VII, 1 – 10",
