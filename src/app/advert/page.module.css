@@ -19,8 +19,8 @@
 }
 
 .advertSpan {
-  font-weight: bold;
-  color: var(--color-accent);
+  font-weight: 600;
+  /* color: var(--color-accent); */
 }
 .data{
  width: fit-content;
