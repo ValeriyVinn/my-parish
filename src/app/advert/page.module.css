@@ -17,6 +17,11 @@
   border-radius: 5px;
   text-align: center;
 }
+
+.advertSpan {
+  font-weight: bold;
+  color: var(--color-accent);
+}
 .data{
  width: fit-content;
  margin: 1rem  auto  ;
