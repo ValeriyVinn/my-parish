@@ -3163,8 +3163,6 @@
       ]
     },
 
-
-    
     {
       "date": {
         "month": 11,
@@ -3246,7 +3244,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-no-oil"]
+      },
 
       "readings": [
         {
@@ -3292,7 +3293,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-no-oil"]
+      },
 
       "readings": [
         {
@@ -3405,7 +3409,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-no-oil"]
+      },
 
       "readings": [
         {
@@ -3454,7 +3461,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-no-oil"]
+      },
 
       "readings": [
         {
@@ -3503,7 +3513,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-with-oil", "allow-fish", "allow-wine"]
+      },
 
       "readings": [
         {
@@ -3528,7 +3541,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-no-oil"]
+      },
 
       "readings": [
         {
@@ -3550,7 +3566,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-with-oil"]
+      },
 
       "readings": [
         {
@@ -3572,7 +3591,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["dry-food"]
+      },
 
       "readings": [
         {
@@ -3597,7 +3619,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-with-oil"]
+      },
 
       "readings": [
         {
@@ -3619,7 +3644,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["dry-food"]
+      },
 
       "readings": [
         {
@@ -3643,7 +3671,10 @@
       "saints": [],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-with-oil", "allow-fish", "allow-wine"]
+      },
 
       "readings": [
         {
@@ -3673,7 +3704,10 @@
 
       "memorials": [],
 
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-with-oil", "allow-fish", "allow-wine"]
+      },
 
       "readings": [
         {
@@ -3695,7 +3729,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-no-oil"]
+      },
 
       "readings": [
         {
@@ -3720,7 +3757,10 @@
 
       "memorials": [],
 
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-with-oil"]
+      },
 
       "readings": [
         {
@@ -3745,7 +3785,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["dry-food"]
+      },
 
       "readings": [
         {
@@ -3769,7 +3812,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-with-oil"]
+      },
 
       "readings": [
         {
@@ -3794,7 +3840,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["dry-food"]
+      },
       "readings": [
         {
           "title": " Лк. XVI, 15 – 18.",
@@ -3822,7 +3871,10 @@
       ],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-with-oil", "allow-fish", "allow-wine"]
+      },
       "readings": [
         {
           "title": " Лк. IX, 57 – 62.",
@@ -3844,7 +3896,10 @@
 
       "memorials": [],
 
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-with-oil", "allow-fish", "allow-wine"]
+      },
 
       "readings": [
         {
@@ -3864,7 +3919,10 @@
       "saints": ["Свт. Фрументія, архієп. Індійського (Ефіопського, бл. 380)."],
 
       "memorials": [],
-      "fast": null,
+      "fast": {
+        "level": "non-strict",
+        "food": ["hot-no-oil"]
+      },
       "readings": [
         {
           "title": "   Ін. I, 35 – 51.",
