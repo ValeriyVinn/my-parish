@@ -119,6 +119,20 @@ const sacramentsMenu = [
     title: "Вмц. Параскева",
     href: "/events/lives/great-martyr-paraskeva",
   },
+
+   {
+    title: "Безсрібники і чудотворці Косма та Даміан",
+    href: "/events/lives/unmercenary-healers-cosmas-and-damian",
+  },
+  {
+    title: "Апостол Андрій Першозваний",
+    href: "/events/lives/apostle-andrew-the-first-called",
+  },
+  {
+    title: "Великомучениця Катерина",
+    href: "/events/lives/great-martyr-catherine",
+  },
+
 ];
 
 export default function SacramentsLayout({

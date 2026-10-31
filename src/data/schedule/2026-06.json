@@ -1034,7 +1034,7 @@
     },
 
     "headline": [
-    {
+      {
         "type": "link",
         "value": "ПОКРОВА ПРЕСВЯТОЇ БОГОРОДИЦІ. ",
         "slug": "holidays/protection-of-the-theotokos"
@@ -1314,6 +1314,347 @@
       {
         "time": "17:00",
         "name": "Вечірня"
+      }
+    ]
+  },
+
+  {
+    "date": {
+      "year": 2026,
+      "month": 11,
+      "day": 1
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 22-га після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці",
+        "slug": "holidays/pentecost"
+      },
+      {
+        "type": "text",
+        "value": ". "
+      },
+      {
+        "type": "link",
+        "value": "Безсрібників і чудотворців Косми та Даміана.",
+        "slug": "lives/unmercenary-healers-cosmas-and-damian"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 11,
+      "day": 7
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+
+  {
+    "date": {
+      "year": 2026,
+      "month": 11,
+      "day": 8
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 23-тя після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці",
+        "slug": "holidays/pentecost"
+      },
+      {
+        "type": "text",
+        "value": ". "
+      },
+      {
+        "type": "link",
+        "value": " Собор Архистратига Михаїла",
+        "slug": "holidays/synaxis-of-archangel-michael"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 11,
+      "day": 13
+    },
+
+    "headline": [
+      {
+        "type": "link",
+        "value": "Свт. Іоана Золотоустого",
+        "slug": "lives/john-chrysostom"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "09:00",
+        "name": "Молебень з акафістом"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 11,
+      "day": 14
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 11,
+      "day": 15
+    },
+
+    "headline": [
+
+     
+      {
+        "type": "text",
+        "value": "Початок Різдвяного посту. "
+      },
+      {
+        "type": "text",
+        "value": "Неділя 24-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці. ",
+        "slug": "holidays/pentecost"
+      }
+    ],
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 11,
+      "day": 20
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 11,
+      "day": 21
+    },
+
+    "headline": [
+      {
+        "type": "link",
+        "value": "Введення в Храм Пресвятої Владичиці нашої Богородиці і Приснодіви Марії",
+        "slug": "holidays/entrance-of-the-theotokos"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      },
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 11,
+      "day": 22
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 25-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці. ",
+        "slug": "holidays/pentecost"
+      }
+    ],
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 11,
+      "day": 24
+    },
+
+    "headline": [
+      {
+        "type": "link",
+        "value": "Вмц. Катерини",
+        "slug": "lives/great-martyr-catherine"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "09:00",
+        "name": "Молебень з акафістом"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 11,
+      "day": 28
+    },
+
+    "headline": [],
+
+    "services": [
+      {
+        "time": "09:00",
+        "name": "Акафіст за упокоєння спочилих"
+      },
+      {
+        "time": "09:30",
+        "name": "Парастас. Поминання жертв Голодоморів"
+      },
+      {
+        "time": "17:00",
+        "name": "Вечірня"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 11,
+      "day": 29
+    },
+
+    "headline": [
+      {
+        "type": "text",
+        "value": "Неділя 26-та після "
+      },
+      {
+        "type": "link",
+        "value": "П'ятдесятниці. ",
+        "slug": "holidays/pentecost"
+      }
+    ],
+    "services": [
+      {
+        "time": "08:00",
+        "name": "Сповідь"
+      },
+      {
+        "time": "09:00",
+        "name": "Божественна Літургія"
+      }
+    ]
+  },
+  {
+    "date": {
+      "year": 2026,
+      "month": 11,
+      "day": 30
+    },
+
+    "headline": [
+      {
+        "type": "link",
+        "value": "Апостола Андрія Першозваного",
+        "slug": "lives/apostle-andrew-the-first-called"
+      }
+    ],
+
+    "services": [
+      {
+        "time": "09:00",
+        "name": "Молебень з акафістом"
       }
     ]
   }
