@@ -1,6 +1,5 @@
 .addContainer {
   padding-top: 50px;
-
 }
 .advertHeader {
   text-align: center;
@@ -11,27 +10,40 @@
   margin: 20px auto;
   padding: 5px;
   max-width: 800px;
-  /* background-color: var(--color-accent); */
-  color: black; /* темно-жовтий текст */
-  border: 1px solid var(--color-accent); /* світло-жовта рамка */
+  color: black;
+  border: 1px solid var(--color-accent);
   border-radius: 5px;
   text-align: center;
+}
+
+.firstAdvertisement {
+  font-size: 1.25rem;
+  margin: 20px auto;
+  padding: 5px;
+  width: 95%;
+  color: black;
+  border: 1px solid var(--color-accent);
+  border-radius: 5px;
+  text-indent: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  word-spacing: 0.05em;
 }
 
 .advertSpan {
   font-weight: 600;
   /* color: var(--color-accent); */
 }
-.data{
- width: fit-content;
- margin: 1rem  auto  ;
- padding: 1rem 2rem;
+.data {
+  width: fit-content;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
   font-size: 2rem;
- 
+
   background-color: white;
   border-radius: 5px;
-
 }
-.time{
+.time {
   font-size: 1.5rem;
 }
